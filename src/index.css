@@ -144,7 +144,42 @@ code {
 }
 
 
+/* burbuja del bot para servidores */
+.eDxIpF {
+  animation: 0.3s ease 0s 1 normal forwards running gZmgDU;
+  background: rgb(12, 135, 231);
+  border-radius: 18px 18px 18px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 14px;
+  max-width: 66% !important;
+  margin: 0px 0px 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+  transform: scale(0);
+  transform-origin: left bottom;
+}
 
+
+/* burbuja para el usuario en servidores */
+.foCSyn {
+  animation: 0.3s ease 0s 1 normal forwards running gZmgDU;
+  background: rgb(192, 192, 192);
+  border-radius: 18px 18px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px 0px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 14px;
+  max-width: 80% !important;
+  margin: 0px 0px 10px;
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+  transform: scale(0);
+  transform-origin: right bottom;
+}
 
 /* textos */
 
