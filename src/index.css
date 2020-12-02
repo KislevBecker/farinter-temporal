@@ -1,0 +1,1388 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* para el chatbot:  */
+/* .flotante2 {
+  display: scroll;
+  bottom: -8px;
+  right: -5rem;
+  padding: .5rem 2rem;
+  z-index: 900;
+  float: right;
+  color: #001689;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  cursor: pointer;
+  position: fixed;
+}
+
+#tarjeta-chat {
+  background-color: #fff;
+  position: absolute;
+  right: 1rem;
+  z-index: 1000;
+  display: scroll;
+  position: fixed;
+  bottom: 0;
+  width: 300px;
+  float: right;
+  max-height: 400px;
+  box-shadow: none!important;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.header-chatbot{
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background: radial-gradient(circle, rgba(9,9,121,0.958420868347339) 15%, rgba(9,9,121,0.958420868347339) 22%, rgba(0,212,255,1) 100%);
+}
+
+.avatar-kielsa {
+  margin-left: -238px!important;
+  margin-top: 10px;
+}
+
+.avatar-usuario {
+  margin-left: 228px!important;
+  margin-top: 10px;
+}
+
+
+.container-chat, .container-darker {
+  padding: 10px;
+  margin-top: -25px;
+  margin-bottom: 5px;
+  top: -11px;
+}
+
+.container-chat {
+  background-color: #0c87e7;
+  color: #fff;
+  border: 2px solid #0c87e7;
+  border-radius: 5px;
+  margin-left: 35px;
+}
+
+.container-darker {
+  border-color: #f2f5f8;
+  background-color: #f2f5f8;
+  color: #000;
+  border-radius: 5px;
+  margin-right: 35px;
+} */
+
+
+/* para el chatbot con el plugin: */
+.lilvbP {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.btjemE {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+
+/* textos */
+
+.text-fundacionK{
+  color: #86349A;
+  font-family: 'Nerko One', cursive;
+}
+
+.text-nerko{
+  font-family: 'Nerko One', cursive;
+}
+
+.text-farinter, .ancla:hover{
+  color:#090979; /*//#020024; */
+}
+.text-farinter-size{
+ color: #020024;
+ font-size: 0.8rem !important;
+ text-align: center!important;
+}
+
+.text-cursive{
+  font-style: italic;
+}
+
+
+
+/* cambiar color del menu de hamburguesa */
+.navbar-toggler-icon{
+  color:white !important;
+}
+
+/* estilos para el input de busqueda en el header */
+.rounded-right-search {
+  border-bottom-right-radius: 5rem;
+  border-Top-right-radius: 5rem;
+}
+.rounded-left-search {
+  border-bottom-left-radius: 5rem;
+  border-Top-left-radius: 5rem;
+}
+
+
+/* quita los estilos por defecto que traen las listas */
+li {
+  list-style:none;
+  margin: 0;
+}
+ul {
+  list-style-type: none;     
+  padding: 0;
+}
+
+.card-bottomcircle{
+  border-bottom-right-radius: 1rem ;
+  border-bottom-left-radius: 1rem;
+}
+
+.card-Topcircle{
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.carrusel-izq{
+  left: -97px !important;
+}
+.carrusel-der{
+  right: -97px !important;
+}
+
+
+/* quita el estilo de las etiquetas a */
+.anchor{
+  text-decoration: none !important;
+  color: white;
+}
+
+.anchor:hover{
+  text-decoration: none !important;
+  color: white;
+  font-weight: bold;
+}
+
+.ancla{
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+
+/* badge en fundacion kielsa */
+.badge-dot {
+  width: 32px;
+  border-radius: 56rem;
+  height: 32px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.badge-blanco {
+  color: #090979;;
+  background-color: white;
+  position: relative;
+  top: 6px;
+  right: 9px;
+  width: 2.5rem;
+}
+
+/* para los cards que se usan en el carrusel o en la pagina de consumo y de farma */
+
+.card-2 {
+  width: 100%;
+  height: 9rem;
+  border-radius: 2rem;
+}
+
+
+.card3 {
+  width: 11rem;
+  height: 9rem;
+  border-radius: 2rem;
+}
+
+
+.imagen-card {
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+/* background */
+/* cambiar color de fondo del light por azul en degrade */
+.bg-light{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+/* cambia el color de fondo en el navbar cuando está activa esa ruta */
+.main-nav-active{
+  color: white !important;
+  background: rgb(9,9,121);
+  background: radial-gradient(circle, rgba(9,9,121,0.958420868347339) 15%, rgba(9,9,121,0.958420868347339) 22%, rgba(0,212,255,1) 100%);
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+.bg-fundacionK{
+  background: #86349A;
+}
+
+/* clase para el mensaje que aparece en codigo de etica y conducta */
+.bg-farinter{
+  background-color: #001785;
+}
+
+.bg-azul{
+  background-color: #64A2DF;
+}
+
+.span-eye{
+  background-color: white;
+}
+
+
+/* cambiar el fondo del bg secondary para que sea un gris mas claro */
+.bg-secondary{
+  background-color: #D3D3D3 !important;
+}
+
+
+
+/* se utiliza en los carruseles de inicio */
+.marginleft{
+  margin-left: 8rem;
+}
+
+/* bordes redondos */
+.card-circle{
+  border-radius: 2rem;
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+
+
+/* para los modals */
+.position-topr{
+  top: 0;
+  right: 10px;
+}
+
+.modal-content2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 93%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #eee;
+  border-radius: 2rem;
+  outline: 0;
+  padding: 3%;
+}
+  
+
+/* para el boton de cerrar en los modals */
+button.close2 {
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.close2 {
+  /* float: right; */
+  font-size: 2.21875rem;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  position: relative;
+  top: -37px;
+  right: -648px;
+}
+
+
+/* centrar contenido */
+.center{
+  display: block;
+  margin: auto;
+}
+
+
+/* manipulacion del tamaño de imagenes en fundacion kielsa */
+.mitad{
+  width: 50% !important;
+}
+
+/* para los links en fundacion kielsa */
+.salto{
+  margin-right: 1.5rem!important;
+}
+
+
+
+
+/* definicion de las media queries por si se necesitan */
+
+@media (min-width: 150px) and (max-width: 280px){
+  .mitad {
+    width: 100% !important;
+}
+   .carrusel-izq {
+    left: -28px !important;
+} 
+.carrusel-der {
+    right: -23px !important;
+}
+
+
+  .card-2 {
+    width: 100%;
+    height: 12rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -172px;
+}
+.text-farinter-size{
+  text-align: left!important;
+ }
+
+.marginleft {
+  margin-left: 2rem;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+  margin-right: 2.5rem!important;
+  content: '\A';
+  white-space: pre;
+}
+
+}
+
+
+@media (min-width: 281px) and (max-width: 359px){
+  .mitad {
+    width: 100% !important;
+}
+
+ .carrusel-izq {
+    left: -30px !important;
+} 
+.carrusel-der {
+    right: -25px !important;
+}
+
+
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -18px;
+    right: -205px;
+}
+
+.text-farinter-size{
+  text-align: left!important;
+ }
+
+.marginleft {
+    margin-left: 2rem;
+}
+
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+    margin-right: 4.5rem!important;
+    content: '\A';
+    white-space: pre;
+}
+
+}
+
+@media (width: 360px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .mitad {
+    width: 100% !important;
+}
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -242px;
+}
+
+.text-farinter-size{
+  text-align: left!important;
+ }
+
+.marginleft {
+    margin-left: 2rem;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+  margin-right: 6.5rem!important;
+  content: '\A';
+  white-space: pre;
+}
+
+.carrusel-izq{
+  left: -36px !important;
+}
+.carrusel-der{
+  right: -31px !important;
+}
+
+
+}
+
+
+@media (min-width: 361px)  and (max-width: 375px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -255px;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+    margin-right: 8.5rem!important;
+    content: '\A';
+    white-space: pre;
+}
+.marginleft {
+    margin-left: 2rem;
+}
+
+ .carrusel-izq {
+    left: -35px !important;
+} 
+.carrusel-der {
+    right: -30px !important;
+}
+
+
+}
+
+@media (min-width: 376px)  and (max-width: 383px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -282px;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+
+}
+
+@media (width: 384px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -260px;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+  margin-right: 8.5rem!important;
+  content: '\A';
+  white-space: pre;
+}
+
+.marginleft {
+  margin-left: 3rem;
+}
+
+}
+
+
+@media (min-width: 385px)  and (max-width: 414px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -282px;
+}
+
+.marginleft {
+  margin-left: 3rem;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.carrusel-izq{
+  left: -39px !important;
+}
+.carrusel-der{
+  right: -34px !important;
+}
+
+
+
+}
+
+@media (width: 540px){
+  .mitad {
+    width: 100% !important;
+  }
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+  }
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+  }
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -398px;
+  }
+
+  .marginleft {
+    margin-left: 3rem;
+  }
+
+  .fa-2x {
+    font-size: 28px;
+    margin-left: 6px;
+    margin-top: 18px;
+  }
+
+  .carrusel-izq{
+    left: -39px !important;
+  }
+  .carrusel-der{
+    right: -34px !important;
+  }
+
+}
+
+@media (width: 640px){
+  .mitad {
+    width: 140% !important;
+}
+
+ .carrusel-izq {
+    left: -60px !important;
+} 
+.carrusel-der {
+    right: -60px !important;
+}
+
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -28px;
+    right: -377px;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+  margin-right: 7.5rem !important;
+  content: '\A';
+  white-space: pre;
+}
+
+
+
+}
+
+@media (min-width: 641px)  and (max-width: 652px){
+  .mitad {
+    width: 100% !important;
+}
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -282px;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+
+
+}
+
+@media (min-width: 653px)  and (max-width: 719px){
+  .mitad {
+    width: 140% !important;
+}
+
+ .carrusel-izq {
+    left: -30px !important;
+} 
+.carrusel-der {
+    right: -35px !important;
+}
+
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+ 
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -370px;
+}
+
+.marginleft {
+  margin-left: 3rem;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+
+}
+
+@media (width: 720px){
+  .mitad{
+    width: 140% !important;
+  }
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+   .carrusel-izq {
+    left: -60px !important;
+} 
+.carrusel-der {
+    right: -65px !important;
+}
+
+
+  .card-2 {
+    width: 100%;
+    height: 17rem;
+    border-radius: 2rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+ 
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -380px;
+}
+
+.marginleft {
+  margin-left: 3rem;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.salto {
+    margin-right: 8.5rem!important;
+    content: '\A';
+    white-space: pre;
+}
+
+
+}
+
+
+@media (min-width: 721px)  and (max-width: 739px){
+  .mitad{
+    width: 140% !important;
+  }
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+
+.card-2 {
+  width: 100%;
+  height: 17rem;
+  border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -241px;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+
+}
+
+@media (width: 740px){
+  .mitad{
+    width: 140% !important;
+  }
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.card-2 {
+  width: 100%;
+  height: 17rem;
+  border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -377px;
+}
+
+.salto {
+  margin-right: 7.5rem !important;
+}
+
+.badge-dot {
+  width: 28px;
+  border-radius: 56rem;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background: #090979;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+}
+
+
+
+@media (min-width: 741px)  and (max-width: 767px){
+  .mitad{
+    width: 140% !important;
+  }
+  
+  .h3, h3 {
+    font-size: 0.98rem;
+}
+  
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.card-2 {
+  width: 100%;
+  height: 17rem;
+  border-radius: 2rem;
+}
+  
+  .text-farinter-size{
+    text-align: left!important;
+   }
+  
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -24px;
+    right: -241px;
+}
+
+.fa-2x {
+  font-size: 28px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mitad {
+    width: 90% !important;
+}
+  
+ .carrusel-izq {
+    left: -77px !important;
+} 
+.carrusel-der {
+    right: -72px !important;
+}
+
+
+  .card3 {
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.card-2 {
+  width: 100%;
+  height: 7rem;
+  border-radius: 2rem;
+}
+
+.h3, h3 {
+  font-size: 1.20rem;
+}
+
+
+  .text-farinter-size{
+    text-align: left!important;
+   }
+
+  .col-sm-15 {
+      width: 20%;
+      float: left;
+  }
+  .marginleft {
+    margin-left: 5rem;
+}
+
+.text-informacion{
+  font-size: 16px;
+}
+.card3 {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 2rem;
+}
+
+
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -25px;
+    right: -379px;
+  }
+  .badge-dot {
+    width: 28px;
+    border-radius: 56rem;
+    height: 28px;
+    position: absolute;
+    top: -4px;
+    background: #090979;
+}
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mitad {
+    width: 66% !important;
+}
+  
+  .col-md-15 {
+      width: 20%;
+      float: left;
+  }
+  
+  .marginleft {
+    margin-left: 6rem;
+}
+  .card3 {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 2rem;
+}
+
+  .close2 {
+    /* float: right; */
+    font-size: 2.21875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: relative;
+    top: -37px;
+    right: -648px;
+  }
+
+  
+
+
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+      width: 20%;
+      float: left;
+  }
+}

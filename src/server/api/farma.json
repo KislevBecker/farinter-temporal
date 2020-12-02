@@ -1,0 +1,113 @@
+{
+  "response": 
+  [
+    {
+      "id": 1,
+      "nombre":"3M"
+    },
+    {
+      "id": 2,
+      "nombre":"Abott Laboratories"
+    }, 
+    {
+      "id": 3,
+      "nombre":"Alcon"
+    },
+    {
+      "id": 4,
+      "nombre":"Almirall"
+    },
+    {
+      "id": 5,
+      "nombre":"Astra Zeneca"
+    },
+    {
+      "id": 6,
+      "nombre":"Aventis"
+    },
+    {
+      "id": 6,
+      "nombre":"Bagó"
+    },
+    {
+      "id": 7,
+      "nombre":"Bayer"
+    },
+    {
+      "id": 8,
+      "nombre":"Bussié"
+    },
+    {
+      "id": 9,
+      "nombre":"Genomma Lab"
+    },
+    {
+      "id": 10,
+      "nombre":"GSK"
+    },
+    {
+      "id": 11,
+      "nombre":"Lafrancol"
+    },
+    {
+      "id": 12,
+      "nombre":"La Santé"
+    },
+    {
+      "id": 13,
+      "nombre":"Lilly"
+    },
+    {
+      "id": 14,
+      "nombre":"Medix"
+    },
+    {
+      "id": 15,
+      "nombre":"MSD"
+    },
+    {
+      "id": 16,
+      "nombre":"Novartis"
+    },
+    {
+      "id": 17,
+      "nombre":"Pfizer"
+    },
+    {
+      "id": 18,
+      "nombre":"Procaps"
+    },
+    {
+      "id": 19,
+      "nombre":"Roche"
+    },
+    {
+      "id": 20,
+      "nombre":"Roemmers"
+    },
+    {
+      "id": 21,
+      "nombre":"Sandoz"
+    },
+    {
+      "id": 22,
+      "nombre":"Sanofi"
+    },
+    {
+      "id": 23,
+      "nombre":"Shering Plough"
+    },
+    {
+      "id": 24,
+      "nombre":"Stiefel"
+    },
+    {
+      "id": 25,
+      "nombre":"Talecris"
+    },
+    {
+      "id": 26,
+      "nombre":"Tylenol"
+    }
+  ]
+}
