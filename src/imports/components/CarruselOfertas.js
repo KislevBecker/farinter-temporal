@@ -26,22 +26,22 @@ export default () => (
                         <div className="row">
 
                             <div className="col-md-3 mb-3">
-                                <div className="card" data-toggle="modal" data-target="#bata">
+                                <div className="card pointer" data-toggle="modal" data-target="#bata">
                                     <img className="img-fluid" alt="100%x280" src={Bata1} />
                                 </div>
                             </div>
                             <div className="col-md-3 mb-3">
-                                <div className="card" data-toggle="modal" data-target="#guantes">
+                                <div className="card  pointer" data-toggle="modal" data-target="#guantes">
                                     <img className="img-fluid" alt="100%x280" src={Guantes1} />
                                 </div>
                             </div>
                             <div className="col-md-3 mb-3">
-                                <div className="card" data-toggle="modal" data-target="#mascarilla">
+                                <div className="card pointer" data-toggle="modal" data-target="#mascarilla">
                                     <img className="img-fluid" alt="100%x280" src={Mascarilla1} />
                                 </div>
                             </div>
                             <div className="col-md-3 mb-3">
-                                <div className="card" data-toggle="modal" data-target="#regulador">
+                                <div className="card pointer" data-toggle="modal" data-target="#regulador">
                                     <img className="img-fluid" alt="100%x280" src={Regulador1} />
                                 </div>
                             </div>
