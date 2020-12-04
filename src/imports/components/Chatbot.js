@@ -33,7 +33,7 @@ function CustomChatbot(props) {
   const steps = [
     {
       id: '1',
-      message: 'Bienvenido a Farinter, ¿en qué te puedo ayudar?',
+      message: 'Buen día soy el asistente virtual de Farinter, gracias por contactarnos, estoy aquí para ayudarle con sus dudas o consultas en relación a los productos y servicios de Farinter. ¿En qué puedo ayudarle?',
       trigger: '2',
     },
     {
@@ -95,9 +95,14 @@ function CustomChatbot(props) {
           trigger: 'requisitos de apertura de credito',
         },
         {
-          value: '¿Hacen envíos a nivel nacional?',
-          label: '¿Hacen envíos a nivel nacional?',
-          trigger: 'consulte con servicio al cliente',
+          value: 'Compras al crédito',
+          label: 'Compras al crédito',
+          trigger: 'preguntas del credito',
+        },
+        {
+          value: 'Sobre los envíos',
+          label: 'Sobre los envíos',
+          trigger: 'envios',
         },
         {
           value: 'Devolución de productos / artículos',
@@ -110,6 +115,83 @@ function CustomChatbot(props) {
           trigger: 'trabajo en farinter',
         },
       ],
+    },
+
+    {
+      id:'envios',
+      options:[
+        {
+          value:'¿Hacen envíos nacionales?',
+          label: '¿Hacen envíos nacionales?',
+          trigger: 'envio nacional',
+        },
+        {
+          value: '¿Hacen envíos a domicilio?',
+          label: '¿Hacen envíos a domicilio?',
+          trigger: 'Option Not available',
+        },
+      ],
+    },
+
+    {
+      id:'envio nacional',
+      message: 'Para mayor información sobre Envíos a Nivel Nacional, por favor comunícate con el departamento de Telemercadeo  a los números indicados para cada ciudad:',
+      trigger: 'TGAPhones',
+    },
+
+    {
+      id:'preguntas del credito',
+      options:[
+        {
+          value:'Quiero saber si puedo comprar al crédito',
+          label: 'Quiero saber si puedo comprar al crédito',
+          trigger:'respuesta sobre el crédito',
+        },
+        {
+          value: 'Ya tengo crédito aperturado y quiero comprar',
+          label: 'Ya tengo crédito aperturado y quiero comprar',
+          trigger: 'credito si',
+        },
+        {
+          value: 'No tengo crédito aperturado, quiero abrir crédito',
+          label: 'No tengo crédito aperturado, quiero abrir crédito',
+          trigger: 'credito no',
+        },
+      ],
+    },
+
+    {
+      id:'respuesta sobre el crédito',
+      message: '¿Tiene línea de crédito aperturado con nosotros?',
+      trigger: 'opciones sobre el crédito',
+    },
+
+    {
+      id:'opciones sobre el crédito',
+      options:[
+        {
+          value: 'Si',
+          label: 'Si',
+          trigger: 'credito si',
+        },
+        {
+          value: 'No',
+          label: 'No',
+          trigger: 'credito no',
+        },
+      ]
+    },
+
+    {
+      id: 'credito si',
+      message: 'Si tienes línea de crédito activa con nostros, puedes comunicarte con el departamento de Telemercadeo a los números aquí indicados para realizar tus pedidos.',
+      trigger:'TGAPhones'
+    },
+
+    {
+      id: 'credito no',
+      message: 'Agredecemos su interés de aperturar una línea de crédito con Farinter, nuestro departamento de créditos con gusto le atenderá para brindarte los requisitos necesarios para aperturar una línea de crédito. Por favor comunicate vía telefónica a los números aquí indicados para cada ciudad:',
+      trigger:'TGAPhones'
     },
 
     {
@@ -152,12 +234,12 @@ function CustomChatbot(props) {
 
     {
       id:'consulta de trabajo sps',
-      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número   89328328932',
+      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2531-9400, Fax : (504) 2553-5600 o escríbenos a reclutamientotgu@farinter.hn',
       trigger:'Asking for Something else',
     },
     {
       id:'consulta de trabajo tga',
-      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número   89328328932',
+      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número  (504) 2225-2718 , Fax (504) 2225-2732 o escríbenos a reclutamientotgu@farinter.hn',
       trigger:'Asking for Something else',
     },
 
@@ -167,19 +249,26 @@ function CustomChatbot(props) {
         {
           value:'Devolución de productos',
           label: 'Devolución de productos',
-          trigger:'consulte con servicio al cliente',
+          trigger:'consulte devoluciones',
         },
         {
           value: 'Producto dañado / vencido',
           label: 'Producto dañado / vencido',
-          trigger: 'consulte con servicio al cliente',
+          trigger: 'consulte devoluciones',
         }
       ],
     },
 
     {
+      id:'consulte devoluciones',
+      message:'Con mucho gusto atenderemos su consulta. Por favor para conocer sobre nuestra política de devoluciones y reclamos, contactar al departamento de Telemercadeo a los números de teléfono que se  indican a continuación: ',
+      trigger:'TGAPhones',
+    },
+
+    
+    {
       id:'requisitos de apertura de credito',
-      message:'Para mayor información comunicate con el departamento de créditos a los números aquí detallados (COLOCAR LOS NUMEROS O DARNOS LA LISTA DE NUMEROS QUE QUIEREN PRESENTAR) según tu ciudad de residencia. ',
+      message:'Agradecemos su interés de apertura crédito con Farinter, Nuestro departamento de créditos con gusto le atenderá para brindarte los requisitos necesarios para apertura una línea de crédito. Por favor comunícate vía telefónica a los números aquí indicados para cada ciudad: En Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732   y San Pedro Sula  (504) 2531-9400, Fax : (504) 2553-5599',
       trigger:'Asking for Something else',
     },
 
@@ -211,25 +300,30 @@ function CustomChatbot(props) {
 
     {
       id:'formas de pago aceptadas',
-      message:'Los pagos se pueden realizarse en  efectivo, Tarjeta de crédito o Deposito a Nuestra Cuenta Farinter.',
+      message:'Con Gusto te indicamos nuestras formas de pago.',
+      trigger:'pago indicaciones',
+    },
+    {
+      id:'pago indicaciones',
+      message:'Puedes cancelar tus productos mediante efectivo, tarjeta de crédito o depósito a nuestra cuenta FARINTER.',
       trigger:'Asking for Something else',
     },
 
     {
       id:'requisitos tarjeta de credito',
-      message:'Para pago con tarjeta de crédito, se requiere que el tarjetahabiente dueño de la misma, se presente con su identidad para la realización del pago.',
+      message:'Con gusto aceptamos tarjeta de crédito, como único requisito se solicita que el tarjetahabiente dueño de la misma, se presente con su Identidad para la realización del pago.',
       trigger:'Asking for Something else',
     },
 
     {
       id:'pago con dolar',
-      message:'La moneda dólar es aceptada por nuestra empresa,  utilizando la tasa de cambio Vigente al momento de efectuar el pago.',
+      message:'La moneda Dólares Americanos es aceptada por FARINTER y se usa la tasa de cambio vigente del día al momento de efectuar el pago.',
       trigger:'Asking for Something else',
     },
 
     {
       id:'tasa de cambio',
-      message:'El Factor  de la tasa cambiaria del día Vigente al momento de efectuar el pago.',
+      message:'El Factor de la tasa cambiaria del día vigente al momento de efectuar el pago.',
       trigger:'Asking for Something else',
     },
 
@@ -248,8 +342,8 @@ function CustomChatbot(props) {
           trigger: 'jornada normal',
         },
         {
-          value: 'FERIADOS 1 de mayo, Morazanica, 25 dic. Y 1 de enero ',
-          label: 'FERIADOS 1 de mayo, Morazanica, 25 dic. Y 1 de enero ',
+          value: 'FERIADOS 1 de mayo, Morazánica, 25 diciembre y 1 de enero ',
+          label: 'FERIADOS 1 de mayo, Morazánica, 25 diciembre y 1 de enero ',
           trigger: 'feriados',
         },
         {
@@ -262,12 +356,12 @@ function CustomChatbot(props) {
 
     {
       id: 'jornada normal',
-      message: 'Nuestro horarios de atención al cliente a Nivel Nacional es:',
+      message: 'Contamos con un amplio horario de atención, el cual te brindamos a continuación:',
       trigger: 'horariolv',
     },
     {
       id: 'horariolv',
-      message: 'Lunes a Viernes de 8:00 am a 6:pm.',
+      message: 'Lunes a Viernes de 8:00 am a 6:00 pm.',
       trigger: 'horario-s',
     },
     {
@@ -277,7 +371,7 @@ function CustomChatbot(props) {
     },
     {
       id: 'horariod',
-      message: 'Cerrado los Domingos.',
+      message: 'Cerrado los domingos.',
       trigger: 'Asking for Something else',
     },
 
@@ -289,8 +383,8 @@ function CustomChatbot(props) {
 
     {
       id: 'otros feriados',
-      message: 'Para conocer Nuestro Horario especial por Feriado Nacional o Festejo,',
-      trigger: 'consulte con servicio al cliente',
+      message: 'Para conocer nuestro horario especial por feriado nacional o festejo, para mayor información por favor comunicate con el departamento de Telemercadeo a los números que se detallan a continuación: Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732   y San Pedro Sula  (504) 2531-9400, Fax: (504) 2553-5599 o escríbanos a nuestro correo consultas@farinter.com, donde gustosamente te atenderemos.',
+      trigger: 'Asking for Something else',
     },
 
 
@@ -328,7 +422,7 @@ function CustomChatbot(props) {
 
     {
       id: 'Asking for guides tercera edad user',
-      message: 'En Farinter apoyamos a la tercera edad,',
+      message: 'Trabajamos en armonía con la Ley Integral de Protección del Adulto Mayor,',
       trigger: 'consulte con servicio al cliente',
     },
 
@@ -346,7 +440,7 @@ function CustomChatbot(props) {
     },
     {
       id: 'respuesta de proveedores user',
-      message: 'Consulta nuestro catálogo de Proveedores en nuestra Página Web',
+      message: 'Te invitamos a ver nuestros Catálogos de Proveedores aquí en nuestra página web.',
       trigger: 'Asking for Something else',
     },
 
@@ -364,12 +458,12 @@ function CustomChatbot(props) {
     },
     {
       id: 'respuesta de productos user',
-      message: 'Para mayor información comunicate con servicio al cliente a los números aquí detallados  (COLOCAR LOS NUMEROS O DARNOS LA LISTA DE NUMEROS QUE QUIEREN PRESENTAR) o escríbenos a nuestro correo consultas@farinter.com',
+      message: 'Para mayor información sobre nuestros productos por favor comunicate con el departamento de Telemercadeo a los números que se detallan a continuación: Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732   y San Pedro Sula  (504) 2531-9400, Fax: (504) 2553-5599 o escríbenos a nuestro correo consultas@farinter.com, donde gustosamente te atenderemos.',
       trigger: 'Asking for Something else',
     },
     {
       id: 'telefonos',
-      message: 'Puedes comunicarte con nosotros, según sea tu ubicación, a los teléfonos',
+      message: 'Nuestros números teléfonicos son los siguientes:',
       trigger: 'TGAPhones',
     },
     {
@@ -384,23 +478,23 @@ function CustomChatbot(props) {
     },
     {
       id: 'nuestra ubicación',
-      message: 'Puedes encontrar nuestras oficinas en',
+      message: 'Estamos ubicados en:',
       trigger: 'TGALocation',
     },
     {
       id: 'TGALocation',
-      message: 'Tegucigalpa: Barrio La Granja , Edificio Farinter, atrás de la Toyota . Tegucigalpa, Honduras',
+      message: 'Tegucigalpa: Barrio La Granja, Edificio Farinter, atrás de la Toyota. Tegucigalpa, Honduras',
       trigger: 'SPSLocation',
     },
     {
       id: 'SPSLocation',
-      message: 'San Pedro Sula: Barrio Santa Rosa 7 y 8 Calle S.E. II Anillo de Circunvalacion  ,Edificio Farinter. Honduras ',
+      message: 'San Pedro Sula: Barrio Santa Rosa 7 y 8 Calle S.E. II Anillo de Circunvalación, Edificio Farinter. Honduras ',
       trigger: 'Asking for Something else',
     },
     {
       id: 'Option Not available',
-      message: 'Lo sentimos, en este momento no está disponible esta opción, por favor intenta de nuevo más tarde',
-      trigger: 'Asking for Something else',
+      message: 'Por los momentos no contamos con servicio a domicilio residencial, por lo que te invitamos a visitar nuestras sucursales a las siguientes direcciones:',
+      trigger: 'TGALocation',
     },
     {
       id: 'Asking for Something else',
@@ -462,19 +556,18 @@ function CustomChatbot(props) {
 
     {
       id: 'consulte con servicio al cliente',
-      message: 'Para mayor información comunicate con servicio al cliente a los números (COLOCAR LOS NUMEROS O DARNOS LA LISTA DE NUMEROS QUE QUIEREN PRESENTAR) aquí detallados según tu ciudad de residencia.', 
-      trigger:'Asking for Something else',
+      message: 'Para mayor información comunicate con servicio al cliente a los números:', 
+      trigger:'TGAPhones',
     },
 
     {
       id: 'Asking for agent',
-      message: 'Con gusto un agente de ventas te atenderá,  por favor comunicate a  los números (COLOCAR LOS NUMEROS O DARNOS LA LISTA DE NUMEROS QUE QUIEREN PRESENTAR) aquí detallados.',
-      //end: true,
+      message: 'Con gusto un agente de ventas te atenderá, para mayor información por favor comunicate al departamento de ventas a los números:  en Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732   y San Pedro Sula  (504) 2531-9400, Fax : (504) 2553-5599. O puedes escribirnos a nuestro correo de atención al cliente consultas@farinter.com.',
       trigger:'Asking for Something else',
     },
     {
       id: 'Done',
-      message: '¡Que tenga un bonito día!, recuerda que estamos siempre aquí para ayudarte',
+      message: '¡Que tengas un bonito día!, recuerda que estamos siempre aquí para ayudarte',
       end: true,
     },
   ];
