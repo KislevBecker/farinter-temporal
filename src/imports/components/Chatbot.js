@@ -33,7 +33,7 @@ function CustomChatbot(props) {
   const steps = [
     {
       id: '1',
-      message: 'Buen día soy el asistente virtual de Farinter, gracias por contactarnos, estoy aquí para ayudarle con sus dudas o consultas en relación a los productos y servicios de Farinter. ¿En qué puedo ayudarle?',
+      message: 'Buen día soy el asistente virtual de Farinter, gracias por contactarnos, estoy aquí para ayudarte con tus dudas o consultas en relación a los productos y servicios de Farinter. ¿En qué puedo ayudarte?',
       trigger: '2',
     },
     {
@@ -65,10 +65,32 @@ function CustomChatbot(props) {
           trigger: 'Asking for guides productos',
         },
         {
-          value: 'Consulta de precios venta por menor',
-          label: 'Consulta de precios venta por menor',
-          trigger: 'Asking for guides',
+          value: 'Ubicación, horarios y teléfonos de la empresa',
+          label: 'Ubicación, horarios y teléfonos de la empresa',
+          trigger: 'Asking for empresa info',
         },
+        {
+          value: 'Formas de pago y apertura de créditos personales y empresariales',
+          label: 'Formas de pago y apertura de créditos personales y empresariales',
+          trigger: 'Asking for empresa money info',
+        },
+        {
+          value: 'Vacantes en grupo Farinter',
+          label: 'Vacantes en grupo Farinter',
+          trigger: 'Asking for empresa vacantes info',
+        },
+      ],
+    },
+
+    {
+      id:'Asking for empresa vacantes info',
+      message: 'Por favor selecciona tu consulta:',
+      trigger: 'trabajo en farinter',
+    },
+
+    {
+      id:'Asking for empresa info',
+      options:[
         {
           value: 'Donde ubicarnos',
           label: 'Donde ubicarnos',
@@ -84,38 +106,9 @@ function CustomChatbot(props) {
           label: 'Nuestros horarios de atención',
           trigger: 'horarios',
         },
-        {
-          value: '¿Cuáles son las formas de pago?',
-          label: '¿Cuáles son las formas de pago?',
-          trigger: 'formas de pago',
-        },
-        {
-          value: 'Requisitos para apertura de crédito personal o empresarial',
-          label: 'Requisitos para apertura de crédito personal o empresarial',
-          trigger: 'requisitos de apertura de credito',
-        },
-        {
-          value: 'Compras al crédito',
-          label: 'Compras al crédito',
-          trigger: 'preguntas del credito',
-        },
-        {
-          value: 'Sobre los envíos',
-          label: 'Sobre los envíos',
-          trigger: 'envios',
-        },
-        {
-          value: 'Devolución de productos / artículos',
-          label: 'Devolución de productos / artículos',
-          trigger: 'devoluciones de productos',
-        },
-        {
-          value: 'Deseo trabajar en farinter',
-          label: 'Deseo trabajar en farinter',
-          trigger: 'trabajo en farinter',
-        },
       ],
     },
+
 
     {
       id:'envios',
@@ -185,26 +178,37 @@ function CustomChatbot(props) {
     {
       id: 'credito si',
       message: 'Si tienes línea de crédito activa con nostros, puedes comunicarte con el departamento de Telemercadeo a los números aquí indicados para realizar tus pedidos.',
-      trigger:'TGAPhones'
+      trigger:'TGAPhonesMercadeo'
     },
 
     {
       id: 'credito no',
-      message: 'Agredecemos su interés de aperturar una línea de crédito con Farinter, nuestro departamento de créditos con gusto le atenderá para brindarte los requisitos necesarios para aperturar una línea de crédito. Por favor comunicate vía telefónica a los números aquí indicados para cada ciudad:',
-      trigger:'TGAPhones'
+      message: 'Agredecemos tu interés de aperturar una línea de crédito con Farinter, nuestro departamento de créditos con gusto te atenderá para brindarte los requisitos necesarios para aperturar una línea de crédito. Por favor comunicate vía telefónica a los números aquí indicados para cada ciudad:',
+      trigger:'TGAPhonesCreditos'
     },
+    {
+      id: 'TGAPhonesCreditos',
+      message: 'En Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732, y ',
+      trigger:'SPSPhonesCreditos'
+    },
+    {
+      id: 'SPSPhonesCreditos',
+      message: 'San Pedro Sula  (504) 2531-9400, Fax : (504) 2553-5599 ',
+      trigger:'Asking for Something else'
+    },
+    
 
     {
       id:'trabajo en farinter',
       options:[
         {
           value:'Quiero aplicar a una oportunidad de trabajo, ¿dónde puedo enviar mi hoja de vida?',
-          label: 'Quiero aplicar a una oportunidad de trabajo',
+          label: 'Quiero aplicar a una oportunidad de trabajo, ¿dónde puedo enviar mi hoja de vida?',
           trigger:'consulta de trabajo',
         },
         {
           value: 'Quiero realizar mi práctica profesional en farinter, ¿dónde puedo enviar mi hoja de vida?',
-          label: '¿Dónde puedo enviar mi hoja de vida?',
+          label: 'Quiero realizar mi práctica profesional en farinter, ¿dónde puedo enviar mi hoja de vida?',
           trigger: 'consulta de trabajo',
         }
       ],
@@ -234,12 +238,12 @@ function CustomChatbot(props) {
 
     {
       id:'consulta de trabajo sps',
-      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2531-9400, Fax : (504) 2553-5600 o escríbenos a reclutamientotgu@farinter.hn',
+      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2531-9400, Fax : (504) 2553-5600.',
       trigger:'Asking for Something else',
     },
     {
       id:'consulta de trabajo tga',
-      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número  (504) 2225-2718 , Fax (504) 2225-2732 o escríbenos a reclutamientotgu@farinter.hn',
+      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2225-2718, Fax (504) 2225-2732.',
       trigger:'Asking for Something else',
     },
 
@@ -273,6 +277,11 @@ function CustomChatbot(props) {
     },
 
     {
+      id:'Asking for empresa money info',
+      message:'Por favos selecciona tu consulta:',
+      trigger:'formas de pago',
+    },
+    {
       id: 'formas de pago',
       options: [
         {
@@ -284,6 +293,11 @@ function CustomChatbot(props) {
           value: 'Requisitos para pago con tarjeta de crédito ',
           label: 'Requisitos para pago con tarjeta de crédito ',
           trigger: 'requisitos tarjeta de credito',
+        },
+        {
+          value: 'Requisitos para apertura de crédito personal o empresarial',
+          label: 'Requisitos para apertura de crédito personal o empresarial',
+          trigger: 'requisitos de apertura de credito',
         },
         {
           value: '¿Puedo pagar con dólares? ',
@@ -398,8 +412,8 @@ function CustomChatbot(props) {
       id: 'consulta productos options',
       options: [
         {
-          value: 'Ventas o existencia de productos/articulos/medicamentos',
-          label: 'Ventas o existencia de productos/articulos/medicamentos',
+          value: 'Ventas o existencia de productos/artículos/medicamentos',
+          label: 'Ventas o existencia de productos/artículos/medicamentos',
           trigger: 'Asking for guides productos user',
         },
         {
@@ -417,16 +431,45 @@ function CustomChatbot(props) {
           label: 'Servicio al cliente',
           trigger: 'Asking for agent',
         },
+        {
+          value: 'Compras al crédito',
+          label: 'Compras al crédito',
+          trigger: 'preguntas del credito',
+        },
+        {
+          value: 'Sobre los envíos',
+          label: 'Sobre los envíos',
+          trigger: 'envios',
+        },
+        {
+          value: 'Consulta de precios venta por menor',
+          label: 'Consulta de precios venta por menor',
+          trigger: 'Asking for guides',
+        },
+        {
+          value: 'Devolución de productos / artículos',
+          label: 'Devolución de productos / artículos',
+          trigger: 'devoluciones de productos',
+        },
       ],
     },
 
     {
       id: 'Asking for guides tercera edad user',
       message: 'Trabajamos en armonía con la Ley Integral de Protección del Adulto Mayor,',
-      trigger: 'consulte con servicio al cliente',
+      trigger: 'TGAPhonesMercadeo',
     },
 
-
+    {
+      id:'TGAPhonesMercadeo',
+      message:'Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732, y',
+      trigger:'SPSPhonesMercadeo'
+    },
+    {
+      id:'SPSPhonesMercadeo',
+      message:'San Pedro Sula  (504) 2531-9400, Fax : (504) 2553-5599.',
+      trigger:'Asking for Something else',
+    },
 
     {
       id: 'Asking for guides proveedores user',
