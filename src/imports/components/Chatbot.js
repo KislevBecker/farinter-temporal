@@ -79,7 +79,18 @@ function CustomChatbot(props) {
           label: 'Vacantes en grupo Farinter',
           trigger: 'Asking for empresa vacantes info',
         },
+        {
+          value: 'Realizar una denuncia',
+          label: 'Realizar una denuncia',
+          trigger: 'Denuncia',
+        },
       ],
+    },
+
+    {
+      id:'Denuncia',
+      message: 'Por favor comunícate al número de teléfono de línea ética para exponer detalladamente tu caso:',
+      trigger: 'Asking for Something else',
     },
 
     {
