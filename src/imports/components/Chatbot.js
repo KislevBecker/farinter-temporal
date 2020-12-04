@@ -517,8 +517,33 @@ function CustomChatbot(props) {
     },
     {
       id: 'telefonos',
-      message: 'Nuestros números teléfonicos son los siguientes:',
-      trigger: 'TGAPhones',
+      message: 'Será un gusto atenderte, ¿en qué ciudad deseas realizar tus pedidos?:',
+      trigger: 'TGAPhones1',
+    },
+    {
+      id: 'TGAPhones1',
+      options: [
+        {
+          value: 'Tegucigalpa',
+          label: 'Tegucigalpa',
+          trigger:'TGAP'
+        },
+        {
+          value: 'San Pedro Sula',
+          label: 'San Pedro Sula',
+          trigger:'SPSP'
+        },
+      ],
+    },
+    {
+      id: 'TGAP',
+      message: 'Por favor comunicate a servicio al cliente en Tegucigalpa a los números telefónicos que se detallan a continuación: (504) 2225-2718, Fax (504) 2225-2732 .',
+      trigger: 'Asking for Something else',
+    },
+    {
+      id: 'SPSP',
+      message: 'Por favor comunicate a servicio al cliente en San Pedro Sula a los números telefónicos que se detallan a continuación: (504) 2531-9400, Fax (504) 2553-5599. ',
+      trigger: 'Asking for Something else',
     },
     {
       id: 'TGAPhones',
