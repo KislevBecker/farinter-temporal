@@ -19,6 +19,7 @@ function CustomChatbot(props) {
     floatingIconStyle: { height: '60px', width: '60px' },
   };
 
+//  var link = window.location.href = "mailto:mail@example.org"; 
   const theme = {
     background: 'white',
     fontFamily: 'Arial, Helvetica, sans-serif',
@@ -89,7 +90,7 @@ function CustomChatbot(props) {
 
     {
       id:'Denuncia',
-      message: 'Por favor comunícate al número de teléfono de línea ética para exponer detalladamente tu caso:',
+      message: 'Gracias por tu interés, para realizar tu denuncia comunicate al número *76667 o escribe al correo:  lineaetica@farinter.hn',
       trigger: 'Asking for Something else',
     },
 
@@ -249,12 +250,12 @@ function CustomChatbot(props) {
 
     {
       id:'consulta de trabajo sps',
-      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2531-9400, Fax : (504) 2553-5600.',
+      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2531-9400, Fax : (504) 2553-5600. O envía tu currículum al correo reclutamientosps@farinter.hn ',
       trigger:'Asking for Something else',
     },
     {
       id:'consulta de trabajo tga',
-      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2225-2718, Fax (504) 2225-2732.',
+      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2225-2718, Fax (504) 2225-2732. O envía tu currículum al correo reclutamientotgu@farinter.hn ',
       trigger:'Asking for Something else',
     },
 
@@ -283,7 +284,18 @@ function CustomChatbot(props) {
     
     {
       id:'requisitos de apertura de credito',
-      message:'Agradecemos su interés de apertura crédito con Farinter, Nuestro departamento de créditos con gusto le atenderá para brindarte los requisitos necesarios para apertura una línea de crédito. Por favor comunícate vía telefónica a los números aquí indicados para cada ciudad: En Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732   y San Pedro Sula  (504) 2531-9400, Fax : (504) 2553-5599',
+      message:'Agradecemos tu interés de apertura crédito con Farinter, nuestro departamento de créditos con gusto te atenderá para brindarte los requisitos necesarios para apertura una línea de crédito. Por favor comunícate vía telefónica a los números aquí indicados para cada ciudad:',
+      trigger:'TGATelCreditos',
+    },
+
+    {
+      id:'TGATelCreditos',
+      message:'En Tegucigalpa (504) 2225-2718, Fax (504) 2225-2732, y',
+      trigger:'SPSTelCreditos',
+    },
+    {
+      id:'SPSTelCreditos',
+      message:'San Pedro Sula  (504) 2531-9400, Fax: (504) 2553-5599',
       trigger:'Asking for Something else',
     },
 
@@ -348,7 +360,7 @@ function CustomChatbot(props) {
 
     {
       id:'tasa de cambio',
-      message:'El Factor de la tasa cambiaria del día vigente al momento de efectuar el pago.',
+      message:'El factor de la tasa cambiaria del día vigente al momento de efectuar el pago.',
       trigger:'Asking for Something else',
     },
 
