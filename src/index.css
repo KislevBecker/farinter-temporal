@@ -12,6 +12,20 @@ code {
     monospace;
 }
 
+.caja{
+  position:relative;
+  display: inline-block;
+}
+
+.texto-2{
+  position: absolute;
+  top: 59%;
+  font-size: 12px;
+  left: 10;
+  color: white;
+  background: rgba(0, 0, 0, 0.5) /* Green background with 30% opacity */
+}
+
 /* para el chatbot:  */
 /* .flotante2 {
   display: scroll;
@@ -96,7 +110,6 @@ code {
   width: 60px !important;
 }
 
-
 /* burbuja del bot */
 .fcUymo {
   -webkit-animation: gZmgDU 0.3s ease forwards;
@@ -107,7 +120,7 @@ code {
   color: #fff;
   display: inline-block;
   font-size: 14px;
-  max-width: 64% !important;
+  max-width: 70% !important;
   margin: 0 0 10px 0;
   overflow: hidden;
   position: relative;
@@ -153,7 +166,7 @@ code {
   color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 14px;
-  max-width: 71% !important;
+  max-width: 70% !important;
   margin: 0px 0px 10px;
   overflow: hidden;
   position: relative;
@@ -161,7 +174,6 @@ code {
   transform: scale(0);
   transform-origin: left bottom;
 }
-
 
 /* burbuja para el usuario en servidores */
 .foCSyn {
@@ -180,6 +192,7 @@ code {
   transform: scale(0);
   transform-origin: right bottom;
 }
+
 
 /* textos */
 
@@ -303,6 +316,11 @@ ul {
   border-radius: 2rem;
 }
 
+.card-3 {
+  width: 9rem;
+  height: 7rem;
+  border-radius: 2rem;
+}
 
 .imagen-card {
   height: 4rem;
@@ -435,8 +453,11 @@ button.close2 {
   margin-right: 1.5rem!important;
 }
 
-
-
+/* para clase en el carrusel de ofertas */
+.bVoXXg {
+  /* border: none !important; */
+  width: 170px !important;
+}
 
 /* definicion de las media queries por si se necesitan */
 
@@ -450,7 +471,17 @@ button.close2 {
 .carrusel-der {
     right: -23px !important;
 }
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
+}
 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
 
   .card-2 {
     width: 100%;
@@ -459,11 +490,17 @@ button.close2 {
 }
   
   .card3 {
-    width: 100%;
-    height: 20rem;
+    width: 70%;
+    height: 8rem;
     border-radius: 2rem;
 }
-  
+ 
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .close2 {
     /* float: right; */
     font-size: 2.21875rem;
@@ -506,10 +543,22 @@ button.close2 {
 
 }
 
+.pr-2{
+  padding-right: 2rem;
+}
+.pl-2{
+  padding-left: 2rem;
+}
 
 @media (min-width: 281px) and (max-width: 359px){
   .mitad {
     width: 100% !important;
+}
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
 }
 
  .carrusel-izq {
@@ -529,13 +578,21 @@ button.close2 {
     height: 17rem;
     border-radius: 2rem;
 }
-  
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.col-xs-3 {
+  width: 30%;
+  float: left;
 }
-  
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+} 
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .close2 {
     /* float: right; */
     font-size: 2.21875rem;
@@ -584,8 +641,11 @@ button.close2 {
     width: 100% !important;
 }
   
-  .mitad {
-    width: 100% !important;
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
 }
   
   .h3, h3 {
@@ -598,12 +658,23 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
-  
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .close2 {
     /* float: right; */
     font-size: 2.21875rem;
@@ -660,19 +731,35 @@ button.close2 {
   .mitad {
     width: 100% !important;
 }
-  
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
+}
   .card-2 {
     width: 100%;
     height: 17rem;
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
-  
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -727,7 +814,14 @@ button.close2 {
   .mitad {
     width: 100% !important;
 }
-  
+
+.w-50-xs-md {
+  width: 50%!important;
+}
+
+.w-30-xs-md {
+  width: 30%!important;
+}
   .h3, h3 {
     font-size: 0.98rem;
 }
@@ -738,12 +832,22 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
-  
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -773,7 +877,14 @@ button.close2 {
   .mitad {
     width: 100% !important;
 }
-  
+
+.w-50-xs-md {
+  width: 50%!important;
+}
+
+.w-30-xs-md {
+  width: 30%!important;
+} 
   .h3, h3 {
     font-size: 0.98rem;
 }
@@ -784,11 +895,23 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -837,6 +960,13 @@ button.close2 {
   .mitad {
     width: 100% !important;
 }
+
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
+}
   
   .h3, h3 {
     font-size: 0.98rem;
@@ -848,12 +978,23 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
   
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -905,6 +1046,13 @@ button.close2 {
     width: 100% !important;
   }
   
+  .w-50-xs-md {
+    width: 50%!important;
+  }
+  .w-30-xs-md {
+    width: 30%!important;
+  }
+
   .card-2 {
     width: 100%;
     height: 17rem;
@@ -912,11 +1060,22 @@ button.close2 {
   }
   
   .card3 {
-    width: 100%;
-    height: 20rem;
+    width: 70%;
+    height: 8rem;
     border-radius: 2rem;
-  }
+}
   
+  .card-3 {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -957,6 +1116,13 @@ button.close2 {
     width: 140% !important;
 }
 
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
+}
+
  .carrusel-izq {
     left: -60px !important;
 } 
@@ -973,13 +1139,25 @@ button.close2 {
     height: 17rem;
     border-radius: 2rem;
 }
-  
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+ 
+.col-xs-3 {
+  width: 30%;
+  float: left;
 }
-  
+
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -1025,7 +1203,14 @@ button.close2 {
   .mitad {
     width: 100% !important;
 }
-  
+
+.w-50-xs-md {
+  width: 50%!important;
+}
+
+.w-30-xs-md {
+  width: 30%!important;
+} 
   .h3, h3 {
     font-size: 0.98rem;
 }
@@ -1036,12 +1221,23 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
-  
+ 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -1073,6 +1269,13 @@ button.close2 {
     width: 140% !important;
 }
 
+.w-50-xs-md {
+  width: 50%!important;
+}
+.w-30-xs-md {
+  width: 30%!important;
+}
+
  .carrusel-izq {
     left: -30px !important;
 } 
@@ -1084,19 +1287,30 @@ button.close2 {
   .h3, h3 {
     font-size: 0.98rem;
 }
-  
+ 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
   .card-2 {
     width: 100%;
     height: 17rem;
     border-radius: 2rem;
 }
  
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
   
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -1130,6 +1344,13 @@ button.close2 {
   .mitad{
     width: 140% !important;
   }
+
+  .w-50-xs-md {
+    width: 50%!important;
+  }
+  .w-30-xs-md {
+    width: 30%!important;
+  }
   
   .h3, h3 {
     font-size: 0.98rem;
@@ -1141,6 +1362,10 @@ button.close2 {
     right: -65px !important;
 }
 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
 
   .card-2 {
     width: 100%;
@@ -1148,10 +1373,16 @@ button.close2 {
     border-radius: 2rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
   
   .text-farinter-size{
@@ -1203,17 +1434,34 @@ button.close2 {
   .mitad{
     width: 140% !important;
   }
+
+  .w-50-xs-md {
+    width: 50%!important;
+  }
+  .w-30-xs-md {
+    width: 30%!important;
+  }
   
   .h3, h3 {
     font-size: 0.98rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
 }
 
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
 
 .card-2 {
   width: 100%;
@@ -1251,14 +1499,27 @@ button.close2 {
     width: 140% !important;
   }
   
+  .w-50-xs-md {
+    width: 50%!important;
+  }
+  .w-30-xs-md {
+    width: 30%!important;
+  }
+
   .h3, h3 {
     font-size: 0.98rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
 .card-2 {
@@ -1266,7 +1527,12 @@ button.close2 {
   height: 17rem;
   border-radius: 2rem;
 }
-  
+ 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
   .text-farinter-size{
     text-align: left!important;
    }
@@ -1311,14 +1577,32 @@ button.close2 {
     width: 140% !important;
   }
   
+  .w-50-xs-md {
+    width: 50%!important;
+  }
+  .w-30-xs-md {
+    width: 30%!important;
+  }
+
   .h3, h3 {
     font-size: 0.98rem;
 }
   
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
 .card-2 {
@@ -1357,7 +1641,14 @@ button.close2 {
   .mitad {
     width: 90% !important;
 }
-  
+ 
+.w-50-xs-md {
+  width: 50%!important;
+}
+
+.w-30-xs-md {
+  width: 30%!important;
+}
  .carrusel-izq {
     left: -77px !important;
 } 
@@ -1365,11 +1656,21 @@ button.close2 {
     right: -72px !important;
 }
 
+.col-xs-3 {
+  width: 30%;
+  float: left;
+}
 
-  .card3 {
-    width: 100%;
-    height: 20rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
 .card-2 {
@@ -1442,10 +1743,16 @@ button.close2 {
   .marginleft {
     margin-left: 6rem;
 }
-  .card3 {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 2rem;
+.card3 {
+  width: 70%;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.card-3 {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
   .close2 {

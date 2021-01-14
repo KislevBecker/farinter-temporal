@@ -47,7 +47,7 @@ class FundacionKielsa extends React.Component {
   <div className="col-8">
        <div className="row">
           <div className="btn-group">
-               <ExternalLink className="ancla text-farinter" href="http://fundacionkielsa.com/"> <span className="badge badge-dot"><span className="badge badge-blanco" >www</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fundacionkielsa.com</ExternalLink>
+               <ExternalLink className="ancla text-farinter" href="http://fundacionkielsa.com/"> <span className="badge badge-dot"><span className="badge badge-blanco" >www</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fundacionkielsa.com</ExternalLink>
           </div>
        </div>
        <div className="row">

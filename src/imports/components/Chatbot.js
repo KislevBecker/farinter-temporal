@@ -255,7 +255,7 @@ function CustomChatbot(props) {
     },
     {
       id:'consulta de trabajo tga',
-      message: 'Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2225-2718, Fax (504) 2225-2732. O envía tu currículum al correo reclutamientotgu@farinter.hn ',
+      message: ' Puedes comunicarte con el departamento de Recursos Humanos al número (504) 2225-2718, Fax (504) 2225-2732. O envía tu currículum al correo reclutamientotgu@farinter.hn ',
       trigger:'Asking for Something else',
     },
 

@@ -3205,7 +3205,7 @@ changeColor18(){
             <div id="carouselExampleIndicators3" className="carousel slide w-75 marginleft" data-ride="carousel">
 
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
+                    <div className="carousel-item active"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#alka">
@@ -3230,7 +3230,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#colombina">
@@ -3255,7 +3255,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#dove">
@@ -3281,7 +3281,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#ferrero">
@@ -3306,7 +3306,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                       <div className="row">
                         <div className="col-md-3 mb-3">
                           <div className={btn_class17} onClick={this.changeColor17.bind(this)}  data-toggle="modal" data-target="#hormel">
@@ -3331,7 +3331,7 @@ changeColor18(){
                       </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                       <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#kisses">
@@ -3357,7 +3357,7 @@ changeColor18(){
                     </div>
 
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#mm">
@@ -3383,7 +3383,7 @@ changeColor18(){
                     </div>
 
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#milky">
@@ -3408,7 +3408,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#orbit">
@@ -3433,7 +3433,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#rexona">
@@ -3458,7 +3458,7 @@ changeColor18(){
                         </div>
                     </div>
                 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class41} onClick={this.changeColor41.bind(this)}  data-toggle="modal" data-target="#snickers">
@@ -3483,7 +3483,7 @@ changeColor18(){
                         </div>
                     </div>
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class45} onClick={this.changeColor45.bind(this)}  data-toggle="modal" data-target="#summer">
@@ -3509,7 +3509,7 @@ changeColor18(){
                     </div>
 
 
-                    <div className="carousel-item">
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#unilever">

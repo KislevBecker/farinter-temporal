@@ -22,7 +22,9 @@ const Footer = () => (
         <p className="text-white"><b>Tegucigalpa, Honduras</b><br />
             Edificio Farinter, atrás de la Toyota, <br/>
             Barrio La Granja <br/>
-            Teléfono: (+504) 2289-6544
+            Teléfono: (+504) 2225-2718<br />
+            FAX: (+504) 2225-2732
+
         </p>
       </div>
 
@@ -31,7 +33,7 @@ const Footer = () => (
           <b>San Pedro Sula, Honduras</b><br />
           Barrio Santa Rosa, segundo anillo periférico 7 y 8 calle SE. <br />
           Media cuadra al sur de la iglesia La Luz del Mundo <br />
-          Teléfono: (+504) 2539-9500
+          Teléfono: (+504) 2553-5600
         </p>
       </div>
     </div>
@@ -52,7 +54,7 @@ const Footer = () => (
           </li>
         </ul>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 mb-3">
           
         {/* <h5 className="text-white text-uppercase font-weigth bold text-informacion"> Síguenos</h5>
           <ExternalLink className="anchor" href="https://es-la.facebook.com/pages/category/Medical-Company/Grupo-Farinter-Recursos-Humanos-1420256331334635/"><i className="fab fa-facebook text-white"></i> Facebook </ExternalLink> */}
@@ -74,7 +76,7 @@ const Footer = () => (
     <div className="row">
       <div className="col-md-12">
         <p className="text-left text-white">
-          V1.0.1
+          V1.0.2
         </p>
       </div>
     </div>
