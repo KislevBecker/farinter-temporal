@@ -15,7 +15,7 @@ import { ready } from 'jquery';
   useEffect(async () => {
       try {
           //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
-          const res = await axios.get("http://172.16.2.128:8113/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
+          const res = await axios.get("https://172.16.2.128:8113/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
           console.log(res);
           setData (res.data);
       } catch (error) {
