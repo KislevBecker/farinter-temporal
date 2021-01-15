@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from 'react-grid-carousel';
-import Spinner from 'react-bootstrap/Spinner';
 import ModalOfertas from '../components/ModalOfertas';
 import styled from 'styled-components';
 import { ready } from 'jquery';
@@ -11,24 +10,17 @@ import { ready } from 'jquery';
 
   const [data, setData] = useState([]);
   const [selectedPic, setSelectedPic] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
+
 
   useEffect(async () => {
-    try {
-        setIsLoading=(true);
-        const res = await axios.get("http://172.16.2.128:8113/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
-        //   const res = await axios.get("http://172.16.2.128:8113/api/TBL_IMAGENES_OFERTAS_WEBFARINTER/", 
-        //   { headers: {
-        //     Authorization: "Client-ID S4bzmlXtaBM7r_gDs6gVZDxsADGoS7jvMxbsfI7aueI",
-        //   },
-        // })
+      try {
+          //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
+          const res = await axios.get("http://172.16.2.128:8113/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
           console.log(res);
           setData (res.data);
-          
       } catch (error) {
           console.log(error)
       }
-      finally {setIsLoading(false)}
   }, [axios, setData],
   );
 
@@ -67,12 +59,6 @@ import { ready } from 'jquery';
           arrowLeft={<ArrowBtn type="left" />}
         arrowRight={<ArrowBtn type="right" />}
           >
-            {isLoading && (
-              <Spinner animation="border" role="status">
-                <span className="sr-only">Loading...</span>
-              </Spinner>
-            )}
-
             {data.map((item, i) => (
               <Carousel.Item key={i}>
                   <div className="col-md-3 col-sm-12 col-xs-12 mb-3 ml-2">
