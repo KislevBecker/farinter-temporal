@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from 'react-grid-carousel';
+import Spinner from 'react-bootstrap/Spinner';
 import ModalOfertas from '../components/ModalOfertas';
 import styled from 'styled-components';
 import { ready } from 'jquery';
@@ -63,6 +64,9 @@ import { ready } from 'jquery';
           arrowLeft={<ArrowBtn type="left" />}
         arrowRight={<ArrowBtn type="right" />}
           >
+            {/* <Spinner animation="border" role="status">
+              <span className="sr-only">Loading...</span>
+            </Spinner> */}
             {data.map((item, i) => (
               <Carousel.Item key={i}>
                   <div className="col-md-3 col-sm-12 col-xs-12 mb-3 ml-2">
