@@ -11,7 +11,7 @@ import { ready } from 'jquery';
 
   const [data, setData] = useState([]);
   const [selectedPic, setSelectedPic] = useState("");
-    const [isloading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(async () => {
     try {
@@ -67,7 +67,7 @@ import { ready } from 'jquery';
           arrowLeft={<ArrowBtn type="left" />}
         arrowRight={<ArrowBtn type="right" />}
           >
-            {isloading && (
+            {isLoading && (
               <Spinner animation="border" role="status">
                 <span className="sr-only">Loading...</span>
               </Spinner>
