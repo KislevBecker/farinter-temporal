@@ -15,13 +15,7 @@ import { ready } from 'jquery';
   useEffect(async () => {
       try {
           //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
-       //agregado de nuevo
-               const headers= {
-                  'Access-Control-Allow-Origin' : '*',
-                  'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',   
-              }
-       //hasta aqui   
-          const res = await axios.get("https://172.16.2.127:4430/API/TBL_IMAGENES_OFERTAS_WEBFARINTER", {headers})
+          const res = await axios.get(process.env.REACT_APP_URL)
           
           console.log(res);
           setData (JSON.parse(res.data));
