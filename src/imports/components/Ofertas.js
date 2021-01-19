@@ -15,9 +15,11 @@ import { ready } from 'jquery';
   useEffect(async () => {
       try {
           //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
-          const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
+          //const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
+          const res = await axios.get("172.16.2.127:8090/Api/Cambio?PAIS=3")
+          
           console.log(res);
-          setData (JSON.parse(res.data));
+          // setData (JSON.parse(res.data));
       } catch (error) {
           console.log(error)
       }
