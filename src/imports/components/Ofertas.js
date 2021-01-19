@@ -16,14 +16,18 @@ import { ready } from 'jquery';
       try {
           //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
        //agregado de nuevo
-       const headers = {
-        'Access-Control-Allow-Origin' : '*',
-        'Access-Control-Allow-Methods': 'PUT,GET,POST,DELETE,OPTIONS',
-        allow_headers : "Referer,Accept,Origin,User-Agent,Content-Type",
-       
-      };
+       axios.create({baseURL:" "});
+       const instance = axios.create(
+        {
+                baseURL: "",
+                withCredentials: false,
+                headers: {
+                  'Access-Control-Allow-Origin' : '*',
+                  'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',   
+              }
+          })
        //hasta aqui   
-          const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER", {headers})
+          const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER", {instance})
           
           console.log(res);
           setData (JSON.parse(res.data));
