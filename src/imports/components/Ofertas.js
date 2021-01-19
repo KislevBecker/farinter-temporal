@@ -20,7 +20,7 @@ import { ready } from 'jquery';
         'Access-Control-Allow-Origin' : '*',
         'Access-Control-Allow-Methods': 'PUT,GET,POST,DELETE,OPTIONS',
         allow_headers : "Referer,Accept,Origin,User-Agent,Content-Type",
-        'Access-Control-Allow-Headers' : allow_headers,
+       
       };
        //hasta aqui   
           const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER", {headers})
