@@ -21,7 +21,7 @@ import { ready } from 'jquery';
                   'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',   
               }
        //hasta aqui   
-          const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER", {headers})
+          const res = await axios.get("https://172.16.2.127:4430/API/TBL_IMAGENES_OFERTAS_WEBFARINTER", {headers})
           
           console.log(res);
           setData (JSON.parse(res.data));
