@@ -9,7 +9,7 @@ import almirall from '../../img/FARMA2/ALMIRALL.png';
 import ashonplafa from '../../img/FARMA2/ASHONPLAFA.png';
 import aspen from '../../img/FARMA2/ASPEN.png';
 import astamedica from '../../img/FARMA2/ASTA MEDICA.png';
-import aventis from '../../img/FARMA2/AVENTIS.png';
+import betafarm from '../../img/FARMA2/Betafarm.png';
 import bago from '../../img/FARMA2/BAGÓ.png';
 import bayer from '../../img/FARMA2/BAYER.png';
 import bayerhealth from '../../img/FARMA2/BAYER HEALTH CARE.png';
@@ -85,13 +85,15 @@ import UNIPHARM from '../../img/FARMA2/UNIPHARM.png';
 import valeant from '../../img/FARMA2/VALEANT GROSSMAN.png';
 import VIFOR from '../../img/FARMA2/VIFOR PHARMA.png';
 import VITOTAL from '../../img/FARMA2/VITOTAL.png';
-import WHYETH from '../../img/FARMA2/WYETH.png';
+import fungiplus from '../../img/FARMA2/Fungiplus.png';
+import steriscrub from '../../img/FARMA2/Steriscrub.png';
+
 
 // imagenes para modal
 import eme from '../../img/farma/3M.png';
 import logoAstra from '../../img/farma/ASTRAZENECA.png';
 import abottNormal from '../../img/farma/ABBOTT.png';
-import logoAventis from '../../img/farma/AVENTIS.png';
+import logoBetafarm from '../../img/farma/Betafarm.png';
 import logoAlcon from '../../img/farma/ALCON.png';
 import logoBago from '../../img/farma/BAGÓ.png';
 import logoAlmiral from '../../img/farma/ALMIRALL.png';
@@ -136,7 +138,7 @@ import logoQC from '../../img/farma/QC.png';
 import logoSwissfarm from '../../img/farma/SWISSFARM.png';
 import logoVifor from '../../img/farma/VIFOR PHARMA.png';
 import logoVitotal from '../../img/farma/VITOTAL.png';
-import logoWyeth from '../../img/farma/WYETH.png';
+import logoFungiplus from '../../img/farma/Fungiplus.png';
 
 import logoAshonplafa from '../../img/farma/ASHONPLAFA.png';
 import logoAstamedica from '../../img/farma/ASTA MEDICA.png';
@@ -174,6 +176,7 @@ import logoservier from '../../img/farma/SERVIER.png';
 import logosuperior from '../../img/farma/SUPERIOR.png';
 import logoucb from '../../img/farma/UCB.png';
 import logovaleant from '../../img/farma/VALEANT GROSSMAN.png';
+import logoSteriscrub from '../../img/farma/Steriscrub.png';
 
 
 class Farma extends React.Component {
@@ -266,6 +269,7 @@ class Farma extends React.Component {
               superior : false,
               ucb : false,
               valeant: false,
+              steriscrub: false,
          }
     }
 //eme
@@ -355,6 +359,7 @@ class Farma extends React.Component {
         this.setState({superior : false})
         this.setState({ucb : false})
         this.setState({valeant: false})
+        this.setState({steriscrub : false })
     }
     //abot
        changeColor2(){
@@ -443,6 +448,7 @@ class Farma extends React.Component {
         this.setState({superior : false})
         this.setState({ucb : false})
         this.setState({valeant: false})
+        this.setState({steriscrub : false })
          }
     //alcon
     changeColor3(){
@@ -450,6 +456,7 @@ class Farma extends React.Component {
         this.setState({abott: false})
         this.setState({alcon: !this.state.alcon})
         this.setState({almiral: false})
+        this.setState({steriscrub : false })
         this.setState({aspen: false})
         this.setState({aventis: false})
         this.setState({astra: false})
@@ -536,6 +543,7 @@ class Farma extends React.Component {
   changeColor4(){
        this.setState({eme: false})
         this.setState({abott: false})
+        this.setState({steriscrub : false })
         this.setState({alcon: false})
         this.setState({almiral: !this.state.almiral})
         this.setState({aspen: false})
@@ -623,6 +631,7 @@ class Farma extends React.Component {
 // aspen
    changeColor5(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -713,6 +722,7 @@ class Farma extends React.Component {
 changeColor6(){
      this.setState({eme: false})
         this.setState({abott: false})
+        this.setState({steriscrub : false })
         this.setState({alcon: false})
         this.setState({almiral: false})
         this.setState({aspen: false})
@@ -801,6 +811,7 @@ changeColor6(){
 //aztra
 changeColor7(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -890,6 +901,7 @@ changeColor7(){
 //bago
  changeColor8(){
       this.setState({eme: false})
+      this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -979,6 +991,7 @@ changeColor7(){
 //bayer
 changeColor9(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1068,6 +1081,7 @@ changeColor9(){
 //bial
 changeColor10(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1157,6 +1171,7 @@ changeColor10(){
 //bussie
  changeColor11(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1246,6 +1261,7 @@ changeColor10(){
 //covidien
 changeColor12(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1335,6 +1351,7 @@ changeColor12(){
 //detector
 changeColor13(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1425,6 +1442,7 @@ changeColor13(){
 //euromed
 changeColor14(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1514,6 +1532,7 @@ changeColor14(){
 //eurotest
 changeColor15(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1603,6 +1622,7 @@ changeColor15(){
 //fleet
 changeColor16(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1692,6 +1712,7 @@ changeColor16(){
 //galderma
 changeColor17(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1781,6 +1802,7 @@ changeColor17(){
 //gnoma
 changeColor18(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1870,6 +1892,7 @@ changeColor18(){
 //gensyme
 changeColor19(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -1959,6 +1982,7 @@ changeColor19(){
   //grifols
   changeColor20(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2048,6 +2072,7 @@ changeColor19(){
   //grunenthal
   changeColor21(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2137,6 +2162,7 @@ changeColor19(){
   //gsk
   changeColor22(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2226,6 +2252,7 @@ changeColor19(){
   //lasante
   changeColor23(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2315,6 +2342,7 @@ changeColor19(){
   //lafrancol
   changeColor24(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2404,6 +2432,7 @@ changeColor19(){
   //lilly
   changeColor25(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2493,6 +2522,7 @@ changeColor19(){
   //mead
   changeColor26(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2581,6 +2611,7 @@ changeColor19(){
     //medice
     changeColor27(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2669,6 +2700,7 @@ changeColor19(){
     //medix
     changeColor28(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2758,6 +2790,7 @@ changeColor19(){
     //merck
     changeColor29(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2846,6 +2879,7 @@ changeColor19(){
     //microlife
     changeColor30(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -2934,6 +2968,7 @@ changeColor19(){
     //msd
     changeColor31(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3023,6 +3058,7 @@ changeColor19(){
     //novartis
     changeColor32(){
      this.setState({eme: false})
+     this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3112,6 +3148,7 @@ changeColor19(){
     //nutricia
     changeColor33(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3200,6 +3237,7 @@ changeColor19(){
     //pfizer
     changeColor34(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3289,6 +3327,7 @@ changeColor19(){
     //pharma
     changeColor35(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3377,6 +3416,7 @@ changeColor19(){
     //promeco
     changeColor36(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3466,6 +3506,7 @@ changeColor19(){
         //qc
     changeColor37(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3554,6 +3595,7 @@ changeColor19(){
     //roche
     changeColor38(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3642,6 +3684,7 @@ changeColor19(){
     //roemmers
     changeColor39(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3730,6 +3773,7 @@ changeColor19(){
     //sandoz
     changeColor40(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3819,6 +3863,7 @@ changeColor19(){
     //sanofis
     changeColor41(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3907,6 +3952,7 @@ changeColor19(){
     //schering
     changeColor42(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -3995,6 +4041,7 @@ changeColor19(){
     //stiefel
     changeColor43(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4083,6 +4130,7 @@ changeColor19(){
     //swissfarm
     changeColor44(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4171,6 +4219,7 @@ changeColor19(){
     //talecris
     changeColor45(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4259,6 +4308,7 @@ changeColor19(){
     //unipharm
     changeColor46(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4349,6 +4399,7 @@ changeColor19(){
         //vifor
     changeColor47(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4437,6 +4488,7 @@ changeColor19(){
     //vitotal
     changeColor48(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4524,6 +4576,7 @@ changeColor19(){
     }
     //wyeth
     changeColor49(){
+      this.setState({steriscrub : false })
     this.setState({eme: false})
         this.setState({abott: false})
         this.setState({alcon: false})
@@ -4615,6 +4668,7 @@ changeColor19(){
        //ashonplafa
     changeColor50(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4704,6 +4758,7 @@ changeColor19(){
        //astamedica
     changeColor51(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4793,6 +4848,7 @@ changeColor19(){
            //bayerhealth
     changeColor52(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4882,6 +4938,7 @@ changeColor19(){
                //biokemical
     changeColor53(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -4972,6 +5029,7 @@ changeColor19(){
                //biopas
     changeColor54(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5061,6 +5119,7 @@ changeColor19(){
                //bonimas
     changeColor55(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5150,6 +5209,7 @@ changeColor19(){
                //cheplapharm
     changeColor56(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5238,6 +5298,7 @@ changeColor19(){
              //church
     changeColor57(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5326,6 +5387,7 @@ changeColor19(){
 
              //clement
     changeColor58(){
+      this.setState({steriscrub : false })
     this.setState({eme: false})
         this.setState({abott: false})
         this.setState({alcon: false})
@@ -5416,6 +5478,7 @@ changeColor19(){
               //drifarma
     changeColor59(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5505,6 +5568,7 @@ changeColor19(){
            //farmitalia
     changeColor60(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5594,6 +5658,7 @@ changeColor19(){
             //grupopharma
     changeColor61(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5683,6 +5748,7 @@ changeColor19(){
           //hoeschst
     changeColor62(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5772,6 +5838,7 @@ changeColor19(){
           //jpharma
     changeColor63(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5861,6 +5928,7 @@ changeColor19(){
            //lederle
     changeColor64(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -5951,6 +6019,7 @@ changeColor19(){
                //le0
     changeColor65(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6040,6 +6109,7 @@ changeColor19(){
            //lundbeck
     changeColor66(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6128,6 +6198,7 @@ changeColor19(){
       //md
     changeColor67(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6217,6 +6288,7 @@ changeColor19(){
    //mepha
     changeColor68(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6306,6 +6378,7 @@ changeColor19(){
     //nestlecarribean
     changeColor69(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6395,6 +6468,7 @@ changeColor19(){
  //om
     changeColor70(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6484,6 +6558,7 @@ changeColor19(){
  //owen
     changeColor71(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6573,6 +6648,7 @@ changeColor19(){
  //panalab
     changeColor72(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6662,6 +6738,7 @@ changeColor19(){
     //parkedavis
     changeColor73(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6751,6 +6828,7 @@ changeColor19(){
 //pasmo
     changeColor74(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6840,6 +6918,7 @@ changeColor19(){
 //pharmanova
     changeColor75(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -6929,6 +7008,7 @@ changeColor19(){
 //procaps
     changeColor76(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7018,6 +7098,7 @@ changeColor19(){
 //proderpharma
     changeColor77(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7107,6 +7188,7 @@ changeColor19(){
     //rhone
     changeColor78(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7197,6 +7279,7 @@ changeColor19(){
         //roussel
     changeColor79(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7286,6 +7369,7 @@ changeColor19(){
    //rowe
     changeColor80(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7375,6 +7459,7 @@ changeColor19(){
    //searle
     changeColor81(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7464,6 +7549,7 @@ changeColor19(){
        //servier
     changeColor82(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7553,6 +7639,7 @@ changeColor19(){
        //superior
     changeColor83(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7643,6 +7730,7 @@ changeColor19(){
            //ucb
     changeColor84(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7732,6 +7820,7 @@ changeColor19(){
            //valeant
     changeColor85(){
     this.setState({eme: false})
+    this.setState({steriscrub : false })
         this.setState({abott: false})
         this.setState({alcon: false})
         this.setState({almiral: false})
@@ -7817,6 +7906,95 @@ changeColor19(){
         this.setState({ucb : false})
         this.setState({valeant: !this.state.valeant})
     }
+               //steriscrub
+               changeColor86(){
+                this.setState({eme: false})
+                    this.setState({abott: false})
+                    this.setState({alcon: false})
+                    this.setState({almiral: false})
+                    this.setState({aspen: false})
+                    this.setState({aventis: false})
+                    this.setState({astra: false})
+                    this.setState({bago: false})
+                    this.setState({bayer: false})
+                    this.setState({bial: false})
+                    this.setState({bussie: false})
+                    this.setState({covidien: false})
+                    this.setState({detector: false})
+                    this.setState({euromed: false})
+                    this.setState({eurotest: false})
+                    this.setState({fleet: false})
+                    this.setState({galderma: false})
+                    this.setState({gnoma: false})
+                    this.setState({genzyme: false})
+                    this.setState({grifols: false})
+                    this.setState({grunenthal: false})
+                    this.setState({gsk: false})
+                    this.setState({lafrancol: false})
+                    this.setState({lasante: false})
+                    this.setState({lilly: false})
+                    this.setState({mead: false})
+                    this.setState({medice: false})
+                    this.setState({medix: false})
+                    this.setState({merck: false})
+                    this.setState({microlife: false})
+                    this.setState({msd: false})
+                    this.setState({novartis: false})
+                    this.setState({nutricia: false})
+                    this.setState({pfizer: false})
+                    this.setState({pharma: false})
+                    this.setState({promeco: false})
+                    this.setState({qc: false})
+                    this.setState({roche: false})
+                    this.setState({roemmers: false})
+                    this.setState({sandoz: false})
+                    this.setState({sanofis: false})
+                    this.setState({schering: false})
+                    this.setState({stiefel: false})
+                    this.setState({swissfarm: false})
+                    this.setState({talecris: false})
+                    this.setState({unipharm: false})
+                    this.setState({vifor: false})
+                    this.setState({vitotal: false})
+                    this.setState({wyeth: false})
+                            this.setState({ashonplafa : false})
+                    this.setState({astamedica : false})
+                    this.setState({bayerhealth : false})
+                    this.setState({biokemical : false})
+                    this.setState({biopas : false})
+                    this.setState({bonima : false})
+                    this.setState({cheplapharm : false})
+                    this.setState({church : false})
+                    this.setState({clement : false})
+                    this.setState({drifarma : false})
+                    this.setState({farmitalia : false})
+                    this.setState({grupopharma : false})
+                    this.setState({hoeschst : false})
+                    this.setState({jpharma : false})
+                    this.setState({lederle : false})
+                    this.setState({leo : false})
+                    this.setState({lundbeck : false})
+                    this.setState({md : false})
+                    this.setState({mepha : false})
+                    this.setState({nestlecarribean : false})
+                    this.setState({om : false})
+                    this.setState({owen : false})
+                    this.setState({panalab : false})
+                    this.setState({parkedavis : false})
+                    this.setState({pasmo : false})
+                    this.setState({pharmanova : false})
+                    this.setState({procaps : false})
+                    this.setState({proderpharma : false})
+                    this.setState({rhone : false})
+                    this.setState({roussel : false})
+                    this.setState({rowe : false})
+                    this.setState({searle : false})
+                    this.setState({servier : false})
+                    this.setState({superior : false})
+                    this.setState({ucb : false})
+                    this.setState({valeant: false})
+                    this.setState({steriscrub : !this.state.steriscrub })
+                }
 
 
 
@@ -7906,6 +8084,7 @@ changeColor19(){
         let btn_class83 = this.state.superior ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
         let btn_class84 = this.state.ucb ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
         let btn_class85 = this.state.valeant ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class86 = this.state.steriscrub ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
 
         return (
 <div className="mt-5 container">
@@ -7953,11 +8132,6 @@ changeColor19(){
                     <img src={astamedica}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            {/* <div className= "col-md-2 mt-1">
-                <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#aventis">
-                    <img src={aventis}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div> */}
             <div className= "col-md-2 mt-1">
                 <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#astra">
                     <img src={astra}  className="p-2 w-100 center" alt="..." />
@@ -7979,8 +8153,8 @@ changeColor19(){
                 </div>
             </div>
             <div className= "col-md-2 mt-1">
-                <div className={btn_class10} onClick={this.changeColor10.bind(this)}  data-toggle="modal" data-target="#bial">
-                    <img src={BIAL}  className="p-2 w-100 center" alt="..." />
+                <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#aventis">
+                    <img src={betafarm}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
         </div>    
@@ -7990,7 +8164,11 @@ changeColor19(){
 
 {/* 3 */}
 <div className="row mb-3">
-            
+<div className= "col-md-2 mt-1">
+                <div className={btn_class10} onClick={this.changeColor10.bind(this)}  data-toggle="modal" data-target="#bial">
+                    <img src={BIAL}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
             <div className= "col-md-2 mt-1">
                 <div className={btn_class53} onClick={this.changeColor53.bind(this)} data-toggle="modal" data-target="#biokemical">
                     <img src={biokemical}  className="p-2 w-75 center" alt="..." />
@@ -8014,11 +8192,6 @@ changeColor19(){
             <div className= "col-md-2 mt-1">
                 <div className={btn_class56} onClick={this.changeColor56.bind(this)}  data-toggle="modal" data-target="#cheplapharm">
                     <img src={cheplafarm}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class57} onClick={this.changeColor57.bind(this)}  data-toggle="modal" data-target="#church">
-                    <img src={church}  className="p-2 w-75 w-50-xs-md center" alt="..." />
                 </div>
             </div>
         </div>    
@@ -8046,7 +8219,11 @@ changeColor19(){
 
         {/* 4 */}
         <div className="row mb-3">
-            
+        <div className= "col-md-2 mt-1">
+                <div className={btn_class57} onClick={this.changeColor57.bind(this)}  data-toggle="modal" data-target="#church">
+                    <img src={church}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+                </div>
+            </div>
             <div className= "col-md-2 mt-1">
                 <div className={btn_class58} onClick={this.changeColor58.bind(this)}  data-toggle="modal" data-target="#clement">
                     <img src={clement}  className="p-2 w-75 w-50-xs-md center" alt="..." />
@@ -8072,18 +8249,17 @@ changeColor19(){
                     <img src={EUROMED}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class15} onClick={this.changeColor15.bind(this)}  data-toggle="modal" data-target="#eurotest">
-                    <img src={EUROTEST}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
         </div>
 
 
 
         {/* 5 */}
         <div className="row mb-3">
-            
+        <div className= "col-md-2 mt-1">
+                <div className={btn_class15} onClick={this.changeColor15.bind(this)}  data-toggle="modal" data-target="#eurotest">
+                    <img src={EUROTEST}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
             <div className= "col-md-2 mt-1">
                 <div className={btn_class60} onClick={this.changeColor60.bind(this)}  data-toggle="modal" data-target="#farmitalia">
                     <img src={farmitalia}  className="p-2 w-75 w-50-xs-md center" alt="..." />
@@ -8092,6 +8268,11 @@ changeColor19(){
             <div className= "col-md-2 mt-1">
                 <div className={btn_class16} onClick={this.changeColor16.bind(this)}  data-toggle="modal" data-target="#fleet">
                     <img src={FLEET}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 mt-1">
+                <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#wyeth">
+                    <img src={fungiplus}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
             <div className= "col-md-2 mt-1">
@@ -8104,7 +8285,16 @@ changeColor19(){
                     <img src={gnoma}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+            
+        </div>
+
+
+
+
+
+        {/* 6 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class19} onClick={this.changeColor19.bind(this)}  data-toggle="modal" data-target="#genzyme">
                     <img src={GENZYME}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -8114,15 +8304,6 @@ changeColor19(){
                     <img src={GRIFOLS}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-        </div>
-
-
-
-
-
-        {/* 6 */}
-        <div className="row mb-3">
-            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class21} onClick={this.changeColor21.bind(this)}  data-toggle="modal" data-target="#grunenthal">
                     <img src={GRUNENTHAL}  className="p-2 w-75 center" alt="..." />
@@ -8143,7 +8324,11 @@ changeColor19(){
                     <img src={hoeschst}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+                {/* 7 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class63} onClick={this.changeColor63.bind(this)}  data-toggle="modal" data-target="#jpharma">
                     <img src={jpharma}  className="p-2 w-75 center" alt="..." />
                 </div>
@@ -8152,11 +8337,7 @@ changeColor19(){
                 <div className={btn_class23} onClick={this.changeColor23.bind(this)}  data-toggle="modal" data-target="#lafrancol">
                     <img src={lafrancol}  className="p-2 w-100 center" alt="..." />
                 </div>
-            </div>
-        </div>
-                {/* 7 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class24} onClick={this.changeColor24.bind(this)}  data-toggle="modal" data-target="#lasante">
                     <img src={lasante}  className="p-2 w-100 center" alt="..." />
@@ -8177,7 +8358,11 @@ changeColor19(){
                     <img src={lilly}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+        {/* 8 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class66} onClick={this.changeColor66.bind(this)}  data-toggle="modal" data-target="#lundbeck">
                     <img src={lundbeck}  className="p-2 w-75 center" alt="..." />
                 </div>
@@ -8186,11 +8371,7 @@ changeColor19(){
               <div className={btn_class67} onClick={this.changeColor67.bind(this)}  data-toggle="modal" data-target="#md">
                     <img src={md}  className="p-2 w-75 center" alt="..." />
               </div>
-          </div>
-        </div>
-        {/* 8 */}
-        <div className="row mb-3">
-          
+          </div>          
           <div className= "col-md-2 mt-1">
               <div className={btn_class26} onClick={this.changeColor26.bind(this)}  data-toggle="modal" data-target="#mead">
                     <img src={MEAD}  className="p-2 w-75 center" alt="..." />
@@ -8211,7 +8392,12 @@ changeColor19(){
               <img src={mepha}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 mt-1">
+
+        </div>
+
+        {/* 9 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
             <div className={btn_class29} onClick={this.changeColor29.bind(this)}  data-toggle="modal" data-target="#merck">
               <img src={MERCK}  className="p-2 w-75 center" alt="..." />
             </div>
@@ -8220,12 +8406,7 @@ changeColor19(){
                 <div className={btn_class30} onClick={this.changeColor30.bind(this)}  data-toggle="modal" data-target="#microlife">
                     <img src={MICROLIFE}  className="p-2 w-75 center" alt="..." />
                 </div>
-            </div>
-        </div>
-
-        {/* 9 */}
-        <div className="row mb-3">
-          
+            </div>          
             <div className= "col-md-2 mt-1">
                 <div className={btn_class31} onClick={this.changeColor31.bind(this)}  data-toggle="modal" data-target="#msd">
                     <img src={msd}  className="p-2 w-100 center" alt="..." />
@@ -8246,7 +8427,13 @@ changeColor19(){
                     <img src={NUTRICIA}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+
+
+        {/* 10 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class70} onClick={this.changeColor70.bind(this)}  data-toggle="modal" data-target="#om">
                     <img src={om}  className="p-2 w-75 center" alt="..." />
                 </div>
@@ -8255,13 +8442,7 @@ changeColor19(){
                 <div className={btn_class71} onClick={this.changeColor71.bind(this)}  data-toggle="modal" data-target="#owen">
                     <img src={owen}  className="p-2 w-100 center" alt="..." />
                 </div>
-            </div>
-        </div>
-
-
-        {/* 10 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class72} onClick={this.changeColor72.bind(this)}  data-toggle="modal" data-target="#panalab">
                     <img src={panalab}  className="p-2 w-100 center" alt="..." />
@@ -8282,7 +8463,12 @@ changeColor19(){
                     <img src={pfizer}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+
+        {/* 11 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class35} onClick={this.changeColor35.bind(this)}  data-toggle="modal" data-target="#pharma">
                     <img src={PHARMACIA}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -8291,12 +8477,7 @@ changeColor19(){
                 <div className={btn_class75} onClick={this.changeColor75.bind(this)}  data-toggle="modal" data-target="#pharmanova">
                     <img src={pharmanova}  className="p-2 w-100 center" alt="..." />
                 </div>
-            </div>
-        </div>
-
-        {/* 11 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class76} onClick={this.changeColor76.bind(this)}  data-toggle="modal" data-target="#procaps">
                     <img src={procaps}  className="p-2 w-100 center" alt="..." />
@@ -8317,7 +8498,13 @@ changeColor19(){
                     <img src={QC}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+
+
+        {/* 12 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class78} onClick={this.changeColor78.bind(this)}  data-toggle="modal" data-target="#rhone">
                     <img src={rhone}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -8326,13 +8513,7 @@ changeColor19(){
                 <div className={btn_class38} onClick={this.changeColor38.bind(this)}  data-toggle="modal" data-target="#roche">
                     <img src={roche}  className="p-2 w-75 center" alt="..." />
                 </div>
-            </div>
-        </div>
-
-
-        {/* 12 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class39} onClick={this.changeColor39.bind(this)}  data-toggle="modal" data-target="#roemmers">
                     <img src={roemmers}  className="p-2 w-100 center" alt="..." />
@@ -8353,7 +8534,11 @@ changeColor19(){
                     <img src={sandoz}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+
+        </div>
+        {/* 13 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class41} onClick={this.changeColor41.bind(this)}  data-toggle="modal" data-target="#sanofis">
                     <img src={sanofis}  className="p-2 w-75 w-50-xs-md center" alt="..." />
                 </div>
@@ -8362,11 +8547,7 @@ changeColor19(){
                 <div className={btn_class81} onClick={this.changeColor81.bind(this)}  data-toggle="modal" data-target="#searle">
                     <img src={searle}  className="p-2 w-75 w-50-xs-md center" alt="..." />
                 </div>
-            </div>
-        </div>
-        {/* 13 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class82} onClick={this.changeColor82.bind(this)}  data-toggle="modal" data-target="#servier">
                     <img src={servier}  className="p-2 w-100 center" alt="..." />
@@ -8378,16 +8559,24 @@ changeColor19(){
                 </div>
             </div>
             <div className= "col-md-2 mt-1">
+                <div className={btn_class86} onClick={this.changeColor86.bind(this)}  data-toggle="modal" data-target="#steriscrub">
+                    <img src={steriscrub}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class43} onClick={this.changeColor43.bind(this)}  data-toggle="modal" data-target="#stiefel">
                     <img src={stiefel}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+        </div>
+        {/* 14 */}
+        <div className="row mb-3">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class83} onClick={this.changeColor83.bind(this)}  data-toggle="modal" data-target="#superior">
                     <img src={superior}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 mt-1">
+        <div className= "col-md-2 mt-1">
               <div className={btn_class44} onClick={this.changeColor44.bind(this)}  data-toggle="modal" data-target="#swissfarm">
                     <img src={SWISSFARM}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -8396,11 +8585,7 @@ changeColor19(){
                 <div className={btn_class45} onClick={this.changeColor45.bind(this)}  data-toggle="modal" data-target="#talecris">
                     <img src={talecris}  className="p-2 w-100 center" alt="..." />
                 </div>
-            </div>
-        </div>
-        {/* 14 */}
-        <div className="row mb-3">
-            
+            </div>            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class84} onClick={this.changeColor84.bind(this)}  data-toggle="modal" data-target="#ucb">
                     <img src={ucb}  className="p-2 w-75 center" alt="..." />
@@ -8416,6 +8601,12 @@ changeColor19(){
                     <img src={valeant}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
+        </div>
+
+
+        {/* 15  */}
+        <div className="row mb-3">
+            
             <div className= "col-md-2 mt-1">
                 <div className={btn_class47} onClick={this.changeColor47.bind(this)}  data-toggle="modal" data-target="#vifor">
                     <img src={VIFOR}  className="p-2 w-100 center" alt="..." />
@@ -8427,17 +8618,6 @@ changeColor19(){
                 </div>
             </div>
         </div>
-
-
-        {/* 15
-        <div className="row mb-3">
-            
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#wyeth">
-                    <img src={WHYETH}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-        </div> */}
 
 
 
@@ -8527,7 +8707,7 @@ changeColor19(){
         </button>
        <div className="row">
            <div className="col-md-12">
-           <img src={logoAventis}  className="img-fluid" alt="..." />
+           <img src={logoBetafarm}  className="img-fluid" alt="..." />
            </div>
        </div>
       </div>
@@ -9334,7 +9514,7 @@ changeColor19(){
         </button>
        <div className="row">
            <div className="col-md-12">
-           <img src={logoWyeth}  className="img-fluid" alt="..." />
+           <img src={logoFungiplus}  className="img-fluid" alt="..." />
            </div>
        </div>
       </div>
@@ -10005,6 +10185,23 @@ changeColor19(){
   </div>
 </div>
 
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="steriscrub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoSteriscrub}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </div>
