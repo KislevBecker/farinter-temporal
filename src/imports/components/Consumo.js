@@ -5,20 +5,20 @@ import React from 'react';
 import alka from '../../img/CONSUMO1/ALKA SELTZER.png';
 import carefree from '../../img/CONSUMO1/CAREFREE.png';
 import casillero from '../../img/CONSUMO1/CASILLERO DEL DIABLO.png';
-import cleanC from '../../img/CONSUMO1/CLEAN & CLEAR.png';
+import airwick from '../../img/CONSUMO1/Air Wick.png';
 import COLOMBINA from '../../img/CONSUMO1/COLOMBINA.png';
-import CONCHA from '../../img/CONSUMO1/CONCHA Y TORO.png';
+import Aleve from '../../img/CONSUMO1/Aleve.png';
 import DERMANATURAL from '../../img/CONSUMO1/DERMANATURAL.png';
 import desitin from '../../img/CONSUMO1/DESITIN.png';
 import DVANT from '../../img/CONSUMO1/DVANT.png';
 import dove from '../../img/CONSUMO1/DOVE.png';
 import JIMADOR from '../../img/CONSUMO1/EL JIMADOR.png';
 import evenflo from '../../img/CONSUMO1/EVENFLO.png';
-import FERRERO from '../../img/CONSUMO1/FERRERO ROCHER.png';
+import BIC from '../../img/CONSUMO1/BIC.png';
 import glad from '../../img/CONSUMO1/GLAD.png';
 import HERRADURA from '../../img/CONSUMO1/HERRADURA.png';
 import hersheys from '../../img/CONSUMO1/HERSHEYS.png'; 
-import HORMEL from '../../img/CONSUMO1/HORMEL.png';
+import Bug  from '../../img/CONSUMO1/Bug Off.png';
 import HYDE from '../../img/CONSUMO1/HYDE PARK.png';
 import johnson from '../../img/CONSUMO1/JOHNSON & JOHNSON.png';
 import JUICY from '../../img/CONSUMO1/JUICY FRUIT.png';
@@ -28,7 +28,7 @@ import lubriderm from '../../img/CONSUMO1/LUBRIDERM.png';
 import LYSOL from '../../img/CONSUMO1/LYSOL.png';
 import MM from '../../img/CONSUMO1/M&MS.png';
 import MADONNA from '../../img/CONSUMO1/MADONNA.png';
-import MARUCHAN from '../../img/CONSUMO1/MARUCHAN.png';
+import Cardio from '../../img/CONSUMO1/CARDIOaspirina.png';
 import MCCORMICK from '../../img/CONSUMO1/MCCORMICK.png';
 import MILKY from '../../img/CONSUMO1/MILKY WAY.png';
 import nestle from '../../img/CONSUMO1/NESTLE.png';
@@ -36,24 +36,52 @@ import nivea from '../../img/CONSUMO1/NIVEA.png';
 import NODOR from '../../img/CONSUMO1/NODOR.png';
 import ORBIT from '../../img/CONSUMO1/ORBIT.png';
 import PEDIGREE from '../../img/CONSUMO1/PEDIGREE.png';
-import ponds from '../../img/CONSUMO1/PONDS.png';
+import charisma from '../../img/CONSUMO1/CHARISMA LOGO.png';
 import PRINGLES from '../../img/CONSUMO1/PRINGLES.png';
-import rexona from '../../img/CONSUMO1/REXONA.png';
+import clorox from '../../img/CONSUMO1/Clorox Company.png';
 import SANGRE from '../../img/CONSUMO1/SANGRE DE TORO.png';
-import sedal from '../../img/CONSUMO1/SEDAL.png';
+import clos from '../../img/CONSUMO1/Clos del Pirque.png';
 import skittles from '../../img/CONSUMO1/SKITTLES.png';
 import SNICKERS from '../../img/CONSUMO1/SNICKERS.png';
 import splenda from '../../img/CONSUMO1/SPLENDA.png';
 import STARBURST from '../../img/CONSUMO1/STARBURST.png';
 import STAYFREE from '../../img/CONSUMO1/STAYFREE.png';
 import SUMMER from '../../img/CONSUMO1/SUMMERS EVE.png';
-import tresemme from '../../img/CONSUMO1/TRESEMME.png';
+import coronas from '../../img/CONSUMO1/Coronas.png';
 import TWIX from '../../img/CONSUMO1/TWIX.png';
 import tylenol from '../../img/CONSUMO1/TYLENOL.png';
-import unilever from '../../img/CONSUMO1/UNILEVER.png';
+import donmelchor from '../../img/CONSUMO1/Don Melchor.png';
 import VITACREME from '../../img/CONSUMO1/VITACREME.png';
 import WHISKAS from '../../img/CONSUMO1/WHISKAS.png';
-import WRIGLEY from '../../img/CONSUMO1/WRIGLEY.png';
+import doublemint from '../../img/CONSUMO1/Double Mint.png';
+import freegells from '../../img/CONSUMO1/Freegells.png';
+import french from '../../img/CONSUMO1/French.png';
+import frontera from '../../img/CONSUMO1/Frontera.png';
+import harpic from '../../img/CONSUMO1/Harpic.png';
+import jalisco from '../../img/CONSUMO1/Jalisco.png';
+import jellico from '../../img/CONSUMO1/Jellico.png';
+import chula from '../../img/CONSUMO1/La Chula.png';
+import lactacyd from '../../img/CONSUMO1/Lactacyd.png';
+import nerds from '../../img/CONSUMO1/Nerds.png';
+import marques from '../../img/CONSUMO1/Marqués de Casa Concha.png';
+import niveamen from '../../img/CONSUMO1/Nivea for Men.png';
+import OGX from '../../img/CONSUMO1/OGX.png';
+import oxy from '../../img/CONSUMO1/Oxy.png';
+import redbull from '../../img/CONSUMO1/Red Bull.png';
+import robert from '../../img/CONSUMO1/Robert Mondavi.png';
+import roy from '../../img/CONSUMO1/Roy vigan blanco-01.png';
+import sweetarts from '../../img/CONSUMO1/Sweetarts.png';
+import tabcin from '../../img/CONSUMO1/Tabcin.png';
+import toñac from '../../img/CONSUMO1/Tona Clásica.png';
+import toñal from '../../img/CONSUMO1/Tona Light.png';
+import trio from '../../img/CONSUMO1/Trio.png';
+import trojan from '../../img/CONSUMO1/Trojan.png';
+import vanish from '../../img/CONSUMO1/Vanish.png';
+import venadito from '../../img/CONSUMO1/Venadito.png';
+import victoria from '../../img/CONSUMO1/Victoria Frost.png';
+import Vigui from '../../img/CONSUMO1/Vigui.png';
+import winterfresh from '../../img/CONSUMO1/Winterfresh.png';
+import woodbridge from '../../img/CONSUMO1/WoodBridge.png';
 
 // imagenes de los modals
 import logoAlka from '../../img/consumo/ALKA SELTZER.png';
@@ -61,7 +89,7 @@ import logoCarefree from '../../img/consumo/CAREFREE.png';
 import logoCasillero from '../../img/consumo/CASILLERO DEL DIABLO.png';
 import logoClean from '../../img/consumo/CLEAN & CLEAR.png';
 import logoDesitin from '../../img/consumo/desitin.png';
-import logoDove from '../../img/consumo/dove.png';
+import logoDove from '../../img/consumo/Aleve.png';
 import logoEvenflo from '../../img/consumo/evenflo.png';
 import logoGlad from '../../img/consumo/glad.png';
 import logoHersheys from '../../img/consumo/hersheys.png';
@@ -71,28 +99,28 @@ import logoListerine from '../../img/consumo/LISTERINE.png';
 import logoLubriderm from '../../img/consumo/LUBRIDERM.png';
 import logoNestle from '../../img/consumo/NESTLÉ.png';
 import logoNivea from '../../img/consumo/NIVEA.png';
-import logoPonds from '../../img/consumo/PONDS.png';
-import logoRexona from '../../img/consumo/REXONA.png';
-import logosedal from '../../img/consumo/SEDAL.png';
+import logoPonds from '../../img/consumo/CHARISMA LOGO color-01.png';
+import logoRexona from '../../img/consumo/Clorox Company.png';
+import logosedal from '../../img/consumo/Clos del Pirque.png';
 import logoSkittles from '../../img/consumo/SKITTLES.png';
 import logoSplenda from '../../img/consumo/SPLENDA.png';
-import logoTresemme from '../../img/consumo/TRESEMMÉ.png';
+import logoTresemme from '../../img/consumo/Coronas.png';
 import logoTylenol from '../../img/consumo/TYLENOL.png';
-import logoUnilever from '../../img/consumo/UNILEVER.png';
+import logoUnilever from '../../img/consumo/Don Melchor.png';
 import logoColombina from '../../img/consumo/COLOMBINA.png';
-import logoConcha from '../../img/consumo/CONCHA Y TORO.png';
+import logoConcha from '../../img/consumo/Air Wick.png';
 import logoDerma from '../../img/consumo/DERMANATURAL.png';
 import logoDvant from '../../img/consumo/DVANT.png';
 import logoJimador from '../../img/consumo/EL JIMADOR.png';
-import logoFerrero from '../../img/consumo/FERRERO ROCHER.png';
+import logoBic from '../../img/consumo/BIC.png';
 import logoHerradura from '../../img/consumo/HERRADURA.png';
-import logoHormel from '../../img/consumo/HORMEL.png';
+import logoHormel from '../../img/consumo/Bug Off.png';
 import logoHyde from '../../img/consumo/HYDE PARK.png';
 import logoKisses from '../../img/consumo/KISSES.png';
 import logoLysol from '../../img/consumo/LYSOL.png';
 import logoMm from '../../img/consumo/M&MS.png';
 import logoMadonna from '../../img/consumo/MADONNA.png';
-import logoMaruchan from '../../img/consumo/MARUCHAN.png';
+import logoMaruchan from '../../img/consumo/CARDIOaspirina.png';
 import logoMcormick from '../../img/consumo/MCCORMICK.png';
 import logoMilky from '../../img/consumo/MILKY WAY.png';
 import logoNodor from '../../img/consumo/NODOR.png';
@@ -107,8 +135,35 @@ import logoSummer from '../../img/consumo/SUMMERS EVE.png';
 import logoTwix from '../../img/consumo/TWIX.png';
 import logoVitacreme from '../../img/consumo/VITACREME.png';
 import logoWhiskas from '../../img/consumo/WHISKAS.png';
-import logoWrigley from '../../img/consumo/WRIGLEY.png';
-
+import logoWrigley from '../../img/consumo/Double Mint.png';
+import logoFreegells from '../../img/consumo/Freegells.png';
+import logoFrench from '../../img/consumo/French.png';
+import logoFrontera from '../../img/consumo/Frontera.png';
+import logoHarpic from '../../img/consumo/Harpic.png';
+import logoJalisco from '../../img/consumo/Jalisco.png';
+import logoJellico from '../../img/consumo/Jellico.png';
+import logoChula from '../../img/consumo/La Chula.png';
+import logoLactacyd from '../../img/consumo/Lactacyd.png';
+import logoMarques from '../../img/consumo/Marqués de Casa Concha.png';
+import logoNerds from '../../img/consumo/Nerds.png';
+import logoNiveaMen from '../../img/consumo/Nivea for Men.png';
+import logoOGX from '../../img/consumo/OGX.png';
+import logoOxy from '../../img/consumo/Oxy.png';
+import logoRedbull from '../../img/consumo/Red Bull.png';
+import logoRobert from '../../img/consumo/Robert Mondavi.png';
+import logoRoy from '../../img/consumo/Roy vigan color-01.png';
+import logoSweetarts from '../../img/consumo/Sweetarts.png';
+import logoTabcin from '../../img/consumo/Tabcin.png';
+import logoTonal from '../../img/consumo/Tona Light.png';
+import logoTonac from '../../img/consumo/Toña Clásica.png';
+import logoTrio from '../../img/consumo/Trio.png';
+import logoTrojan from '../../img/consumo/Trojan.png';
+import logoVanish from '../../img/consumo/Vanish.png';
+import logoVenadito from '../../img/consumo/Venadito.png';
+import logoVictoria from '../../img/consumo/Victoria Frost.png';
+import logoVigui from '../../img/consumo/Vigui.png';
+import logoWinterfresh from '../../img/consumo/Winterfresh.png';
+import logoWoodbridge from '../../img/consumo/WoodBridge.png';
 
 
 class Consumo extends React.Component {
@@ -177,6 +232,34 @@ class Consumo extends React.Component {
     changeColor(){
         this.setState({alka: !this.state.alka})
         this.setState({axe: false})
+        this.setState({freegells:false})
+        this.setState({french:false})
+        this.setState({frontera:false})
+        this.setState({harpic:false})
+        this.setState({jalisco:false})
+        this.setState({jellico:false})
+        this.setState({chula :false})
+        this.setState({lactacyd:false})
+        this.setState({marques:false})
+        this.setState({nerds :false})
+        this.setState({niveamen:false})
+        this.setState({ogx  :false})
+        this.setState({oxy  :false})
+        this.setState({redbul:false})
+        this.setState({robert:false})
+        this.setState({roy :false})
+        this.setState({sweeta:false})
+        this.setState({tabcin:false})
+        this.setState({toñac :false})
+        this.setState({toñal :false})
+        this.setState({trio :false})
+        this.setState({trojan:false})
+        this.setState({vanish:false})
+        this.setState({venadito:false})
+        this.setState({victor:false})
+        this.setState({vigui :false})
+        this.setState({winterfresh:false})
+        this.setState({woodbridge:false})
         this.setState({carefree: false})
         this.setState({casillero: false})
         this.setState({clean: false})
@@ -229,11 +312,39 @@ class Consumo extends React.Component {
         this.setState({vitacreme: false})
         this.setState({whiskas: false})
         this.setState({wrigley: false})
+
     }
     //carefree
     changeColor2(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: !this.state.carefree})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -291,6 +402,33 @@ class Consumo extends React.Component {
     changeColor3(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: !this.state.casillero})
       this.setState({clean: false})
@@ -348,6 +486,33 @@ class Consumo extends React.Component {
     changeColor4(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: !this.state.clean})
@@ -405,6 +570,33 @@ class Consumo extends React.Component {
     changeColor5(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -461,6 +653,33 @@ class Consumo extends React.Component {
     changeColor6(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -518,6 +737,33 @@ class Consumo extends React.Component {
     changeColor7(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -575,6 +821,33 @@ class Consumo extends React.Component {
     changeColor8(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -632,6 +905,33 @@ class Consumo extends React.Component {
     changeColor9(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -689,6 +989,33 @@ class Consumo extends React.Component {
     changeColor10(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -746,6 +1073,33 @@ class Consumo extends React.Component {
     changeColor11(){
       this.setState({alka: false})
       this.setState({axe: false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
       this.setState({carefree: false})
       this.setState({casillero: false})
       this.setState({clean: false})
@@ -803,6 +1157,33 @@ class Consumo extends React.Component {
 changeColor12(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -859,6 +1240,33 @@ changeColor12(){
 // ferrero
 changeColor13(){
   this.setState({alka: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({axe: false})
   this.setState({carefree: false})
   this.setState({casillero: false})
@@ -917,6 +1325,33 @@ changeColor13(){
 changeColor14(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -974,6 +1409,33 @@ changeColor14(){
 changeColor15(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -1031,6 +1493,33 @@ changeColor15(){
 changeColor16(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -1088,6 +1577,33 @@ changeColor16(){
 changeColor17(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -1145,6 +1661,33 @@ changeColor17(){
 changeColor18(){
   this.setState({alka: false})
   this.setState({axe: false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
   this.setState({carefree: false})
   this.setState({casillero: false})
   this.setState({clean: false})
@@ -1546,6 +2089,33 @@ changeColor18(){
   changeColor25(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1603,6 +2173,33 @@ changeColor18(){
   changeColor26(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1659,6 +2256,33 @@ changeColor18(){
   //maruchan
   changeColor27(){ 
     this.setState({alka: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({axe: false})
     this.setState({carefree: false})
     this.setState({casillero: false})
@@ -1717,6 +2341,33 @@ changeColor18(){
   changeColor28(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1774,6 +2425,33 @@ changeColor18(){
   changeColor29(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1831,6 +2509,33 @@ changeColor18(){
   changeColor30(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1888,6 +2593,33 @@ changeColor18(){
   changeColor31(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -1945,6 +2677,33 @@ changeColor18(){
   changeColor32(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2002,6 +2761,33 @@ changeColor18(){
   changeColor33(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2059,6 +2845,33 @@ changeColor18(){
   changeColor34(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2117,6 +2930,33 @@ changeColor18(){
     this.setState({alka: false})
     this.setState({axe: false})
     this.setState({carefree: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({casillero: false})
     this.setState({clean: false})
     this.setState({colombina: false})
@@ -2173,6 +3013,33 @@ changeColor18(){
   changeColor36(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2230,6 +3097,33 @@ changeColor18(){
   changeColor37(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2287,6 +3181,33 @@ changeColor18(){
   changeColor38(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2344,6 +3265,33 @@ changeColor18(){
   changeColor39(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2401,6 +3349,33 @@ changeColor18(){
   changeColor40(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2458,6 +3433,33 @@ changeColor18(){
   changeColor41(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2515,6 +3517,33 @@ changeColor18(){
   changeColor42(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2572,6 +3601,33 @@ changeColor18(){
   changeColor43(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2629,6 +3685,33 @@ changeColor18(){
   changeColor44(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2685,6 +3768,33 @@ changeColor18(){
   changeColor45(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2741,6 +3851,33 @@ changeColor18(){
   changeColor46(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2798,6 +3935,33 @@ changeColor18(){
   changeColor47(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2855,6 +4019,60 @@ changeColor18(){
   changeColor48(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2912,6 +4130,33 @@ changeColor18(){
   changeColor49(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -2969,6 +4214,33 @@ changeColor18(){
   changeColor50(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -3026,6 +4298,33 @@ changeColor18(){
   changeColor51(){
     this.setState({alka: false})
     this.setState({axe: false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({carefree: false})
     this.setState({casillero: false})
     this.setState({clean: false})
@@ -3082,6 +4381,34 @@ changeColor18(){
   //wrigley
   changeColor52(){
     this.setState({alka: false})
+    this.setState({freegells:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
     this.setState({axe: false})
     this.setState({carefree: false})
     this.setState({casillero: false})
@@ -3137,6 +4464,2415 @@ changeColor18(){
     this.setState({wrigley: !this.state.wrigley})  
   }
 
+  //freegells
+  changeColor53(){
+    this.setState({alka: false})
+    this.setState({axe: false})
+    this.setState({carefree: false})
+    this.setState({casillero: false})
+    this.setState({clean: false})
+    this.setState({colombina: false})
+    this.setState({concha: false})
+    this.setState({derma: false})
+    this.setState({desitin: false})
+    this.setState({dove: false})
+    this.setState({dvant: false})
+    this.setState({jimador: false})
+    this.setState({evenflo: false})
+    this.setState({ferrero: false})
+    this.setState({glad: false})
+    this.setState({herradura: false})
+    this.setState({hershey: false})
+    this.setState({hormel: false})
+    this.setState({hyde: false})
+    this.setState({john: false})
+    this.setState({juisy: false})
+    this.setState({keri: false})
+    this.setState({kisses: false})
+    this.setState({listerine: false})
+    this.setState({lubriderm: false})        
+    this.setState({lysol: false})
+    this.setState({mm: false})
+    this.setState({madonna: false})
+    this.setState({maruchan: false})
+    this.setState({mcormick: false})
+    this.setState({milky: false})
+    this.setState({nestle: false})
+    this.setState({nivea: false})
+    this.setState({nodor: false})
+    this.setState({orbit: false})
+    this.setState({pedigree: false})
+    this.setState({ponds: false})
+    this.setState({pringles: false})
+    this.setState({rexona: false})
+    this.setState({sangre: false})
+    this.setState({sedal: false})
+    this.setState({skittles: false})
+    this.setState({snickers: false})
+    this.setState({splenda: false})
+    this.setState({star: false})
+    this.setState({stayfree: false})
+    this.setState({summer: false})
+    this.setState({treseme: false})
+    this.setState({twix: false})
+    this.setState({tylenol: false})
+    this.setState({unilever: false})
+    this.setState({vitacreme: false})
+    this.setState({whiskas: false})
+    this.setState({wrigley: false})
+    this.setState({freegells:!this.state.freegells})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+  }
+
+    //french
+    changeColor54(){
+      this.setState({alka: false})
+      this.setState({axe: false})
+      this.setState({carefree: false})
+      this.setState({casillero: false})
+      this.setState({clean: false})
+      this.setState({colombina: false})
+      this.setState({concha: false})
+      this.setState({derma: false})
+      this.setState({desitin: false})
+      this.setState({dove: false})
+      this.setState({dvant: false})
+      this.setState({jimador: false})
+      this.setState({evenflo: false})
+      this.setState({ferrero: false})
+      this.setState({glad: false})
+      this.setState({herradura: false})
+      this.setState({hershey: false})
+      this.setState({hormel: false})
+      this.setState({hyde: false})
+      this.setState({john: false})
+      this.setState({juisy: false})
+      this.setState({keri: false})
+      this.setState({kisses: false})
+      this.setState({listerine: false})
+      this.setState({lubriderm: false})        
+      this.setState({lysol: false})
+      this.setState({mm: false})
+      this.setState({madonna: false})
+      this.setState({maruchan: false})
+      this.setState({mcormick: false})
+      this.setState({milky: false})
+      this.setState({nestle: false})
+      this.setState({nivea: false})
+      this.setState({nodor: false})
+      this.setState({orbit: false})
+      this.setState({pedigree: false})
+      this.setState({ponds: false})
+      this.setState({pringles: false})
+      this.setState({rexona: false})
+      this.setState({sangre: false})
+      this.setState({sedal: false})
+      this.setState({skittles: false})
+      this.setState({snickers: false})
+      this.setState({splenda: false})
+      this.setState({star: false})
+      this.setState({stayfree: false})
+      this.setState({summer: false})
+      this.setState({treseme: false})
+      this.setState({twix: false})
+      this.setState({tylenol: false})
+      this.setState({unilever: false})
+      this.setState({vitacreme: false})
+      this.setState({whiskas: false})
+      this.setState({wrigley: false})
+      this.setState({freegells:false})
+      this.setState({french:!this.state.french})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
+    }
+
+        //frontera
+        changeColor55(){
+          this.setState({alka: false})
+          this.setState({axe: false})
+          this.setState({carefree: false})
+          this.setState({casillero: false})
+          this.setState({clean: false})
+          this.setState({colombina: false})
+          this.setState({concha: false})
+          this.setState({derma: false})
+          this.setState({desitin: false})
+          this.setState({dove: false})
+          this.setState({dvant: false})
+          this.setState({jimador: false})
+          this.setState({evenflo: false})
+          this.setState({ferrero: false})
+          this.setState({glad: false})
+          this.setState({herradura: false})
+          this.setState({hershey: false})
+          this.setState({hormel: false})
+          this.setState({hyde: false})
+          this.setState({john: false})
+          this.setState({juisy: false})
+          this.setState({keri: false})
+          this.setState({kisses: false})
+          this.setState({listerine: false})
+          this.setState({lubriderm: false})        
+          this.setState({lysol: false})
+          this.setState({mm: false})
+          this.setState({madonna: false})
+          this.setState({maruchan: false})
+          this.setState({mcormick: false})
+          this.setState({milky: false})
+          this.setState({nestle: false})
+          this.setState({nivea: false})
+          this.setState({nodor: false})
+          this.setState({orbit: false})
+          this.setState({pedigree: false})
+          this.setState({ponds: false})
+          this.setState({pringles: false})
+          this.setState({rexona: false})
+          this.setState({sangre: false})
+          this.setState({sedal: false})
+          this.setState({skittles: false})
+          this.setState({snickers: false})
+          this.setState({splenda: false})
+          this.setState({star: false})
+          this.setState({stayfree: false})
+          this.setState({summer: false})
+          this.setState({treseme: false})
+          this.setState({twix: false})
+          this.setState({tylenol: false})
+          this.setState({unilever: false})
+          this.setState({vitacreme: false})
+          this.setState({whiskas: false})
+          this.setState({wrigley: false})
+          this.setState({freegells:false})
+          this.setState({french:false})
+          this.setState({frontera:!this.state.frontera})
+          this.setState({harpic:false})
+          this.setState({jalisco:false})
+          this.setState({jellico:false})
+          this.setState({chula :false})
+          this.setState({lactacyd:false})
+          this.setState({marques:false})
+          this.setState({nerds :false})
+          this.setState({niveamen:false})
+          this.setState({ogx  :false})
+          this.setState({oxy  :false})
+          this.setState({redbul:false})
+          this.setState({robert:false})
+          this.setState({roy :false})
+          this.setState({sweeta:false})
+          this.setState({tabcin:false})
+          this.setState({toñac :false})
+          this.setState({toñal :false})
+          this.setState({trio :false})
+          this.setState({trojan:false})
+          this.setState({vanish:false})
+          this.setState({venadito:false})
+          this.setState({victor:false})
+          this.setState({vigui :false})
+          this.setState({winterfresh:false})
+          this.setState({woodbridge:false})
+        }
+        //harpic
+        changeColor56(){
+          this.setState({alka: false})
+          this.setState({axe: false})
+          this.setState({carefree: false})
+          this.setState({casillero: false})
+          this.setState({clean: false})
+          this.setState({colombina: false})
+          this.setState({concha: false})
+          this.setState({derma: false})
+          this.setState({desitin: false})
+          this.setState({dove: false})
+          this.setState({dvant: false})
+          this.setState({jimador: false})
+          this.setState({evenflo: false})
+          this.setState({ferrero: false})
+          this.setState({glad: false})
+          this.setState({herradura: false})
+          this.setState({hershey: false})
+          this.setState({hormel: false})
+          this.setState({hyde: false})
+          this.setState({john: false})
+          this.setState({juisy: false})
+          this.setState({keri: false})
+          this.setState({kisses: false})
+          this.setState({listerine: false})
+          this.setState({lubriderm: false})        
+          this.setState({lysol: false})
+          this.setState({mm: false})
+          this.setState({madonna: false})
+          this.setState({maruchan: false})
+          this.setState({mcormick: false})
+          this.setState({milky: false})
+          this.setState({nestle: false})
+          this.setState({nivea: false})
+          this.setState({nodor: false})
+          this.setState({orbit: false})
+          this.setState({pedigree: false})
+          this.setState({ponds: false})
+          this.setState({pringles: false})
+          this.setState({rexona: false})
+          this.setState({sangre: false})
+          this.setState({sedal: false})
+          this.setState({skittles: false})
+          this.setState({snickers: false})
+          this.setState({splenda: false})
+          this.setState({star: false})
+          this.setState({stayfree: false})
+          this.setState({summer: false})
+          this.setState({treseme: false})
+          this.setState({twix: false})
+          this.setState({tylenol: false})
+          this.setState({unilever: false})
+          this.setState({vitacreme: false})
+          this.setState({whiskas: false})
+          this.setState({wrigley: false})
+          this.setState({freegells:false})
+          this.setState({french:false})
+          this.setState({frontera:false})
+          this.setState({harpic:!this.state.harpic})
+          this.setState({jalisco:false})
+          this.setState({jellico:false})
+          this.setState({chula :false})
+          this.setState({lactacyd:false})
+          this.setState({marques:false})
+          this.setState({nerds :false})
+          this.setState({niveamen:false})
+          this.setState({ogx  :false})
+          this.setState({oxy  :false})
+          this.setState({redbul:false})
+          this.setState({robert:false})
+          this.setState({roy :false})
+          this.setState({sweeta:false})
+          this.setState({tabcin:false})
+          this.setState({toñac :false})
+          this.setState({toñal :false})
+          this.setState({trio :false})
+          this.setState({trojan:false})
+          this.setState({vanish:false})
+          this.setState({venadito:false})
+          this.setState({victor:false})
+          this.setState({vigui :false})
+          this.setState({winterfresh:false})
+          this.setState({woodbridge:false})
+        }
+
+        //jalisco
+        changeColor57(){
+          this.setState({alka: false})
+          this.setState({axe: false})
+          this.setState({carefree: false})
+          this.setState({casillero: false})
+          this.setState({clean: false})
+          this.setState({colombina: false})
+          this.setState({concha: false})
+          this.setState({derma: false})
+          this.setState({desitin: false})
+          this.setState({dove: false})
+          this.setState({dvant: false})
+          this.setState({jimador: false})
+          this.setState({evenflo: false})
+          this.setState({ferrero: false})
+          this.setState({glad: false})
+          this.setState({herradura: false})
+          this.setState({hershey: false})
+          this.setState({hormel: false})
+          this.setState({hyde: false})
+          this.setState({john: false})
+          this.setState({juisy: false})
+          this.setState({keri: false})
+          this.setState({kisses: false})
+          this.setState({listerine: false})
+          this.setState({lubriderm: false})        
+          this.setState({lysol: false})
+          this.setState({mm: false})
+          this.setState({madonna: false})
+          this.setState({maruchan: false})
+          this.setState({mcormick: false})
+          this.setState({milky: false})
+          this.setState({nestle: false})
+          this.setState({nivea: false})
+          this.setState({nodor: false})
+          this.setState({orbit: false})
+          this.setState({pedigree: false})
+          this.setState({ponds: false})
+          this.setState({pringles: false})
+          this.setState({rexona: false})
+          this.setState({sangre: false})
+          this.setState({sedal: false})
+          this.setState({skittles: false})
+          this.setState({snickers: false})
+          this.setState({splenda: false})
+          this.setState({star: false})
+          this.setState({stayfree: false})
+          this.setState({summer: false})
+          this.setState({treseme: false})
+          this.setState({twix: false})
+          this.setState({tylenol: false})
+          this.setState({unilever: false})
+          this.setState({vitacreme: false})
+          this.setState({whiskas: false})
+          this.setState({wrigley: false})
+          this.setState({freegells:false})
+          this.setState({french:false})
+          this.setState({frontera:false})
+          this.setState({harpic:false})
+          this.setState({jalisco:!this.state.jalisco})
+          this.setState({jellico:false})
+          this.setState({chula :false})
+          this.setState({lactacyd:false})
+          this.setState({marques:false})
+          this.setState({nerds :false})
+          this.setState({niveamen:false})
+          this.setState({ogx  :false})
+          this.setState({oxy  :false})
+          this.setState({redbul:false})
+          this.setState({robert:false})
+          this.setState({roy :false})
+          this.setState({sweeta:false})
+          this.setState({tabcin:false})
+          this.setState({toñac :false})
+          this.setState({toñal :false})
+          this.setState({trio :false})
+          this.setState({trojan:false})
+          this.setState({vanish:false})
+          this.setState({venadito:false})
+          this.setState({victor:false})
+          this.setState({vigui :false})
+          this.setState({winterfresh:false})
+          this.setState({woodbridge:false})
+        }
+
+  //jellico
+  changeColor58(){
+    this.setState({alka: false})
+    this.setState({axe: false})
+    this.setState({carefree: false})
+    this.setState({casillero: false})
+    this.setState({clean: false})
+    this.setState({colombina: false})
+    this.setState({concha: false})
+    this.setState({derma: false})
+    this.setState({desitin: false})
+    this.setState({dove: false})
+    this.setState({dvant: false})
+    this.setState({jimador: false})
+    this.setState({evenflo: false})
+    this.setState({ferrero: false})
+    this.setState({glad: false})
+    this.setState({herradura: false})
+    this.setState({hershey: false})
+    this.setState({hormel: false})
+    this.setState({hyde: false})
+    this.setState({john: false})
+    this.setState({juisy: false})
+    this.setState({keri: false})
+    this.setState({kisses: false})
+    this.setState({listerine: false})
+    this.setState({lubriderm: false})        
+    this.setState({lysol: false})
+    this.setState({mm: false})
+    this.setState({madonna: false})
+    this.setState({maruchan: false})
+    this.setState({mcormick: false})
+    this.setState({milky: false})
+    this.setState({nestle: false})
+    this.setState({nivea: false})
+    this.setState({nodor: false})
+    this.setState({orbit: false})
+    this.setState({pedigree: false})
+    this.setState({ponds: false})
+    this.setState({pringles: false})
+    this.setState({rexona: false})
+    this.setState({sangre: false})
+    this.setState({sedal: false})
+    this.setState({skittles: false})
+    this.setState({snickers: false})
+    this.setState({splenda: false})
+    this.setState({star: false})
+    this.setState({stayfree: false})
+    this.setState({summer: false})
+    this.setState({treseme: false})
+    this.setState({twix: false})
+    this.setState({tylenol: false})
+    this.setState({unilever: false})
+    this.setState({vitacreme: false})
+    this.setState({whiskas: false})
+    this.setState({wrigley: false})
+    this.setState({freegells:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:!this.state.jellico})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+  }
+
+   //chula
+   changeColor59(){
+    this.setState({alka: false})
+    this.setState({axe: false})
+    this.setState({carefree: false})
+    this.setState({casillero: false})
+    this.setState({clean: false})
+    this.setState({colombina: false})
+    this.setState({concha: false})
+    this.setState({derma: false})
+    this.setState({desitin: false})
+    this.setState({dove: false})
+    this.setState({dvant: false})
+    this.setState({jimador: false})
+    this.setState({evenflo: false})
+    this.setState({ferrero: false})
+    this.setState({glad: false})
+    this.setState({herradura: false})
+    this.setState({hershey: false})
+    this.setState({hormel: false})
+    this.setState({hyde: false})
+    this.setState({john: false})
+    this.setState({juisy: false})
+    this.setState({keri: false})
+    this.setState({kisses: false})
+    this.setState({listerine: false})
+    this.setState({lubriderm: false})        
+    this.setState({lysol: false})
+    this.setState({mm: false})
+    this.setState({madonna: false})
+    this.setState({maruchan: false})
+    this.setState({mcormick: false})
+    this.setState({milky: false})
+    this.setState({nestle: false})
+    this.setState({nivea: false})
+    this.setState({nodor: false})
+    this.setState({orbit: false})
+    this.setState({pedigree: false})
+    this.setState({ponds: false})
+    this.setState({pringles: false})
+    this.setState({rexona: false})
+    this.setState({sangre: false})
+    this.setState({sedal: false})
+    this.setState({skittles: false})
+    this.setState({snickers: false})
+    this.setState({splenda: false})
+    this.setState({star: false})
+    this.setState({stayfree: false})
+    this.setState({summer: false})
+    this.setState({treseme: false})
+    this.setState({twix: false})
+    this.setState({tylenol: false})
+    this.setState({unilever: false})
+    this.setState({vitacreme: false})
+    this.setState({whiskas: false})
+    this.setState({wrigley: false})
+    this.setState({freegells:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :!this.state.chula})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+  }
+     //lactacyd
+     changeColor60(){
+      this.setState({alka: false})
+      this.setState({axe: false})
+      this.setState({carefree: false})
+      this.setState({casillero: false})
+      this.setState({clean: false})
+      this.setState({colombina: false})
+      this.setState({concha: false})
+      this.setState({derma: false})
+      this.setState({desitin: false})
+      this.setState({dove: false})
+      this.setState({dvant: false})
+      this.setState({jimador: false})
+      this.setState({evenflo: false})
+      this.setState({ferrero: false})
+      this.setState({glad: false})
+      this.setState({herradura: false})
+      this.setState({hershey: false})
+      this.setState({hormel: false})
+      this.setState({hyde: false})
+      this.setState({john: false})
+      this.setState({juisy: false})
+      this.setState({keri: false})
+      this.setState({kisses: false})
+      this.setState({listerine: false})
+      this.setState({lubriderm: false})        
+      this.setState({lysol: false})
+      this.setState({mm: false})
+      this.setState({madonna: false})
+      this.setState({maruchan: false})
+      this.setState({mcormick: false})
+      this.setState({milky: false})
+      this.setState({nestle: false})
+      this.setState({nivea: false})
+      this.setState({nodor: false})
+      this.setState({orbit: false})
+      this.setState({pedigree: false})
+      this.setState({ponds: false})
+      this.setState({pringles: false})
+      this.setState({rexona: false})
+      this.setState({sangre: false})
+      this.setState({sedal: false})
+      this.setState({skittles: false})
+      this.setState({snickers: false})
+      this.setState({splenda: false})
+      this.setState({star: false})
+      this.setState({stayfree: false})
+      this.setState({summer: false})
+      this.setState({treseme: false})
+      this.setState({twix: false})
+      this.setState({tylenol: false})
+      this.setState({unilever: false})
+      this.setState({vitacreme: false})
+      this.setState({whiskas: false})
+      this.setState({wrigley: false})
+      this.setState({freegells:false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:!this.state.lactacyd})
+      this.setState({marques:false})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
+    }
+
+     //marques
+     changeColor61(){
+      this.setState({alka: false})
+      this.setState({axe: false})
+      this.setState({carefree: false})
+      this.setState({casillero: false})
+      this.setState({clean: false})
+      this.setState({colombina: false})
+      this.setState({concha: false})
+      this.setState({derma: false})
+      this.setState({desitin: false})
+      this.setState({dove: false})
+      this.setState({dvant: false})
+      this.setState({jimador: false})
+      this.setState({evenflo: false})
+      this.setState({ferrero: false})
+      this.setState({glad: false})
+      this.setState({herradura: false})
+      this.setState({hershey: false})
+      this.setState({hormel: false})
+      this.setState({hyde: false})
+      this.setState({john: false})
+      this.setState({juisy: false})
+      this.setState({keri: false})
+      this.setState({kisses: false})
+      this.setState({listerine: false})
+      this.setState({lubriderm: false})        
+      this.setState({lysol: false})
+      this.setState({mm: false})
+      this.setState({madonna: false})
+      this.setState({maruchan: false})
+      this.setState({mcormick: false})
+      this.setState({milky: false})
+      this.setState({nestle: false})
+      this.setState({nivea: false})
+      this.setState({nodor: false})
+      this.setState({orbit: false})
+      this.setState({pedigree: false})
+      this.setState({ponds: false})
+      this.setState({pringles: false})
+      this.setState({rexona: false})
+      this.setState({sangre: false})
+      this.setState({sedal: false})
+      this.setState({skittles: false})
+      this.setState({snickers: false})
+      this.setState({splenda: false})
+      this.setState({star: false})
+      this.setState({stayfree: false})
+      this.setState({summer: false})
+      this.setState({treseme: false})
+      this.setState({twix: false})
+      this.setState({tylenol: false})
+      this.setState({unilever: false})
+      this.setState({vitacreme: false})
+      this.setState({whiskas: false})
+      this.setState({wrigley: false})
+      this.setState({freegells:false})
+      this.setState({french:false})
+      this.setState({frontera:false})
+      this.setState({harpic:false})
+      this.setState({jalisco:false})
+      this.setState({jellico:false})
+      this.setState({chula :false})
+      this.setState({lactacyd:false})
+      this.setState({marques:!this.state.marques})
+      this.setState({nerds :false})
+      this.setState({niveamen:false})
+      this.setState({ogx  :false})
+      this.setState({oxy  :false})
+      this.setState({redbul:false})
+      this.setState({robert:false})
+      this.setState({roy :false})
+      this.setState({sweeta:false})
+      this.setState({tabcin:false})
+      this.setState({toñac :false})
+      this.setState({toñal :false})
+      this.setState({trio :false})
+      this.setState({trojan:false})
+      this.setState({vanish:false})
+      this.setState({venadito:false})
+      this.setState({victor:false})
+      this.setState({vigui :false})
+      this.setState({winterfresh:false})
+      this.setState({woodbridge:false})
+    }    
+
+  //nerds
+  changeColor62(){
+    this.setState({alka: false})
+    this.setState({axe: false})
+    this.setState({carefree: false})
+    this.setState({casillero: false})
+    this.setState({clean: false})
+    this.setState({colombina: false})
+    this.setState({concha: false})
+    this.setState({derma: false})
+    this.setState({desitin: false})
+    this.setState({dove: false})
+    this.setState({dvant: false})
+    this.setState({jimador: false})
+    this.setState({evenflo: false})
+    this.setState({ferrero: false})
+    this.setState({glad: false})
+    this.setState({herradura: false})
+    this.setState({hershey: false})
+    this.setState({hormel: false})
+    this.setState({hyde: false})
+    this.setState({john: false})
+    this.setState({juisy: false})
+    this.setState({keri: false})
+    this.setState({kisses: false})
+    this.setState({listerine: false})
+    this.setState({lubriderm: false})        
+    this.setState({lysol: false})
+    this.setState({mm: false})
+    this.setState({madonna: false})
+    this.setState({maruchan: false})
+    this.setState({mcormick: false})
+    this.setState({milky: false})
+    this.setState({nestle: false})
+    this.setState({nivea: false})
+    this.setState({nodor: false})
+    this.setState({orbit: false})
+    this.setState({pedigree: false})
+    this.setState({ponds: false})
+    this.setState({pringles: false})
+    this.setState({rexona: false})
+    this.setState({sangre: false})
+    this.setState({sedal: false})
+    this.setState({skittles: false})
+    this.setState({snickers: false})
+    this.setState({splenda: false})
+    this.setState({star: false})
+    this.setState({stayfree: false})
+    this.setState({summer: false})
+    this.setState({treseme: false})
+    this.setState({twix: false})
+    this.setState({tylenol: false})
+    this.setState({unilever: false})
+    this.setState({vitacreme: false})
+    this.setState({whiskas: false})
+    this.setState({wrigley: false})
+    this.setState({freegells:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :!this.state.nerds})
+    this.setState({niveamen:false})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+  }        
+
+  //niveamen
+  changeColor63(){
+    this.setState({alka: false})
+    this.setState({axe: false})
+    this.setState({carefree: false})
+    this.setState({casillero: false})
+    this.setState({clean: false})
+    this.setState({colombina: false})
+    this.setState({concha: false})
+    this.setState({derma: false})
+    this.setState({desitin: false})
+    this.setState({dove: false})
+    this.setState({dvant: false})
+    this.setState({jimador: false})
+    this.setState({evenflo: false})
+    this.setState({ferrero: false})
+    this.setState({glad: false})
+    this.setState({herradura: false})
+    this.setState({hershey: false})
+    this.setState({hormel: false})
+    this.setState({hyde: false})
+    this.setState({john: false})
+    this.setState({juisy: false})
+    this.setState({keri: false})
+    this.setState({kisses: false})
+    this.setState({listerine: false})
+    this.setState({lubriderm: false})        
+    this.setState({lysol: false})
+    this.setState({mm: false})
+    this.setState({madonna: false})
+    this.setState({maruchan: false})
+    this.setState({mcormick: false})
+    this.setState({milky: false})
+    this.setState({nestle: false})
+    this.setState({nivea: false})
+    this.setState({nodor: false})
+    this.setState({orbit: false})
+    this.setState({pedigree: false})
+    this.setState({ponds: false})
+    this.setState({pringles: false})
+    this.setState({rexona: false})
+    this.setState({sangre: false})
+    this.setState({sedal: false})
+    this.setState({skittles: false})
+    this.setState({snickers: false})
+    this.setState({splenda: false})
+    this.setState({star: false})
+    this.setState({stayfree: false})
+    this.setState({summer: false})
+    this.setState({treseme: false})
+    this.setState({twix: false})
+    this.setState({tylenol: false})
+    this.setState({unilever: false})
+    this.setState({vitacreme: false})
+    this.setState({whiskas: false})
+    this.setState({wrigley: false})
+    this.setState({freegells:false})
+    this.setState({french:false})
+    this.setState({frontera:false})
+    this.setState({harpic:false})
+    this.setState({jalisco:false})
+    this.setState({jellico:false})
+    this.setState({chula :false})
+    this.setState({lactacyd:false})
+    this.setState({marques:false})
+    this.setState({nerds :false})
+    this.setState({niveamen:!this.state.niveamen})
+    this.setState({ogx  :false})
+    this.setState({oxy  :false})
+    this.setState({redbul:false})
+    this.setState({robert:false})
+    this.setState({roy :false})
+    this.setState({sweeta:false})
+    this.setState({tabcin:false})
+    this.setState({toñac :false})
+    this.setState({toñal :false})
+    this.setState({trio :false})
+    this.setState({trojan:false})
+    this.setState({vanish:false})
+    this.setState({venadito:false})
+    this.setState({victor:false})
+    this.setState({vigui :false})
+    this.setState({winterfresh:false})
+    this.setState({woodbridge:false})
+  }        
+
+ //ogx
+ changeColor64(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :!this.state.ogx})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+
+//oxy
+changeColor65(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :!this.state.oxy})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//redbul
+changeColor66(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:!this.state.redbul})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//robert
+changeColor67(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:!this.state.robert})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//roy
+changeColor68(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :!this.state.roy})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//sweetarts
+changeColor69(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:!this.state.sweeta})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//tabcin
+changeColor70(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:!this.state.tabcin})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+}        
+
+//toñac
+changeColor71(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :!this.state.toñac})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//toñal
+changeColor72(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :!this.state.toñal})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//trio
+changeColor73(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :!this.state.trio})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//trojan
+changeColor74(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:!this.state.trojan})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//vanish
+changeColor75(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:!this.state.vanish})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+
+//venadito
+changeColor76(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:!this.state.venadito})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+
+//victoria
+changeColor77(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:!this.state.victor})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//vigui
+changeColor78(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :!this.state.vigui})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:false})
+} 
+
+//winterfresh
+changeColor79(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:!this.state.winterfresh})
+  this.setState({woodbridge:false})
+} 
+
+
+//winterfresh
+changeColor80(){
+  this.setState({alka: false})
+  this.setState({axe: false})
+  this.setState({carefree: false})
+  this.setState({casillero: false})
+  this.setState({clean: false})
+  this.setState({colombina: false})
+  this.setState({concha: false})
+  this.setState({derma: false})
+  this.setState({desitin: false})
+  this.setState({dove: false})
+  this.setState({dvant: false})
+  this.setState({jimador: false})
+  this.setState({evenflo: false})
+  this.setState({ferrero: false})
+  this.setState({glad: false})
+  this.setState({herradura: false})
+  this.setState({hershey: false})
+  this.setState({hormel: false})
+  this.setState({hyde: false})
+  this.setState({john: false})
+  this.setState({juisy: false})
+  this.setState({keri: false})
+  this.setState({kisses: false})
+  this.setState({listerine: false})
+  this.setState({lubriderm: false})        
+  this.setState({lysol: false})
+  this.setState({mm: false})
+  this.setState({madonna: false})
+  this.setState({maruchan: false})
+  this.setState({mcormick: false})
+  this.setState({milky: false})
+  this.setState({nestle: false})
+  this.setState({nivea: false})
+  this.setState({nodor: false})
+  this.setState({orbit: false})
+  this.setState({pedigree: false})
+  this.setState({ponds: false})
+  this.setState({pringles: false})
+  this.setState({rexona: false})
+  this.setState({sangre: false})
+  this.setState({sedal: false})
+  this.setState({skittles: false})
+  this.setState({snickers: false})
+  this.setState({splenda: false})
+  this.setState({star: false})
+  this.setState({stayfree: false})
+  this.setState({summer: false})
+  this.setState({treseme: false})
+  this.setState({twix: false})
+  this.setState({tylenol: false})
+  this.setState({unilever: false})
+  this.setState({vitacreme: false})
+  this.setState({whiskas: false})
+  this.setState({wrigley: false})
+  this.setState({freegells:false})
+  this.setState({french:false})
+  this.setState({frontera:false})
+  this.setState({harpic:false})
+  this.setState({jalisco:false})
+  this.setState({jellico:false})
+  this.setState({chula :false})
+  this.setState({lactacyd:false})
+  this.setState({marques:false})
+  this.setState({nerds :false})
+  this.setState({niveamen:false})
+  this.setState({ogx  :false})
+  this.setState({oxy  :false})
+  this.setState({redbul:false})
+  this.setState({robert:false})
+  this.setState({roy :false})
+  this.setState({sweeta:false})
+  this.setState({tabcin:false})
+  this.setState({toñac :false})
+  this.setState({toñal :false})
+  this.setState({trio :false})
+  this.setState({trojan:false})
+  this.setState({vanish:false})
+  this.setState({venadito:false})
+  this.setState({victor:false})
+  this.setState({vigui :false})
+  this.setState({winterfresh:false})
+  this.setState({woodbridge:!this.state.woodbridge})
+} 
 
     render(){
         let btn_class = this.state.alka ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
@@ -3191,9 +6927,35 @@ changeColor18(){
         let btn_class50 = this.state.vitacreme ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
         let btn_class51 = this.state.whiskas ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
         let btn_class52 = this.state.wrigley ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
-        
-        
-        
+        let btn_class53 = this.state.freegells ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class54 = this.state.french ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class55 = this.state.frontera ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class56 = this.state.harpic ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class57 = this.state.jalisco ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class58 = this.state.jellico ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class59 = this.state.chula ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class60 = this.state.lactacyd ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class61 = this.state.marques ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class62 = this.state.nerds ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class63 = this.state.niveamen ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class64 = this.state.ogx ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class65 = this.state.oxy ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class66 = this.state.redbull ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class67 = this.state.robert ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class68 = this.state.roy ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class69 = this.state.sweeta ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class70 = this.state.tabcin ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class71 = this.state.toñac ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class72 = this.state.toñal ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class73 = this.state.trio ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class74 = this.state.trojan ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class75 = this.state.vanish ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class76 = this.state.venadito ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class77 = this.state.victor ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class78 = this.state.vigui ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class79 = this.state.winterfresh ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+        let btn_class80 = this.state.woodbridge ? "bg-danger card card-3 pointer" : "bg-azul card card-3 pointer";
+
   return (
     <div className="mt-5 container">
       <div className= "row">
@@ -3201,11 +6963,41 @@ changeColor18(){
       </div>
       <div className="row mb-3">
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-          <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#alka">
-            <img src={alka}  className="p-2 w-100 center" alt="..." />
+          <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#airwick">
+            <img src={airwick}  className="p-2 w-100 center" alt="..." />
+          </div>
+        </div>  
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#aleve">
+            <img src={Aleve}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#alka">
+            <img src={alka}  className="p-2 w-100 center" alt="..." />
+          </div>
+        </div>                    
+            <div className= "col-md-2">
+                <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#ferrero">
+                    <img src={BIC}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+                        
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#hormel">
+                    <img src={Bug}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#maruchan">
+                    <img src={Cardio}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+      </div>    
+
+{/* 2 */}
+  <div className="row mb-3">
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
           <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#carefree">
             <img src={carefree}  className="p-2 w-100 center" alt="..." />
           </div>
@@ -3215,21 +7007,34 @@ changeColor18(){
             <img src={casillero}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
-        {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-          <div className={btn_class4} onClick={this.changeColor4.bind(this)} data-toggle="modal" data-target="#cleanC">
-            <img src={cleanC}  className="p-2 w-75 center" alt="..." />
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#ponds">
+            <img src={charisma}  className="p-2 w-100 center" alt="..." />
           </div>
-        </div> */}
+        </div>
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#rexona">
+            <img src={clorox}  className="p-2 w-100 w-50-xs-md center" alt="..." />
+          </div>
+        </div>            
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className={btn_class39} onClick={this.changeColor39.bind(this)} data-toggle="modal" data-target="#sedal">
+            <img src={clos}  className="p-2 w-50 center" alt="..." />
+          </div>
+        </div>            
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
           <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#colombina">
             <img src={COLOMBINA}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
-        {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-          <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#concha">
-            <img src={CONCHA}  className="p-2 w-100 center" alt="..." />
+  </div>
+{/* 3 */}
+<div className="row mb-3">
+<div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#treseme">
+              <img src={coronas}  className="p-2 w-75 center" alt="..." />
+            </div>
           </div>
-        </div> */}
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
           <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#derma">
             <img src={DERMANATURAL}  className="p-2 w-75 center" alt="..." />
@@ -3240,21 +7045,25 @@ changeColor18(){
             <img src={desitin}  className="p-2 w-100 center" alt="..." />
           </div>
         </div>
-      </div>    
-
-      {/* 2 */}
-      <div className="row mb-3">
-{/*         
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-          <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#dove">
-            <img src={dove}  className="p-2 w-75 center" alt="..." />
+          <div className={btn_class49} onClick={this.changeColor49.bind(this)} data-toggle="modal" data-target="#unilever">
+            <img src={donmelchor}  className="p-2 w-75 w-50-xs-md center" alt="..." />
           </div>
-        </div> */}
+        </div>
         <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#wrigley">
+                    <img src={doublemint}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#dvant">
                     <img src={DVANT}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
+</div>
+      {/* 4 */}
+      <div className="row mb-3">
+
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#jimador">
                     <img src={JIMADOR}  className="p-2 w-75 center" alt="..." />
@@ -3266,9 +7075,33 @@ changeColor18(){
                 </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class53} onClick={this.changeColor53.bind(this)} data-toggle="modal" data-target="#freegells">
+                    <img src={freegells}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class54} onClick={this.changeColor54.bind(this)} data-toggle="modal" data-target="#french">
+                    <img src={french}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class55} onClick={this.changeColor55.bind(this)} data-toggle="modal" data-target="#frontera">
+                    <img src={frontera}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
               <div className={btn_class14} onClick={this.changeColor14.bind(this)} data-toggle="modal" data-target="#glad">
                 <img src={glad}  className="p-2 w-75 center" alt="..." />
               </div>
+            </div>
+      </div>
+
+{/* 5 */}
+<div className="row mb-3">
+<div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class56} onClick={this.changeColor56.bind(this)} data-toggle="modal" data-target="#harpic">
+                    <img src={harpic}  className="p-2 w-100 center" alt="..." />
+                </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class15} onClick={this.changeColor15.bind(this)} data-toggle="modal" data-target="#herradura">
@@ -3280,30 +7113,27 @@ changeColor18(){
                 <img src={hersheys}  className="p-2 w-75 center" alt="..." />
               </div>
             </div>
-
-      </div>
-
-        {/* 3 */}
-        <div className="row mb-3">
-            
-            {/* <div className= "col-md-2">
-                <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#ferrero">
-                    <img src={FERRERO}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div> */}
-            
-
-            
-            {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#hormel">
-                    <img src={HORMEL}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div> */}
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#hyde">
                     <img src={HYDE}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class57} onClick={this.changeColor57.bind(this)} data-toggle="modal" data-target="#jalisco">
+                    <img src={jalisco}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class58} onClick={this.changeColor58.bind(this)} data-toggle="modal" data-target="#jellico">
+                    <img src={jellico}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+
+</div>
+
+        {/* 6 */}
+        <div className="row mb-3">
+
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
             <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#johnson">
                     <img src={johnson}  className="p-2 w-100 center" alt="..." />
@@ -3320,20 +7150,29 @@ changeColor18(){
               </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+              <div className={btn_class59} onClick={this.changeColor59.bind(this)} data-toggle="modal" data-target="#chula">
+                <img src={chula}  className="p-2 w-100 center" alt="..." />
+              </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+              <div className={btn_class60} onClick={this.changeColor60.bind(this)} data-toggle="modal" data-target="#lactacyd">
+                <img src={lactacyd}  className="p-2 w-100 center" alt="..." />
+              </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#listerine">
                     <img src={listerine}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#lubriderm">
-                    <img src={lubriderm}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
         </div>
-        {/* 4 */}
-        <div className="row mb-3">
-
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+{/* 6 */}
+<div className="row mb-3">
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+    <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#lubriderm">
+      <img src={lubriderm}  className="p-2 w-100 center" alt="..." />
+    </div>
+  </div>
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
             <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#lysol">
               <img src={LYSOL}  className=" p-2 w-75 center" alt="..." />
             </div>
@@ -3349,32 +7188,43 @@ changeColor18(){
                 </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class61} onClick={this.changeColor61.bind(this)} data-toggle="modal" data-target="#marques">
+                    <img src={marques}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#mcormick">
                     <img src={MCCORMICK}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
+</div>
+
+        {/* 7 */}
+        <div className="row mb-3">
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#milky">
                     <img src={MILKY}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+              <div className={btn_class62} onClick={this.changeColor62.bind(this)} data-toggle="modal" data-target="#nerds">
+                <img src={nerds}  className="p-2 w-100 center" alt="..." />
+              </div>
+            </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
               <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#nestle">
                 <img src={nestle}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#maruchan">
-                    <img src={MARUCHAN}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div> */}
-        </div>
-        {/* 5*/}
-        <div className="row mb-3">
-            
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class31} onClick={this.changeColor31.bind(this)} data-toggle="modal" data-target="#nivea">
                     <img src={nivea}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
+                        
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class63} onClick={this.changeColor63.bind(this)} data-toggle="modal" data-target="#niveamen">
+                    <img src={niveamen}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
@@ -3382,11 +7232,27 @@ changeColor18(){
                     <img src={NODOR}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
+            
+        </div>
+        {/* 8*/}
+        <div className="row mb-3">
+
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class64} onClick={this.changeColor64.bind(this)} data-toggle="modal" data-target="#ogx">
+                    <img src={OGX}  className="p-2 w-100 center" alt="..." />
+                </div>
+            </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#orbit">
                     <img src={ORBIT}  className=" p-2 w-75 center" alt="..." />
                 </div>
             </div>
+            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                <div className={btn_class65} onClick={this.changeColor65.bind(this)} data-toggle="modal" data-target="#oxy">
+                    <img src={oxy}  className="p-2 w-75 center" alt="..." />
+                </div>
+            </div>
+            
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
             <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pedigree">
               <img src={PEDIGREE}  className=" p-2 w-75 center" alt="..." />
@@ -3398,33 +7264,28 @@ changeColor18(){
                 </div>
             </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#sangre">
-                    <img src={SANGRE}  className=" p-2 w-75 center" alt="..." />
-                </div>
-            </div>
+    <div className={btn_class66} onClick={this.changeColor66.bind(this)} data-toggle="modal" data-target="#redbull">
+      <img src={redbull}  className="p-2 w-100 center" alt="..." />
+    </div>
+  </div>
         </div>
-
-        {/* 6*/}
-        <div className="row mb-3">
-          
-            {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#ponds">
-                    <img src={ponds}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div> */}
-            
-            
-            {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#rexona">
-                    <img src={rexona}  className="p-2 w-100 w-50-xs-md center" alt="..." />
-                </div>
-            </div>             */}
-            
-            {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-            <div className={btn_class39} onClick={this.changeColor39.bind(this)} data-toggle="modal" data-target="#sedal">
-                    <img src={sedal}  className="p-2 w-50 center" alt="..." />
-                </div>
-            </div> */}
+        {/* 9 */}
+<div className= "row mb-3">
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+    <div className={btn_class67} onClick={this.changeColor67.bind(this)} data-toggle="modal" data-target="#robert">
+      <img src={robert}  className="p-2 w-100 center" alt="..." />
+    </div>
+  </div>
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+    <div className={btn_class68} onClick={this.changeColor68.bind(this)} data-toggle="modal" data-target="#roy">
+      <img src={roy}  className="p-2 w-100 center" alt="..." />
+    </div>
+  </div>
+  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+    <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#sangre">
+      <img src={SANGRE}  className=" p-2 w-75 center" alt="..." />
+    </div>
+  </div>
             <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#skittles">
                     <img src={skittles}  className="p-2 w-75 center" alt="..." />
@@ -3440,7 +7301,13 @@ changeColor18(){
                 <div className={btn_class42} onClick={this.changeColor42.bind(this)} data-toggle="modal" data-target="#splenda">
                     <img src={splenda}  className="p-2 w-100 center" alt="..." />
                 </div>
-            </div>
+            </div>            
+            
+            
+</div>
+        {/* 10*/}
+        <div className="row mb-3">
+
                       <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
             <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#star">
                <img src={STARBURST}  className="p-2 w-75 center" alt="..." />
@@ -3456,11 +7323,41 @@ changeColor18(){
               <img src={SUMMER}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class69} onClick={this.changeColor69.bind(this)} data-toggle="modal" data-target="#sweetarts">
+              <img src={sweetarts}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class70} onClick={this.changeColor70.bind(this)} data-toggle="modal" data-target="#tabcin">
+              <img src={tabcin}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class71} onClick={this.changeColor71.bind(this)} data-toggle="modal" data-target="#toñac">
+              <img src={toñac}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
         </div>
         
         {/* 7 */}
         <div className="row mb-3">
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class72} onClick={this.changeColor72.bind(this)} data-toggle="modal" data-target="#toñal">
+              <img src={toñal}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class73} onClick={this.changeColor73.bind(this)} data-toggle="modal" data-target="#trio">
+              <img src={trio}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class74} onClick={this.changeColor74.bind(this)} data-toggle="modal" data-target="#trojan">
+              <img src={trojan}  className="p-2 w-75 w-50-xs-md center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
             <div className={btn_class47} onClick={this.changeColor47.bind(this)} data-toggle="modal" data-target="#twix">
               <img src={TWIX}  className="p-2 w-75 center" alt="..." />
             </div>
@@ -3470,7 +7367,31 @@ changeColor18(){
               <img src={tylenol}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class75} onClick={this.changeColor75.bind(this)} data-toggle="modal" data-target="#vanish">
+              <img src={vanish}  className="p-2 w-75 center" alt="..." />
+            </div>
+          </div>          
+        </div>
+        {/* 8 */}
+        <div className="row mb-3">
           <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class76} onClick={this.changeColor76.bind(this)} data-toggle="modal" data-target="#venadito">
+              <img src={venadito}  className="p-2 w-75 center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class77} onClick={this.changeColor77.bind(this)} data-toggle="modal" data-target="#victoria">
+              <img src={victoria}  className="p-2 w-75 center" alt="..." />
+            </div>
+          </div>
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class78} onClick={this.changeColor78.bind(this)} data-toggle="modal" data-target="#vigui">
+              <img src={Vigui}  className="p-2 w-75 center" alt="..." />
+            </div>
+          </div>
+          
+        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
                 <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#vitacreme">
                     <img src={VITACREME}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -3480,35 +7401,27 @@ changeColor18(){
                     <img src={WHISKAS}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            
-        </div>
-        {/* 8 */}
-        {/*<div className="row mb-3">
-        
-           <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-            <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#treseme">
-              <img src={tresemme}  className="p-2 w-75 center" alt="..." />
+ <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class79} onClick={this.changeColor79.bind(this)} data-toggle="modal" data-target="#winterfresh">
+              <img src={winterfresh}  className="p-2 w-75 center" alt="..." />
             </div>
-          </div> */}
+          </div>            
+        </div>
           
 
-          {/* <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class49} onClick={this.changeColor49.bind(this)} data-toggle="modal" data-target="#unilever">
-                    <img src={unilever}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-                </div>
-            </div>             
-        </div>*/}
         {/* 9 */}
-        {/* <div className="row mb-3">
- 
+        <div className="row mb-3">
+
+          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className={btn_class80} onClick={this.changeColor80.bind(this)} data-toggle="modal" data-target="#woodbridge">
+              <img src={woodbridge}  className="p-2 w-75 center" alt="..." />
+            </div>
+          </div>
+          
 
             
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
-                <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#wrigley">
-                    <img src={WRIGLEY}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div> 
-        </div>*/}
+ 
+        </div>
         
         {/* <!-- Modal 1--> */}
 <div className="modal fade" id="alka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -3603,7 +7516,7 @@ changeColor18(){
 </div>
 
 {/* <!-- Modal 6--> */}
-<div className="modal fade" id="concha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="airwick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered modal-lg">
     <div className="modal-content2">
       <div className="modal-body">
@@ -3659,7 +7572,7 @@ changeColor18(){
 
 
 {/* <!-- Modal 9--> */}
-<div className="modal fade" id="dove" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="aleve" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered modal-lg">
     <div className="modal-content2">
       <div className="modal-body">
@@ -3741,7 +7654,7 @@ changeColor18(){
         </button>
        <div className="row">
            <div className="col-md-12">
-           <img src={logoFerrero}  className="img-fluid" alt="..." />
+           <img src={logoBic}  className="img-fluid" alt="..." />
            </div>
        </div>
       </div>
@@ -4465,10 +8378,496 @@ changeColor18(){
   </div>
 </div>
 
+{/* <!-- Modal 53--> */}
+<div className="modal fade" id="freegells" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor53.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoFreegells}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+{/* <!-- Modal 54--> */}
+<div className="modal fade" id="french" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor54.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoFrench}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+{/* <!-- Modal 55--> */}
+<div className="modal fade" id="frontera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor55.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoFrontera}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+{/* <!-- Modal 56--> */}
+<div className="modal fade" id="harpic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor56.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoHarpic}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 57--> */}
+<div className="modal fade" id="jalisco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor57.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoJalisco}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 58--> */}
+<div className="modal fade" id="jellico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor58.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoJellico}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 59--> */}
+<div className="modal fade" id="chula" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor59.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoChula}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 60--> */}
+<div className="modal fade" id="lactacyd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor60.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoLactacyd}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 61--> */}
+<div className="modal fade" id="marques" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor61.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoMarques}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 62--> */}
+<div className="modal fade" id="nerds" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor62.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoNerds}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 63--> */}
+<div className="modal fade" id="niveamen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor63.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoNiveaMen}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 64--> */}
+<div className="modal fade" id="ogx" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor64.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoOGX}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 65--> */}
+<div className="modal fade" id="oxy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor65.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoOxy}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 66--> */}
+<div className="modal fade" id="redbull" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor66.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoRedbull}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 67--> */}
+<div className="modal fade" id="robert" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor67.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoRobert}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 68--> */}
+<div className="modal fade" id="roy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor68.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoRoy}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 69--> */}
+<div className="modal fade" id="sweetarts" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor69.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoSweetarts}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 70--> */}
+<div className="modal fade" id="tabcin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor70.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTabcin}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 71--> */}
+<div className="modal fade" id="toñac" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor71.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTonac}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 72--> */}
+<div className="modal fade" id="toñal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor72.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTonal}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 73--> */}
+<div className="modal fade" id="trio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor73.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTrio}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 74--> */}
+<div className="modal fade" id="trojan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor74.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTrojan}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 75--> */}
+<div className="modal fade" id="vanish" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor75.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoVanish}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 76--> */}
+<div className="modal fade" id="venadito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor76.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoVenadito}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 77--> */}
+<div className="modal fade" id="victoria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor77.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoVictoria}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 78--> */}
+<div className="modal fade" id="vigui" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor78.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoVigui}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 79--> */}
+<div className="modal fade" id="winterfresh" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor79.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoWinterfresh}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 80--> */}
+<div className="modal fade" id="woodbridge" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor80.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoWoodbridge}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     </div>
     
