@@ -10,7 +10,7 @@ import { ready } from 'jquery';
 
   const [data, setData] = useState([]);
   const [selectedPic, setSelectedPic] = useState("");
-
+  const [loadingOfertas, setLoadingOfertas] = useState(true)
 
   useEffect(async () => {
       try {
@@ -20,6 +20,8 @@ import { ready } from 'jquery';
           setData (res.data);
       } catch (error) {
           console.log(error)
+      }finally{
+        setLoadingOfertas(false);
       }
   }, [axios, setData],
   );
@@ -44,33 +46,45 @@ import { ready } from 'jquery';
 `
 
   return (
-    <div className="container mt-2 pt-5">
-      <ModalOfertas selectedPic={selectedPic}/>
-      <div className="row">
-            <div className="col-6">
-                <h3 className="mb-3 text-primary">Ofertas del día </h3>
+    <>
+      {
+        loadingOfertas ? (
+          <div className="d-flex justify-content-center">
+            <div className="spinner-border" role="status">
+              <span className="sr-only">Loading...</span>
             </div>
-        </div>
-      <Carousel   
-      cols={4} rows={1}  gap={10} loop  autoplay={5000}    
-          className="pr-2 pl-2"
-          indicators={false}
-          fade
-          arrowLeft={<ArrowBtn type="left" />}
-        arrowRight={<ArrowBtn type="right" />}
-          >
-            {data.map((item, i) => (
-              <Carousel.Item key={i}>
-                  <div className="col-md-3 col-sm-12 col-xs-12 mb-3 ml-2">
-                    <div className="card pointer" data-toggle="modal" data-target="#ofertasModal" onClick={()=>setSelectedPic(item.pic)}>
-                      <img width="200px" height="200px" alt="100%x280" src={`data:image/jpeg;base64,${item.pic}`} id={item.id} />
-                    </div>
-                  </div>                                     
-              </Carousel.Item>
-            ))} 
-      </Carousel>
-    </div>
+          </div>
+        ) : (
+          <div className="container mt-2 pt-5">
+          <ModalOfertas selectedPic={selectedPic}/>
+          <div className="row">
+                <div className="col-6">
+                    <h3 className="mb-3 text-primary">Ofertas del día </h3>
+                </div>
+            </div>
+          <Carousel   
+          cols={4} rows={1}  gap={10} loop  autoplay={5000}    
+              className="pr-2 pl-2"
+              indicators={false}
+              fade
+              arrowLeft={<ArrowBtn type="left" />}
+            arrowRight={<ArrowBtn type="right" />}
+              >
+                {data.map((item, i) => (
+                  <Carousel.Item key={i}>
+                      <div className="col-md-3 col-sm-12 col-xs-12 mb-3 ml-2">
+                        <div className="card pointer" data-toggle="modal" data-target="#ofertasModal" onClick={()=>setSelectedPic(item.pic)}>
+                          <img width="200px" height="200px" alt="100%x280" src={`data:image/jpeg;base64,${item.pic}`} id={item.id} />
+                        </div>
+                      </div>                                     
+                  </Carousel.Item>
+                ))} 
+            </Carousel>
+          </div>
+        )
+      }
 
+    </>
   );
 }
 export default Ofertas;
