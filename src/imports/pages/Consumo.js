@@ -6965,17 +6965,17 @@ changeColor80(){
         <h3 className="text-primary text-cursive mb-3">Catálogo de proveedores consumo</h3>
       </div>
       <div className="row mb-3">
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#airwick">
             <img src={airwick}  className="p-2 w-100 center" alt="..." />
           </div>
         </div>  
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#aleve">
             <img src={Aleve}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#alka">
             <img src={alka}  className="p-2 w-100 center" alt="..." />
           </div>
@@ -6986,12 +6986,12 @@ changeColor80(){
                 </div>
             </div>
                         
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#hormel">
                     <img src={Bug}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#maruchan">
                     <img src={Cardio}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -7000,32 +7000,32 @@ changeColor80(){
 
 {/* 2 */}
   <div className="row mb-3">
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
           <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#carefree">
             <img src={carefree}  className="p-2 w-100 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class3} onClick={this.changeColor3.bind(this)} data-toggle="modal" data-target="#casillero">
             <img src={casillero}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#ponds">
             <img src={charisma}  className="p-2 w-100 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#rexona">
             <img src={clorox}  className="p-2 w-100 w-50-xs-md center" alt="..." />
           </div>
         </div>            
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class39} onClick={this.changeColor39.bind(this)} data-toggle="modal" data-target="#sedal">
             <img src={clos}  className="p-2 w-50 center" alt="..." />
           </div>
         </div>            
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#colombina">
             <img src={COLOMBINA}  className="p-2 w-75 center" alt="..." />
           </div>
@@ -7033,32 +7033,32 @@ changeColor80(){
   </div>
 {/* 3 */}
 <div className="row mb-3">
-<div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+<div className= "col-md-2  mt-1">
             <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#treseme">
               <img src={coronas}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#derma">
             <img src={DERMANATURAL}  className="p-2 w-75 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#desitin">
             <img src={desitin}  className="p-2 w-100 center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
           <div className={btn_class49} onClick={this.changeColor49.bind(this)} data-toggle="modal" data-target="#unilever">
             <img src={donmelchor}  className="p-2 w-75 w-50-xs-md center" alt="..." />
           </div>
         </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#wrigley">
                     <img src={doublemint}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#dvant">
                     <img src={DVANT}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -7067,32 +7067,32 @@ changeColor80(){
       {/* 4 */}
       <div className="row mb-3">
 
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#jimador">
                     <img src={JIMADOR}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#evenflo">
                     <img src={evenflo}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class53} onClick={this.changeColor53.bind(this)} data-toggle="modal" data-target="#freegells">
                     <img src={freegells}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class54} onClick={this.changeColor54.bind(this)} data-toggle="modal" data-target="#french">
                     <img src={french}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class55} onClick={this.changeColor55.bind(this)} data-toggle="modal" data-target="#frontera">
                     <img src={frontera}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class14} onClick={this.changeColor14.bind(this)} data-toggle="modal" data-target="#glad">
                 <img src={glad}  className="p-2 w-75 center" alt="..." />
               </div>
@@ -7101,32 +7101,32 @@ changeColor80(){
 
 {/* 5 */}
 <div className="row mb-3">
-<div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+<div className= "col-md-2 mt-1">
                 <div className={btn_class56} onClick={this.changeColor56.bind(this)} data-toggle="modal" data-target="#harpic">
                     <img src={harpic}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class15} onClick={this.changeColor15.bind(this)} data-toggle="modal" data-target="#herradura">
                     <img src={HERRADURA}  className="p-2 w-75 w-50-xs-md center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class16} onClick={this.changeColor16.bind(this)} data-toggle="modal" data-target="#hersheys">
                 <img src={hersheys}  className="p-2 w-75 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#hyde">
                     <img src={HYDE}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class57} onClick={this.changeColor57.bind(this)} data-toggle="modal" data-target="#jalisco">
                     <img src={jalisco}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class58} onClick={this.changeColor58.bind(this)} data-toggle="modal" data-target="#jellico">
                     <img src={jellico}  className="p-2 w-75 center" alt="..." />
                 </div>
@@ -7137,170 +7137,170 @@ changeColor80(){
         {/* 6 */}
         <div className="row mb-3">
 
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
             <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#johnson">
                     <img src={johnson}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class20} onClick={this.changeColor20.bind(this)} data-toggle="modal" data-target="#juicy">
                     <img src={JUICY}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#kisses">
                 <img src={KISSES}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class59} onClick={this.changeColor59.bind(this)} data-toggle="modal" data-target="#chula">
                 <img src={chula}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class60} onClick={this.changeColor60.bind(this)} data-toggle="modal" data-target="#lactacyd">
                 <img src={lactacyd}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#listerine">
                     <img src={listerine}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
         </div>
-{/* 6 */}
+{/* 7 */}
 <div className="row mb-3">
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
     <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#lubriderm">
       <img src={lubriderm}  className="p-2 w-100 center" alt="..." />
     </div>
   </div>
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
             <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#lysol">
               <img src={LYSOL}  className=" p-2 w-75 center" alt="..." />
             </div>
           </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#mm">
                     <img src={MM}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class26} onClick={this.changeColor26.bind(this)} data-toggle="modal" data-target="#madonna">
                     <img src={MADONNA}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class61} onClick={this.changeColor61.bind(this)} data-toggle="modal" data-target="#marques">
                     <img src={marques}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#mcormick">
                     <img src={MCCORMICK}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
 </div>
 
-        {/* 7 */}
+        {/* 8 */}
         <div className="row mb-3">
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#milky">
                     <img src={MILKY}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class62} onClick={this.changeColor62.bind(this)} data-toggle="modal" data-target="#nerds">
                 <img src={nerds}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
               <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#nestle">
                 <img src={nestle}  className="p-2 w-100 center" alt="..." />
               </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class31} onClick={this.changeColor31.bind(this)} data-toggle="modal" data-target="#nivea">
                     <img src={nivea}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
                         
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class63} onClick={this.changeColor63.bind(this)} data-toggle="modal" data-target="#niveamen">
                     <img src={niveamen}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#nodor">
                     <img src={NODOR}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
             
         </div>
-        {/* 8*/}
+        {/* 9*/}
         <div className="row mb-3">
 
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class64} onClick={this.changeColor64.bind(this)} data-toggle="modal" data-target="#ogx">
                     <img src={OGX}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#orbit">
                     <img src={ORBIT}  className=" p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class65} onClick={this.changeColor65.bind(this)} data-toggle="modal" data-target="#oxy">
                     <img src={oxy}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
             
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
             <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pedigree">
               <img src={PEDIGREE}  className=" p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
                 <div className={btn_class36} onClick={this.changeColor36.bind(this)} data-toggle="modal" data-target="#pringles">
                     <img src={PRINGLES}  className="p-2 w-75 w-50-xs-md center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
     <div className={btn_class66} onClick={this.changeColor66.bind(this)} data-toggle="modal" data-target="#redbull">
       <img src={redbull}  className="p-2 w-100 center" alt="..." />
     </div>
   </div>
         </div>
-        {/* 9 */}
+        {/* 10 */}
 <div className= "row mb-3">
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
     <div className={btn_class67} onClick={this.changeColor67.bind(this)} data-toggle="modal" data-target="#robert">
       <img src={robert}  className="p-2 w-100 center" alt="..." />
     </div>
   </div>
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
     <div className={btn_class68} onClick={this.changeColor68.bind(this)} data-toggle="modal" data-target="#roy">
       <img src={roy}  className="p-2 w-100 center" alt="..." />
     </div>
   </div>
-  <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+  <div className= "col-md-2 mt-1">
     <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#sangre">
       <img src={SANGRE}  className=" p-2 w-75 center" alt="..." />
     </div>
   </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#skittles">
                     <img src={skittles}  className="p-2 w-75 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class41} onClick={this.changeColor41.bind(this)} data-toggle="modal" data-target="#snickers">
                     <img src={SNICKERS}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
 
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class42} onClick={this.changeColor42.bind(this)} data-toggle="modal" data-target="#splenda">
                     <img src={splenda}  className="p-2 w-100 center" alt="..." />
                 </div>
@@ -7308,103 +7308,103 @@ changeColor80(){
             
             
 </div>
-        {/* 10*/}
+        {/* 11*/}
         <div className="row mb-3">
 
-                      <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+                      <div className= "col-md-2 mt-1">
             <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#star">
                <img src={STARBURST}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class44} onClick={this.changeColor44.bind(this)} data-toggle="modal" data-target="#stayfree">
               <img src={STAYFREE}  className="p-2 w-100 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class45} onClick={this.changeColor45.bind(this)} data-toggle="modal" data-target="#summer">
               <img src={SUMMER}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class69} onClick={this.changeColor69.bind(this)} data-toggle="modal" data-target="#sweetarts">
               <img src={sweetarts}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class70} onClick={this.changeColor70.bind(this)} data-toggle="modal" data-target="#tabcin">
               <img src={tabcin}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class71} onClick={this.changeColor71.bind(this)} data-toggle="modal" data-target="#toñac">
               <img src={toñac}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
         </div>
         
-        {/* 7 */}
+        {/* 12 */}
         <div className="row mb-3">
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class72} onClick={this.changeColor72.bind(this)} data-toggle="modal" data-target="#toñal">
               <img src={toñal}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class73} onClick={this.changeColor73.bind(this)} data-toggle="modal" data-target="#trio">
               <img src={trio}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class74} onClick={this.changeColor74.bind(this)} data-toggle="modal" data-target="#trojan">
               <img src={trojan}  className="p-2 w-75 w-50-xs-md center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class47} onClick={this.changeColor47.bind(this)} data-toggle="modal" data-target="#twix">
               <img src={TWIX}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class48} onClick={this.changeColor48.bind(this)} data-toggle="modal" data-target="#tylenol">
               <img src={tylenol}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
             <div className={btn_class75} onClick={this.changeColor75.bind(this)} data-toggle="modal" data-target="#vanish">
               <img src={vanish}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>          
         </div>
-        {/* 8 */}
+        {/* 13 */}
         <div className="row mb-3">
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class76} onClick={this.changeColor76.bind(this)} data-toggle="modal" data-target="#venadito">
               <img src={venadito}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class77} onClick={this.changeColor77.bind(this)} data-toggle="modal" data-target="#victoria">
               <img src={victoria}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class78} onClick={this.changeColor78.bind(this)} data-toggle="modal" data-target="#vigui">
               <img src={Vigui}  className="p-2 w-75 center" alt="..." />
             </div>
           </div>
           
-        <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+        <div className= "col-md-2 mt-1">
                 <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#vitacreme">
                     <img src={VITACREME}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
-            <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+            <div className= "col-md-2 mt-1">
                 <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#whiskas">
                     <img src={WHISKAS}  className="p-2 w-100 center" alt="..." />
                 </div>
             </div>
- <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+ <div className= "col-md-2 mt-1">
             <div className={btn_class79} onClick={this.changeColor79.bind(this)} data-toggle="modal" data-target="#winterfresh">
               <img src={winterfresh}  className="p-2 w-75 center" alt="..." />
             </div>
@@ -7412,10 +7412,10 @@ changeColor80(){
         </div>
           
 
-        {/* 9 */}
+        {/* 14 */}
         <div className="row mb-3">
 
-          <div className= "col-md-2 col-sm-4 col-xs-3 mt-1">
+          <div className= "col-md-2 mt-1">
             <div className={btn_class80} onClick={this.changeColor80.bind(this)} data-toggle="modal" data-target="#woodbridge">
               <img src={woodbridge}  className="p-2 w-75 center" alt="..." />
             </div>
