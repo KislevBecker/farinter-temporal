@@ -5,7 +5,7 @@ import trabaja from '../../img/trabaja.png';
 import integridad from '../../img/integridad.png';
 import crecimiento from '../../img/crecimiento.png';
 import liderazgo from '../../img/liderazgo.png';
-
+import { ExternalLink } from 'react-external-link';
 class Unete extends React.Component {
  
     render(){
@@ -37,6 +37,39 @@ class Unete extends React.Component {
         Nuestra empresa está constituida por personal capacitado que desea servir de la manera más eficiente a nuestros clientes. Estamos dedicados al desarrollo del talento humano capacitándolo y orientándolo hacia la búsqueda permanente de la excelencia.  
         </p>
       </div>
+      </div>
+    </div>
+    <div className="row mb-2">
+      <div className="col-md-12">
+          <div className="card">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-12 mb-2 text-primary font-weight-bold">
+                Compartenos tu hoja de vida a los correos:
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+                <ExternalLink className="anchor" href="mailto:reclutamientotgu@farinter.hn?subject=Hoja de vida">
+                  <div className="card bg-primary">
+                    <p className="text-center"><b>Zona Centro Sur </b><br />
+                    reclutamientotgu@farinter.hn
+                    </p>
+                  </div>
+                </ExternalLink>
+                </div>
+                <div className="col-md-6">
+                <ExternalLink className="anchor" href="mailto:reclutamientosps@farinter.hn?subject=Hoja de vida">
+                  <div className="card bg-primary">
+                    <p  className="text-center"><b>Zona Norte </b><br />
+                    reclutamientosps@farinter.hn
+                    </p>
+                  </div>
+                </ExternalLink>
+                </div> 
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     </div>
