@@ -26,6 +26,13 @@ code {
   background: rgba(0, 0, 0, 0.5) /* Green background with 30% opacity */
 }
 
+.carousel-indicators .active, .carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+
+
 /* para el chatbot:  */
 /* .flotante2 {
   display: scroll;
