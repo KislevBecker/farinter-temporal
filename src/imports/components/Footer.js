@@ -21,19 +21,49 @@ const Footer = () => (
       <div className="col-md-5 border-right">
         <p className="text-white"><b>Tegucigalpa, Honduras</b><br />
             Edificio Farinter, atrás de la Toyota, <br/>
-            Barrio La Granja <br/>
-            Teléfono: (+504) 2225-2718<br />
-            FAX: (+504) 2225-2732
+            Barrio La Granja <br/> <br /><br/> <br />
+            Teléfono PBX:             <ExternalLink className="anchor" href="tel:+50422252718">(+504) 2225-2718</ExternalLink><br /> <br />
+            <div className= "row">
+              <div className= "col-md-4">
+              Whatsapp: <br />
+              </div>
+              <div className= "col-md-8">
+                <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50499022395">(+504) 9902-2395 </ExternalLink><br />
+                <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50495002706">(+504) 9500-2706</ExternalLink> <br />
+              </div>
+            </div>
+            <div className="row mt-2">
+              <div className="col-md-4">
+                Televenta: <br />
+              </div>
+              <div className="col-md-8">
+                <ExternalLink className="anchor" href="tel:+50422252724">(+504) 2225-2724</ExternalLink> <br />
+                <ExternalLink className="anchor" href="tel:+50422252779">(+504) 2225-2779</ExternalLink> <br />
+                <ExternalLink className="anchor" href="tel:+50422252723">(+504) 2225-2723</ExternalLink> <br />
+              </div>
+            </div>
+
+            {/* FAX: (+504) 2225-2732 */}
 
         </p>
       </div>
 
-      <div className="col-md-7">
+      <div className="col-md-5">
         <p className="text-white">
           <b>San Pedro Sula, Honduras</b><br />
           Barrio Santa Rosa, segundo anillo periférico 7 y 8 calle SE. <br />
-          Media cuadra al sur de la iglesia La Luz del Mundo <br />
-          Teléfono: (+504) 2553-5600
+          Media cuadra al sur de la iglesia La Luz del Mundo <br/> <br />
+          Teléfono PBX: <ExternalLink className="anchor" href="tel:+50425319400">(+504) 2531-9400</ExternalLink><br/> <br />
+
+          <div className="row">
+            <div className="col-md-4">
+              Whatsapp: <br />
+            </div>
+            <div className="col-md-8">
+            <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50496567501">(+504) 9656-7501</ExternalLink> <br />
+            </div>
+          </div>
+
         </p>
       </div>
     </div>
@@ -76,7 +106,7 @@ const Footer = () => (
     <div className="row">
       <div className="col-md-12">
         <p className="text-left text-white">
-          V1.0.2
+          V1.0.3
         </p>
       </div>
     </div>

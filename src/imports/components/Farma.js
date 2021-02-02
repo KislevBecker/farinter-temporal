@@ -2,10 +2,10 @@
 import React from 'react';
 // imagenes azules
 import treseme from '../../img/FARMA2/3M.png';
-import astra from '../../img/FARMA2/AZTRAZENECA.png';
+import astra from '../../img/FARMA2/ASTRAZENECA.png';
 import abott from '../../img/FARMA2/ABBOTT.png';
 import alcon from '../../img/FARMA2/ALCON.png';
-import almirall from '../../img/FARMA2/ALMIRALL.png';
+import almirall from '../../img/FARMA2/ALCON.png';
 import ashonplafa from '../../img/FARMA2/ASHONPLAFA.png';
 import aspen from '../../img/FARMA2/ASPEN.png';
 import astamedica from '../../img/FARMA2/ASTA MEDICA.png';
@@ -16,17 +16,17 @@ import bayerhealth from '../../img/FARMA2/BAYER HEALTH CARE.png';
 import BIAL from '../../img/FARMA2/BIAL.png';
 import biokemical from '../../img/FARMA2/BIOKEMICAL.png';
 import biopas from '../../img/FARMA2/BIOPAS.png';
-import bonima from '../../img/FARMA2/BONIMA MK.png';
+import bonima from '../../img/FARMA2/BIOPAS.png';
 import bussie from '../../img/FARMA2/BUSSIÉ.png';
 import cheplafarm from '../../img/FARMA2/CHEPLAPHARM.png';
-import church from '../../img/FARMA2/CHURCH & DWIGHT.png';
+import church from '../../img/FARMA2/CHEPLAPHARM.png';
 import clement from '../../img/FARMA2/CLEMENT CLARKE INT..png';
 import COVIDIEN from '../../img/FARMA2/COVIDIEN.png';
 import DETECTOR from '../../img/FARMA2/DETECTOR.png';
-import drifarma from '../../img/FARMA2/DRIFARMA.png';
+import drifarma from '../../img/FARMA2/DETECTOR.png';
 import EUROMED from '../../img/FARMA2/EUROMED.png';
 import EUROTEST from '../../img/FARMA2/EUROTEST.png';
-import farmitalia from '../../img/FARMA2/FARMITALIA.png';
+import farmitalia from '../../img/FARMA2/EUROTEST.png';
 import FLEET from '../../img/FARMA2/FLEET.png';
 import GALDERMA from '../../img/FARMA2/GALDERMA.png';
 import gnoma from '../../img/FARMA2/GENOMALAB.png';
@@ -35,21 +35,21 @@ import GRIFOLS from '../../img/FARMA2/GRIFOLS.png';
 import GRUNENTHAL from '../../img/FARMA2/GRUNENTHAL.png';
 import grupofarma from '../../img/FARMA2/GRUPO PHARMA.png';
 import gsk from '../../img/FARMA2/GSK.png';
-import hoeschst from '../../img/FARMA2/HOESCHST.png';
+import hoeschst from '../../img/FARMA2/GSK.png';
 import jpharma from '../../img/FARMA2/J&J PHARMA.png';
-import lafrancol from '../../img/FARMA2/LAFRANCOL.png';
-import lasante from '../../img/FARMA2/LA SANTE.png';
-import lederle from '../../img/FARMA2/LEDERLE.png';
+import lafrancol from '../../img/FARMA2/LA SANTÉ.png';
+import lasante from '../../img/FARMA2/LA SANTÉ.png';
+import lederle from '../../img/FARMA2/LA SANTÉ.png';
 import lilly from '../../img/FARMA2/LILLY.png';
 import leo from '../../img/FARMA2/LEO.png';
-import lundbeck from '../../img/FARMA2/LUNDBECK.png';
-import md from '../../img/FARMA2/M&D PHARMA COSTA RIC.png';
+import lundbeck from '../../img/FARMA2/Lundbeck-logo.png';
+import md from '../../img/FARMA2/MEADJOHNSON.png';
 import MEAD from '../../img/FARMA2/MEADJOHNSON.png';
-import MEDICE from '../../img/FARMA2/MEDICE.png';
+import MEDICE from '../../img/FARMA2/MEADJOHNSON.png';
 import medix from '../../img/FARMA2/MEDIX.png';
 import mepha from '../../img/FARMA2/MEPHA.png';
 import MERCK from '../../img/FARMA2/MERCK.png';
-import MICROLIFE from '../../img/FARMA2/MICROLIFE.png';
+import MICROLIFE from '../../img/FARMA2/MEADJOHNSON.png';
 import msd from '../../img/FARMA2/MSD.png';
 import nestlecaribean from '../../img/FARMA2/NESTLE CARRIBEAN.png';
 import novartis from '../../img/FARMA2/NOVARTIS.png';
@@ -57,32 +57,32 @@ import NUTRICIA from '../../img/FARMA2/NUTRICIA.png';
 import om from '../../img/FARMA2/OM.png';
 import owen from '../../img/FARMA2/OWEN MUMFORD.png';
 import panalab from '../../img/FARMA2/PANALAB.png';
-import parkedavis from '../../img/FARMA2/PARKE DAVIS.png';
+import parkedavis from '../../img/FARMA2/PANALAB.png';
 import pasmo from '../../img/FARMA2/PASMO.png';
 import pfizer from '../../img/FARMA2/PFIZER.png';
-import PHARMACIA from '../../img/FARMA2/PHARMACIA & UPJOHN.png';
-import pharmanova from '../../img/FARMA2/PHARMANOVA.png';
+import PHARMACIA from '../../img/FARMA2/UPJOHN.png';
+import pharmanova from '../../img/FARMA2/PANALAB.png';
 import procaps from '../../img/FARMA2/PROCAPS.png';
-import proderfarma from '../../img/FARMA2/PRODER PHARMA.png';
-import PROMECO from '../../img/FARMA2/PROMECO.png';
+import proderfarma from '../../img/FARMA2/PRODES.png';
+import PROMECO from '../../img/FARMA2/PROCAPS.png';
 import QC from '../../img/FARMA2/QC.png';
-import rhone from '../../img/FARMA2/RHONE POULENC RORER.png';
+import rhone from '../../img/FARMA2/PROCAPS.png';
 import roche from '../../img/FARMA2/ROCHE.png';
 import roemmers from '../../img/FARMA2/ROEMMERS.png';
-import roussel from '../../img/FARMA2/ROUSSEL.png';
+import roussel from '../../img/FARMA2/PROCAPS.png';
 import rowe from '../../img/FARMA2/ROWE.png';
 import sandoz from '../../img/FARMA2/SANDOZ.png';
 import sanofis from '../../img/FARMA2/SANOFI.png';
-import searle from '../../img/FARMA2/SEARLE.png';
+import searle from '../../img/FARMA2/SANOFI.png';
 import servier from '../../img/FARMA2/SERVIER.png';
-import schering from '../../img/FARMA2/SHERING PLOUGH.png';
-import stiefel from '../../img/FARMA2/STIEFEL.png';
+import schering from '../../img/FARMA2/SCHERING PLOUGH.png';
+import stiefel from '../../img/FARMA2/SWISSFARM.png';
 import superior from '../../img/FARMA2/SUPERIOR.png';
 import SWISSFARM from '../../img/FARMA2/SWISSFARM.png';
-import talecris from '../../img/FARMA2/TALECRIS.png';
-import ucb from '../../img/FARMA2/UCB.png';
+import talecris from '../../img/FARMA2/SWISSFARM.png';
+import ucb from '../../img/FARMA2/SWISSFARM.png';
 import UNIPHARM from '../../img/FARMA2/UNIPHARM.png';
-import valeant from '../../img/FARMA2/VALEANT GROSSMAN.png';
+import valeant from '../../img/FARMA2/GROSSMAN.png';
 import VIFOR from '../../img/FARMA2/VIFOR PHARMA.png';
 import VITOTAL from '../../img/FARMA2/VITOTAL.png';
 import fungiplus from '../../img/FARMA2/Fungiplus.png';
@@ -8088,8 +8088,8 @@ changeColor19(){
 
         return (
 <div className="mt-5 container">
-        <div className= "row">
-            <h3 className="text-primary mb-3 text-cursive">Catálogo de proveedores farma</h3>
+        <div className= "row ">
+            <h3 className="text-primary mb-3 text-cursive">Socios comerciales farma</h3>
         </div>
         <div className="row mb-3">
             <div className= "col-md-2 col-sm-4 col-xs-3  mt-1">

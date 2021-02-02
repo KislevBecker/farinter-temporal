@@ -8,7 +8,7 @@ const Navbar = props => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-secondary card-bottomcircle">
+    <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
       <section className="container center">
       <NavLink exact  className="navbar-brand" to="/" activeclassName="main-nav-active">Inicio</NavLink>
       <button className="custom-toggler navbar-toggler" activeclassname="main-nav-active" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>

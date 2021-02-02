@@ -8,7 +8,7 @@ import certificaciones from '../../img/LOGOS ISO.png'
 
 const Header = () => (
 
-  <nav className="navbar  navbar-light bg-light card-Topcircle">
+  <nav className="navbar  navbar-light bg-light">
   <div className="collapse navbar-collapse container" id="navbarTogglerDemo01">
     <Link className="navbar-brand" to="/"><img src={logoazul} className="img-fluid mb-3" alt="Responsive image" width='140px'/></Link>
     <form className="form-inline my-2 my-lg-0">

@@ -1,66 +1,112 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
-
 // imagenes azules
 import treseme from '../../img/FARMA2/3M.png';
-import astra from '../../img/FARMA2/AZTRAZENECA.png';
+import astra from '../../img/FARMA2/ASTRAZENECA.png';
 import abott from '../../img/FARMA2/ABBOTT.png';
 import alcon from '../../img/FARMA2/ALCON.png';
-import almirall from '../../img/FARMA2/ALMIRALL.png';
+import almirall from '../../img/FARMA2/ALKA SELTZER.png';
+import ashonplafa from '../../img/FARMA2/ASHONPLAFA.png';
 import aspen from '../../img/FARMA2/ASPEN.png';
-import aventis from '../../img/FARMA2/AVENTIS.png';
+import asopharma from '../../img/FARMA2/ASOFARMA.png';
+import astamedica from '../../img/FARMA2/ASTA MEDICA.png';
+import betafarm from '../../img/FARMA2/ASOFARMA.png';
 import bago from '../../img/FARMA2/BAGÓ.png';
+import BOEHRINGER from '../../img/FARMA2/BOEHRINGER.png';
 import bayer from '../../img/FARMA2/BAYER.png';
+import GROSSMAN from '../../img/FARMA2/GROSSMAN.png';
+import INFARMA from '../../img/FARMA2/INFARMA.png';
+import LASANTE from '../../img/FARMA2/LA SANTÉ.png';
+import bayerhealth from '../../img/FARMA2/BAYER HEALTH CARE.png';
 import BIAL from '../../img/FARMA2/BIAL.png';
+import biokemical from '../../img/FARMA2/BIOKEMICAL.png';
+import biopas from '../../img/FARMA2/BIOPAS.png';
+import bonima from '../../img/FARMA2/BIOPAS.png';
 import bussie from '../../img/FARMA2/BUSSIÉ.png';
+import cheplafarm from '../../img/FARMA2/CHEPLAPHARM.png';
+import church from '../../img/FARMA2/CHEPLAPHARM.png';
+import clement from '../../img/FARMA2/CLEMENT CLARKE INT..png';
 import COVIDIEN from '../../img/FARMA2/COVIDIEN.png';
 import DETECTOR from '../../img/FARMA2/DETECTOR.png';
+import drifarma from '../../img/FARMA2/DETECTOR.png';
 import EUROMED from '../../img/FARMA2/EUROMED.png';
 import EUROTEST from '../../img/FARMA2/EUROTEST.png';
+import farmitalia from '../../img/FARMA2/EUROTEST.png';
 import FLEET from '../../img/FARMA2/FLEET.png';
 import GALDERMA from '../../img/FARMA2/GALDERMA.png';
 import gnoma from '../../img/FARMA2/GENOMALAB.png';
 import GENZYME from '../../img/FARMA2/GENZYME.png';
 import GRIFOLS from '../../img/FARMA2/GRIFOLS.png';
 import GRUNENTHAL from '../../img/FARMA2/GRUNENTHAL.png';
+import grupofarma from '../../img/FARMA2/GRUPO PHARMA.png';
 import gsk from '../../img/FARMA2/GSK.png';
-import lafrancol from '../../img/FARMA2/LAFRANCOL.png';
-import lasante from '../../img/FARMA2/LA SANTE.png';
+import hoeschst from '../../img/FARMA2/GSK.png';
+import jpharma from '../../img/FARMA2/J&J PHARMA.png';
+import lafrancol from '../../img/FARMA2/LA SANTÉ.png';
+import lasante from '../../img/FARMA2/LA SANTÉ.png';
+import lederle from '../../img/FARMA2/LA SANTÉ.png';
 import lilly from '../../img/FARMA2/LILLY.png';
+import leo from '../../img/FARMA2/LEO.png';
+import lundbeck from '../../img/FARMA2/Lundbeck-logo.png';
+import md from '../../img/FARMA2/MEADJOHNSON.png';
 import MEAD from '../../img/FARMA2/MEADJOHNSON.png';
-import MEDICE from '../../img/FARMA2/MEDICE.png';
+import MEDICE from '../../img/FARMA2/MEADJOHNSON.png';
 import medix from '../../img/FARMA2/MEDIX.png';
+import MK from '../../img/FARMA2/MK.png';
+import ORGANON from '../../img/FARMA2/ORGANON.png';
+import PG from '../../img/FARMA2/P&G HEALTH.png';
+import mepha from '../../img/FARMA2/MEPHA.png';
 import MERCK from '../../img/FARMA2/MERCK.png';
-import MICROLIFE from '../../img/FARMA2/MICROLIFE.png';
+import MICROLIFE from '../../img/FARMA2/MEADJOHNSON.png';
 import msd from '../../img/FARMA2/MSD.png';
+import nestlecaribean from '../../img/FARMA2/NESTLE CARRIBEAN.png';
 import novartis from '../../img/FARMA2/NOVARTIS.png';
 import NUTRICIA from '../../img/FARMA2/NUTRICIA.png';
+import om from '../../img/FARMA2/OM.png';
+import owen from '../../img/FARMA2/OWEN MUMFORD.png';
+import panalab from '../../img/FARMA2/PANALAB.png';
+import parkedavis from '../../img/FARMA2/PANALAB.png';
+import pasmo from '../../img/FARMA2/PASMO.png';
 import pfizer from '../../img/FARMA2/PFIZER.png';
-import PHARMACIA from '../../img/FARMA2/PHARMACIA & UPJOHN.png';
-import PROMECO from '../../img/FARMA2/PROMECO.png';
+import PHARMACIA from '../../img/FARMA2/UPJOHN.png';
+import pharmanova from '../../img/FARMA2/PANALAB.png';
+import procaps from '../../img/FARMA2/PROCAPS.png';
+import proderfarma from '../../img/FARMA2/PRODES.png';
+import PROMECO from '../../img/FARMA2/PROCAPS.png';
 import QC from '../../img/FARMA2/QC.png';
+import rhone from '../../img/FARMA2/PROCAPS.png';
 import roche from '../../img/FARMA2/ROCHE.png';
 import roemmers from '../../img/FARMA2/ROEMMERS.png';
+import roussel from '../../img/FARMA2/PROCAPS.png';
+import rowe from '../../img/FARMA2/ROWE.png';
 import sandoz from '../../img/FARMA2/SANDOZ.png';
 import sanofis from '../../img/FARMA2/SANOFI.png';
-import schering from '../../img/FARMA2/SHERING PLOUGH.png';
-import stiefel from '../../img/FARMA2/STIEFEL.png';
+import searle from '../../img/FARMA2/TECNOQUIMICAS.png';
+import servier from '../../img/FARMA2/SERVIER.png';
+import schering from '../../img/FARMA2/SCHERING PLOUGH.png';
+import stiefel from '../../img/FARMA2/SWISSFARM.png';
+import superior from '../../img/FARMA2/SUPERIOR.png';
 import SWISSFARM from '../../img/FARMA2/SWISSFARM.png';
-import talecris from '../../img/FARMA2/TALECRIS.png';
+import talecris from '../../img/FARMA2/SWISSFARM.png';
+import ucb from '../../img/FARMA2/SWISSFARM.png';
 import UNIPHARM from '../../img/FARMA2/UNIPHARM.png';
+import valeant from '../../img/FARMA2/GROSSMAN.png';
 import VIFOR from '../../img/FARMA2/VIFOR PHARMA.png';
 import VITOTAL from '../../img/FARMA2/VITOTAL.png';
-import WHYETH from '../../img/FARMA2/WYETH.png';
+import fungiplus from '../../img/FARMA2/Fungiplus.png';
+import steriscrub from '../../img/FARMA2/Steriscrub.png';
+import tecnoquimicas from '../../img/FARMA2/TECNOQUIMICAS.png';
+import Wye from '../../img/FARMA2/WYETH.png';
+
 
 // imagenes para modal
 import eme from '../../img/farma/3M.png';
 import logoAstra from '../../img/farma/ASTRAZENECA.png';
 import abottNormal from '../../img/farma/ABBOTT.png';
-import logoAventis from '../../img/farma/AVENTIS.png';
+import logoBetafarm from '../../img/farma/Betafarm.png';
 import logoAlcon from '../../img/farma/ALCON.png';
 import logoBago from '../../img/farma/BAGÓ.png';
-import logoAlmiral from '../../img/farma/ALMIRALL.png';
+import logoAlmiral from '../../img/farma/ALKA SELTZER.png';
 import logoBayer from '../../img/farma/BAYER.png';
 import logoBussie from '../../img/farma/BUSSIÉ.png';
 import logoGnomma from '../../img/farma/GENOMALAB.png';
@@ -102,9 +148,55 @@ import logoQC from '../../img/farma/QC.png';
 import logoSwissfarm from '../../img/farma/SWISSFARM.png';
 import logoVifor from '../../img/farma/VIFOR PHARMA.png';
 import logoVitotal from '../../img/farma/VITOTAL.png';
-import logoWyeth from '../../img/farma/WYETH.png';
+import logoFungiplus from '../../img/farma/Fungiplus.png';
 
-
+import logoAshonplafa from '../../img/farma/ASHONPLAFA.png';
+import logoAstamedica from '../../img/farma/ASTA MEDICA.png';
+import logoBayerHealth from '../../img/farma/BAYER HEALTH CARE.png';
+import logoBiokemical from '../../img/farma/BIOKEMICAL.png';
+import logoBiopas from '../../img/farma/BIOPAS.png';
+import logoBonima from '../../img/farma/BONIMA MK.png';
+import logoCheplapharm from '../../img/farma/CHEPLAPHARM.png';
+import logoChurch from '../../img/farma/CHURCH.png';
+import logoClement from '../../img/farma/CLEMENT CLARKE INT..png';
+import logoDrifarma from '../../img/farma/DRIFARMA.png';
+import logofarmitalia from '../../img/farma/FARMITALIA.png';
+import logogrupofarma from '../../img/farma/GRUPO PHARMA.png';
+import logohoest from '../../img/farma/HOESCHST.png';
+import logojpharma from '../../img/farma/J&J PHARMA.png';
+import logolederle from '../../img/farma/LEDERLE.png';
+import logoleo from '../../img/farma/LEO.png';
+import logolundbeck from '../../img/farma/LUNDBECK.png';
+import logomd from '../../img/farma/M&D PHARMA COSTA RIC.png';
+import logomepha from '../../img/farma/MEPHA.png';
+import logonestlecaribean from '../../img/farma/NESTLE CARRIBEAN.png';
+import logoom from '../../img/farma/OM.png';
+import logoowen from '../../img/farma/OWEN MUMFORD.png';
+import logopanalab from '../../img/farma/PANALAB.png';
+import logoparkedavis from '../../img/farma/PARKE DAVIS.png';
+import logopasmo from '../../img/farma/PASMO.png';
+import logopharmanova from '../../img/farma/PHARMANOVA.png';
+import logoprocaps from '../../img/farma/PROCAPS.png';
+import logoproderfarma from '../../img/farma/PRODER PHARMA.png';
+import logorhone from '../../img/farma/RHONE POULENC RORER.png';
+import logoroussel from '../../img/farma/ROUSSEL.png';
+import logorowe from '../../img/farma/ROWE.png';
+import logosearle from '../../img/farma/SEARLE.png';
+import logoservier from '../../img/farma/SERVIER.png';
+import logosuperior from '../../img/farma/SUPERIOR.png';
+import logoucb from '../../img/farma/UCB.png';
+import logovaleant from '../../img/farma/VALEANT GROSSMAN.png';
+import logoSteriscrub from '../../img/farma/Steriscrub.png';
+import logoAsopharma from '../../img/farma/ASOFARMA.png';
+import logoBoeh from '../../img/farma/BOEHRINGER.png';
+import logoGrossman from '../../img/farma/GROSSMAN.png';
+import logoInfarma from '../../img/farma/INFARMA.png';
+import logoTecnoquimicas from '../../img/farma/TECNOQUIMICAS.png';
+import logoProdes from '../../img/farma/PRODES.png';
+import logoPG from '../../img/farma/P&G HEALTH.png';
+import logoOrganon from '../../img/farma/ORGANON.png';
+import logoMK from '../../img/farma/MK.png';
+//import logoTecnoquimicas from '../../img/farma/TECNOQUIMICAS.png';
 class CarruselProveedoresFarma extends React.Component {
   constructor(){
     super();
@@ -159,6 +251,43 @@ class CarruselProveedoresFarma extends React.Component {
          vifor: false,
          vitotal: false,
          wyeth: false,
+         ashonplafa : false,
+         astamedica : false,
+         bayerhealth : false,
+         biokemical : false,
+         biopas : false,
+         bonima : false,
+         cheplapharm : false,
+         church : false,
+         clement : false,
+         drifarma : false,
+         farmitalia : false,
+         grupopharma : false,
+         hoeschst : false,
+         jpharma : false,
+         lederle : false,
+         leo : false,
+         lundbeck : false,
+         md : false,
+         mepha : false,
+         nestlecarribean : false,
+         om : false,
+         owen : false,
+         panalab : false,
+         parkedavis : false,
+         pasmo : false,
+         pharmanova : false,
+         procaps : false,
+         proderpharma : false,
+         rhone : false,
+         roussel : false,
+         rowe : false,
+         searle : false,
+         servier : false,
+         superior : false,
+         ucb : false,
+         valeant: false,
+         steriscrub: false,
     }
 }
 //eme
@@ -212,6 +341,43 @@ changeColor(){
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+   this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+   this.setState({steriscrub : false })
 }
 //abot
   changeColor2(){
@@ -263,13 +429,52 @@ changeColor(){
    this.setState({unipharm: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
-   this.setState({wyeth: false})    }
+   this.setState({wyeth: false})   
+   this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+   this.setState({steriscrub : false })
+    }
 //alcon
 changeColor3(){
   this.setState({eme: false})
    this.setState({abott: false})
    this.setState({alcon: !this.state.alcon})
    this.setState({almiral: false})
+   this.setState({steriscrub : false })
    this.setState({aspen: false})
    this.setState({aventis: false})
    this.setState({astra: false})
@@ -315,11 +520,48 @@ changeColor3(){
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //almirall
 changeColor4(){
   this.setState({eme: false})
    this.setState({abott: false})
+   this.setState({steriscrub : false })
    this.setState({alcon: false})
    this.setState({almiral: !this.state.almiral})
    this.setState({aspen: false})
@@ -367,10 +609,47 @@ changeColor4(){
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 // aspen
 changeColor5(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -419,12 +698,49 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //aventis
 changeColor6(){
 this.setState({eme: false})
    this.setState({abott: false})
+   this.setState({steriscrub : false })
    this.setState({alcon: false})
    this.setState({almiral: false})
    this.setState({aspen: false})
@@ -472,11 +788,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //aztra
 changeColor7(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -525,11 +878,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //bago
 changeColor8(){
  this.setState({eme: false})
+ this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -578,11 +968,48 @@ changeColor8(){
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //bayer
 changeColor9(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -631,11 +1058,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //bial
 changeColor10(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -684,11 +1148,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //bussie
 changeColor11(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -737,11 +1238,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //covidien
 changeColor12(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -790,11 +1328,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //detector
 changeColor13(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -843,11 +1418,49 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //euromed
 changeColor14(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -896,11 +1509,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //eurotest
 changeColor15(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -949,11 +1599,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //fleet
 changeColor16(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1002,11 +1689,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //galderma
 changeColor17(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1055,11 +1779,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //gnoma
 changeColor18(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1108,11 +1869,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //gensyme
 changeColor19(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1161,11 +1959,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //grifols
 changeColor20(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1214,11 +2049,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false}) 
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //grunenthal
 changeColor21(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1267,11 +2139,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //gsk
 changeColor22(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1320,11 +2229,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //lasante
 changeColor23(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1372,11 +2318,49 @@ this.setState({eme: false})
    this.setState({unipharm: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
-   this.setState({wyeth: false})  }
+   this.setState({wyeth: false}) 
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+    }
 
 //lafrancol
 changeColor24(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1425,11 +2409,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //lilly
 changeColor25(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1478,11 +2499,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //mead
 changeColor26(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1531,10 +2589,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //medice
 changeColor27(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1582,10 +2677,48 @@ this.setState({eme: false})
    this.setState({unipharm: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
-   this.setState({wyeth: false})    }
+   this.setState({wyeth: false}) 
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+      }
 //medix
 changeColor28(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1634,11 +2767,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //merck
 changeColor29(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1687,10 +2857,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //microlife
 changeColor30(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1739,10 +2946,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //msd
 changeColor31(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1791,11 +3035,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //novartis
 changeColor32(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1844,11 +3125,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //nutricia
 changeColor33(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1897,10 +3215,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //pfizer
 changeColor34(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -1949,11 +3304,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //pharma
 changeColor35(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2002,10 +3394,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //promeco
 changeColor36(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2054,11 +3483,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
    //qc
 changeColor37(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2107,10 +3573,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //roche
 changeColor38(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2159,10 +3662,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //roemmers
 changeColor39(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2200,7 +3740,7 @@ this.setState({eme: false})
    this.setState({promeco: false})
    this.setState({qc: false})
    this.setState({roche: false})
-   this.setState({roemmers: roemmers})
+   this.setState({roemmers: !this.state.roemmers})
    this.setState({sandoz: false})
    this.setState({sanofis: false})
    this.setState({schering: false})
@@ -2211,10 +3751,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //sandoz
 changeColor40(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2263,11 +3840,48 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 //sanofis
 changeColor41(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2316,10 +3930,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //schering
 changeColor42(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2368,10 +4019,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //stiefel
 changeColor43(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2420,10 +4108,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //swissfarm
 changeColor44(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2472,10 +4197,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //talecris
 changeColor45(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2524,10 +4286,47 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //unipharm
 changeColor46(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2576,12 +4375,49 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 
    //vifor
 changeColor47(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2630,10 +4466,47 @@ this.setState({eme: false})
    this.setState({vifor: !this.state.vifor})
    this.setState({vitotal: false})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //vitotal
 changeColor48(){
 this.setState({eme: false})
+this.setState({steriscrub : false })
    this.setState({abott: false})
    this.setState({alcon: false})
    this.setState({almiral: false})
@@ -2682,9 +4555,46 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: !this.state.vitotal})
    this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 //wyeth
 changeColor49(){
+ this.setState({steriscrub : false })
 this.setState({eme: false})
    this.setState({abott: false})
    this.setState({alcon: false})
@@ -2734,63 +4644,3465 @@ this.setState({eme: false})
    this.setState({vifor: false})
    this.setState({vitotal: false})
    this.setState({wyeth: !this.state.wyeth})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
 }
 
 
-    
+  //ashonplafa
+changeColor50(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : !this.state.ashonplafa})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+  //astamedica
+changeColor51(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : !this.state.astamedica})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+      //bayerhealth
+changeColor52(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : !this.state.bayerhealth})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+          //biokemical
+changeColor53(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : !this.state.biokemical})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
 
 
-    render(){
-      let btn_class = this.state.eme ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class2 = this.state.abott ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class3 = this.state.alcon ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class4 = this.state.almiral ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class5 = this.state.aspen ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class6 = this.state.aventis ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class7 = this.state.astra ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class8 = this.state.bago ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class9 = this.state.bayer ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class10 = this.state.bial ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class11 = this.state.bussie ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class12 = this.state.covidien ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class13 = this.state.detector ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class14 = this.state.euromed ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class15 = this.state.eurotest ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class16 = this.state.fleet ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class17 = this.state.galderma ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class18 = this.state.gnoma ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class19 = this.state.genzyme ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class20 = this.state.grifols ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class21 = this.state.grunenthal ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class22 = this.state.gsk ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class23 = this.state.lafrancol ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class24 = this.state.lasante ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class25 = this.state.lilly ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class26 = this.state.mead ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class27 = this.state.medice ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class28 = this.state.medix ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class29 = this.state.merck ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class30 = this.state.microlife ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class31 = this.state.msd ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class32 = this.state.novartis ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class33 = this.state.nutricia ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class34 = this.state.pfizer ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class35 = this.state.pharma ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class36 = this.state.promeco ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class37 = this.state.qc ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class38 = this.state.roche ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class39 = this.state.roemmers ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class40 = this.state.sandoz ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class41 = this.state.sanofis ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class42 = this.state.schering ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class43 = this.state.stiefel ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class44 = this.state.swissfarm ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class45 = this.state.talecris ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class46 = this.state.unipharm ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class47 = this.state.vifor ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class48 = this.state.vitotal ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
-      let btn_class49 = this.state.wyeth ? "bg-danger card card-2 pointer" : "bg-azul card card-2 pointer";
+          //biopas
+changeColor54(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : !this.state.biopas})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
 
+          //bonimas
+changeColor55(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : !this.state.bonima})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+          //cheplapharm
+changeColor56(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : !this.state.cheplapharm})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+        //church
+changeColor57(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : !this.state.church})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+        //clement
+changeColor58(){
+ this.setState({steriscrub : false })
+this.setState({eme: false})
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : !this.state.clement})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+         //drifarma
+changeColor59(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : !this.state.drifarma})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+      //farmitalia
+changeColor60(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : !this.state.farmitalia})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+       //grupopharma
+changeColor61(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : !this.state.grupopharma})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+     //hoeschst
+changeColor62(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : !this.state.hoeschst})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+     //jpharma
+changeColor63(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : !this.state.jpharma})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+      //lederle
+changeColor64(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : !this.state.lederle})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+
+          //le0
+changeColor65(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : !this.state.leo})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+      //lundbeck
+changeColor66(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : !this.state.lundbeck})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+ //md
+changeColor67(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : !this.state.md})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//mepha
+changeColor68(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : !this.state.mepha})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//nestlecarribean
+changeColor69(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : !this.state.nestlecarribean})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//om
+changeColor70(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : !this.state.om})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//owen
+changeColor71(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : !this.state.owen})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//panalab
+changeColor72(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : !this.state.panalab})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//parkedavis
+changeColor73(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : !this.state.parkedavis})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//pasmo
+changeColor74(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : !this.state.pasmo})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//pharmanova
+changeColor75(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : !this.state.pharmanova})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//procaps
+changeColor76(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : !this.state.procaps})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//proderpharma
+changeColor77(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : !this.state.proderpharma})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//rhone
+changeColor78(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : !this.state.rhone})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+
+   //roussel
+changeColor79(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : !this.state.roussel})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//rowe
+changeColor80(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : !this.state.rowe})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+//searle
+changeColor81(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : !this.state.searle})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+  //servier
+changeColor82(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : !this.state.servier})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+  //superior
+changeColor83(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : !this.state.superior})
+   this.setState({ucb : false})
+   this.setState({valeant: false})
+}
+
+
+      //ucb
+changeColor84(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : !this.state.ucb})
+   this.setState({valeant: false})
+}
+
+      //valeant
+changeColor85(){
+this.setState({eme: false})
+this.setState({steriscrub : false })
+   this.setState({abott: false})
+   this.setState({alcon: false})
+   this.setState({almiral: false})
+   this.setState({aspen: false})
+   this.setState({aventis: false})
+   this.setState({astra: false})
+   this.setState({bago: false})
+   this.setState({bayer: false})
+   this.setState({bial: false})
+   this.setState({bussie: false})
+   this.setState({covidien: false})
+   this.setState({detector: false})
+   this.setState({euromed: false})
+   this.setState({eurotest: false})
+   this.setState({fleet: false})
+   this.setState({galderma: false})
+   this.setState({gnoma: false})
+   this.setState({genzyme: false})
+   this.setState({grifols: false})
+   this.setState({grunenthal: false})
+   this.setState({gsk: false})
+   this.setState({lafrancol: false})
+   this.setState({lasante: false})
+   this.setState({lilly: false})
+   this.setState({mead: false})
+   this.setState({medice: false})
+   this.setState({medix: false})
+   this.setState({merck: false})
+   this.setState({microlife: false})
+   this.setState({msd: false})
+   this.setState({novartis: false})
+   this.setState({nutricia: false})
+   this.setState({pfizer: false})
+   this.setState({pharma: false})
+   this.setState({promeco: false})
+   this.setState({qc: false})
+   this.setState({roche: false})
+   this.setState({roemmers: false})
+   this.setState({sandoz: false})
+   this.setState({sanofis: false})
+   this.setState({schering: false})
+   this.setState({stiefel: false})
+   this.setState({swissfarm: false})
+   this.setState({talecris: false})
+   this.setState({unipharm: false})
+   this.setState({vifor: false})
+   this.setState({vitotal: false})
+   this.setState({wyeth: false})
+           this.setState({ashonplafa : false})
+   this.setState({astamedica : false})
+   this.setState({bayerhealth : false})
+   this.setState({biokemical : false})
+   this.setState({biopas : false})
+   this.setState({bonima : false})
+   this.setState({cheplapharm : false})
+   this.setState({church : false})
+   this.setState({clement : false})
+   this.setState({drifarma : false})
+   this.setState({farmitalia : false})
+   this.setState({grupopharma : false})
+   this.setState({hoeschst : false})
+   this.setState({jpharma : false})
+   this.setState({lederle : false})
+   this.setState({leo : false})
+   this.setState({lundbeck : false})
+   this.setState({md : false})
+   this.setState({mepha : false})
+   this.setState({nestlecarribean : false})
+   this.setState({om : false})
+   this.setState({owen : false})
+   this.setState({panalab : false})
+   this.setState({parkedavis : false})
+   this.setState({pasmo : false})
+   this.setState({pharmanova : false})
+   this.setState({procaps : false})
+   this.setState({proderpharma : false})
+   this.setState({rhone : false})
+   this.setState({roussel : false})
+   this.setState({rowe : false})
+   this.setState({searle : false})
+   this.setState({servier : false})
+   this.setState({superior : false})
+   this.setState({ucb : false})
+   this.setState({valeant: !this.state.valeant})
+}
+          //steriscrub
+          changeColor86(){
+           this.setState({eme: false})
+               this.setState({abott: false})
+               this.setState({alcon: false})
+               this.setState({almiral: false})
+               this.setState({aspen: false})
+               this.setState({aventis: false})
+               this.setState({astra: false})
+               this.setState({bago: false})
+               this.setState({bayer: false})
+               this.setState({bial: false})
+               this.setState({bussie: false})
+               this.setState({covidien: false})
+               this.setState({detector: false})
+               this.setState({euromed: false})
+               this.setState({eurotest: false})
+               this.setState({fleet: false})
+               this.setState({galderma: false})
+               this.setState({gnoma: false})
+               this.setState({genzyme: false})
+               this.setState({grifols: false})
+               this.setState({grunenthal: false})
+               this.setState({gsk: false})
+               this.setState({lafrancol: false})
+               this.setState({lasante: false})
+               this.setState({lilly: false})
+               this.setState({mead: false})
+               this.setState({medice: false})
+               this.setState({medix: false})
+               this.setState({merck: false})
+               this.setState({microlife: false})
+               this.setState({msd: false})
+               this.setState({novartis: false})
+               this.setState({nutricia: false})
+               this.setState({pfizer: false})
+               this.setState({pharma: false})
+               this.setState({promeco: false})
+               this.setState({qc: false})
+               this.setState({roche: false})
+               this.setState({roemmers: false})
+               this.setState({sandoz: false})
+               this.setState({sanofis: false})
+               this.setState({schering: false})
+               this.setState({stiefel: false})
+               this.setState({swissfarm: false})
+               this.setState({talecris: false})
+               this.setState({unipharm: false})
+               this.setState({vifor: false})
+               this.setState({vitotal: false})
+               this.setState({wyeth: false})
+                       this.setState({ashonplafa : false})
+               this.setState({astamedica : false})
+               this.setState({bayerhealth : false})
+               this.setState({biokemical : false})
+               this.setState({biopas : false})
+               this.setState({bonima : false})
+               this.setState({cheplapharm : false})
+               this.setState({church : false})
+               this.setState({clement : false})
+               this.setState({drifarma : false})
+               this.setState({farmitalia : false})
+               this.setState({grupopharma : false})
+               this.setState({hoeschst : false})
+               this.setState({jpharma : false})
+               this.setState({lederle : false})
+               this.setState({leo : false})
+               this.setState({lundbeck : false})
+               this.setState({md : false})
+               this.setState({mepha : false})
+               this.setState({nestlecarribean : false})
+               this.setState({om : false})
+               this.setState({owen : false})
+               this.setState({panalab : false})
+               this.setState({parkedavis : false})
+               this.setState({pasmo : false})
+               this.setState({pharmanova : false})
+               this.setState({procaps : false})
+               this.setState({proderpharma : false})
+               this.setState({rhone : false})
+               this.setState({roussel : false})
+               this.setState({rowe : false})
+               this.setState({searle : false})
+               this.setState({servier : false})
+               this.setState({superior : false})
+               this.setState({ucb : false})
+               this.setState({valeant: false})
+               this.setState({steriscrub : !this.state.steriscrub })
+           }
+
+
+
+render(){
+   let btn_class = this.state.eme ? "pointer" : "pointer";
+   let btn_class2 = this.state.abott ? "pointer" : "pointer";
+   let btn_class3 = this.state.alcon ? "pointer" : "pointer";
+   let btn_class4 = this.state.almiral ? "pointer" : "pointer";
+   let btn_class5 = this.state.aspen ? "pointer" : "pointer";
+   let btn_class6 = this.state.aventis ? "pointer" : "pointer";
+   let btn_class7 = this.state.astra ? "pointer" : "pointer";
+   let btn_class8 = this.state.bago ? "pointer" : "pointer";
+   let btn_class9 = this.state.bayer ? "pointer" : "pointer";
+   let btn_class10 = this.state.bial ? "pointer" : "pointer";
+   let btn_class11 = this.state.bussie ? "pointer" : "pointer";
+   let btn_class12 = this.state.covidien ? "pointer" : "pointer";
+   let btn_class13 = this.state.detector ? "pointer" : "pointer";
+   let btn_class14 = this.state.euromed ? "pointer" : "pointer";
+   let btn_class15 = this.state.eurotest ? "pointer" : "pointer";
+   let btn_class16 = this.state.fleet ? "pointer" : "pointer";
+   let btn_class17 = this.state.galderma ? "pointer" : "pointer";
+   let btn_class18 = this.state.gnoma ? "pointer" : "pointer";
+   let btn_class19 = this.state.genzyme ? "pointer" : "pointer";
+   let btn_class20 = this.state.grifols ? "pointer" : "pointer";
+   let btn_class21 = this.state.grunenthal ? "pointer" : "pointer";
+   let btn_class22 = this.state.gsk ? "pointer" : "pointer";
+   let btn_class23 = this.state.lafrancol ? "pointer" : "pointer";
+   let btn_class24 = this.state.lasante ? "pointer" : "pointer";
+   let btn_class25 = this.state.lilly ? "pointer" : "pointer";
+   let btn_class26 = this.state.mead ? "pointer" : "pointer";
+   let btn_class27 = this.state.medice ? "pointer" : "pointer";
+   let btn_class28 = this.state.medix ? "pointer" : "pointer";
+   let btn_class29 = this.state.merck ? "pointer" : "pointer";
+   let btn_class30 = this.state.microlife ? "pointer" : "pointer";
+   let btn_class31 = this.state.msd ? "pointer" : "pointer";
+   let btn_class32 = this.state.novartis ? "pointer" : "pointer";
+   let btn_class33 = this.state.nutricia ? "pointer" : "pointer";
+   let btn_class34 = this.state.pfizer ? "pointer" : "pointer";
+   let btn_class35 = this.state.pharma ? "pointer" : "pointer";
+   let btn_class36 = this.state.promeco ? "pointer" : "pointer";
+   let btn_class37 = this.state.qc ? "pointer" : "pointer";
+   let btn_class38 = this.state.roche ? "pointer" : "pointer";
+   let btn_class39 = this.state.roemmers ? "pointer" : "pointer";
+   let btn_class40 = this.state.sandoz ? "pointer" : "pointer";
+   let btn_class41 = this.state.sanofis ? "pointer" : "pointer";
+   let btn_class42 = this.state.schering ? "pointer" : "pointer";
+   let btn_class43 = this.state.stiefel ? "pointer" : "pointer";
+   let btn_class44 = this.state.swissfarm ? "pointer" : "pointer";
+   let btn_class45 = this.state.talecris ? "pointer" : "pointer";
+   let btn_class46 = this.state.unipharm ? "pointer" : "pointer";
+   let btn_class47 = this.state.vifor ? "pointer" : "pointer";
+   let btn_class48 = this.state.vitotal ? "pointer" : "pointer";
+   let btn_class49 = this.state.wyeth ? "pointer" : "pointer";
+   let btn_class50 = this.state.ashonplafa ? "pointer" : "pointer";
+   let btn_class51 = this.state.astamedica ? "pointer" : "pointer";
+   let btn_class52 = this.state.bayerhealth ? "pointer" : "pointer";
+   let btn_class53 = this.state.biokemical ? "pointer" : "pointer";
+   let btn_class54 = this.state.biopas ? "pointer" : "pointer";
+   let btn_class55 = this.state.bonima ? "pointer" : "pointer";
+   let btn_class56 = this.state.cheplapharm ? "pointer" : "pointer";
+   let btn_class57 = this.state.church ? "pointer" : "pointer";
+   let btn_class58 = this.state.clement ? "pointer" : "pointer";
+   let btn_class59 = this.state.drifarma ? "pointer" : "pointer";
+   let btn_class60 = this.state.farmitalia ? "pointer" : "pointer";
+   let btn_class61 = this.state.grupopharma ? "pointer" : "pointer";
+   let btn_class62 = this.state.hoeschst ? "pointer" : "pointer";
+   let btn_class63 = this.state.jpharma ? "pointer" : "pointer";
+   let btn_class64 = this.state.lederle ? "pointer" : "pointer";
+   let btn_class65 = this.state.leo ? "pointer" : "pointer";
+   let btn_class66 = this.state.lundbeck ? "pointer" : "pointer";
+   let btn_class67 = this.state.md ? "pointer" : "pointer";
+   let btn_class68 = this.state.mepha ? "pointer" : "pointer";
+   let btn_class69 = this.state.nestlecarribean ? "pointer" : "pointer";
+   let btn_class70 = this.state.om ? "pointer" : "pointer";
+   let btn_class71 = this.state.owen ? "pointer" : "pointer";
+   let btn_class72 = this.state.panalab ? "pointer" : "pointer";
+   let btn_class73 = this.state.parkedavis ? "pointer" : "pointer";
+   let btn_class74 = this.state.pasmo ? "pointer" : "pointer";
+   let btn_class75 = this.state.pharmanova? "pointer" : "pointer";
+   let btn_class76 = this.state.procaps ? "pointer" : "pointer";
+   let btn_class77 = this.state.proderpharma ? "pointer" : "pointer";
+   let btn_class78 = this.state.rhone ? "pointer" : "pointer";
+   let btn_class79 = this.state.roussel ? "pointer" : "pointer";
+   let btn_class80 = this.state.rowe ? "pointer" : "pointer";
+   let btn_class81 = this.state.searle ? "pointer" : "pointer";
+   let btn_class82 = this.state.servier ? "pointer" : "pointer";
+   let btn_class83 = this.state.superior ? "pointer" : "pointer";
+   let btn_class84 = this.state.ucb ? "pointer" : "pointer";
+   let btn_class85 = this.state.valeant ? "pointer" : "pointer";
+   let btn_class86 = this.state.steriscrub ? "pointer" : "pointer";
 
 
         return (
@@ -2798,15 +8110,15 @@ this.setState({eme: false})
 <section className="pt-5 pb-5">
   <div className="container">
     <div className="row">
-        <div className="col-6">
-            <h3 className="mb-3 text-primary">Catálogo de proveedores farma </h3>
+        <div className="col-12 border-bottom text-primary">
+            <h3 className="mb-3 text-primary">Socios comerciales farma </h3>
         </div>
 
         <div className="col-12">
-            <div id="carouselExampleIndicators2" className="carousel slide w-75 marginleft" data-ride="carousel">
+            {/* <div id="carouselExampleIndicators2" className="carousel slide w-75 marginleft" data-ride="carousel">
 
-                <div className="carousel-inner">
-                    <div className="carousel-item active"  data-interval="5000">
+                <div className="carousel-inner"> */}
+                    {/* <div className="carousel-item active"  data-interval="5000"> */}
                         <div className="row">
 
                             <div className="col-md-3 mb-3">
@@ -2816,7 +8128,7 @@ this.setState({eme: false})
                             </div>
                             <div className="col-md-3 mb-3">
                               <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#abott">
-                                <img src={abott}  className="p-2 w-75 center" alt="..." />
+                                <img src={abott}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
                             <div className="col-md-3 mb-3">
@@ -2830,20 +8142,35 @@ this.setState({eme: false})
                               </div>
                             </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#ashonplafa">
+                                <img src={ashonplafa}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#asopharma">
+                                <img src={asopharma}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
                             <div className="col-md-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#aspen">
                                 <img src={aspen}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
                             <div className="col-md-3 mb-3">
-                              <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#aventis">
-                                <img src={aventis}  className="p-2 w-100 center" alt="..." />
+                              <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#astamedica">
+                                <img src={astamedica}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#astra">
                                 <img src={astra}  className="p-2 w-100 center" alt="..." />
@@ -2854,23 +8181,58 @@ this.setState({eme: false})
                                 <img src={bago}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item"  data-interval="5000">
-                        <div className="row">
-                          <div className="col-md-3 mb-3">
+                            <div className="col-md-3 mb-3">
                             <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#bayer">
-                              <img src={bayer}  className="p-2 w-75 center" alt="..." />
+                              <img src={bayer}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#bayerhealth">
+                              <img src={bayerhealth}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div>
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#bial">
                               <img src={BIAL}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
+                            <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#biokemical">
+                              <img src={biokemical}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#biopas">
+                              <img src={biopas}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#boehringer">
+                              <img src={BOEHRINGER}  className="p-2 w-100 center" alt="..." />
+                          </div>
+                          </div>
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
                             <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#bussie">
-                              <img src={bussie}  className="p-2 w-50 center" alt="..." />
+                              <img src={bussie}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#cheplafarm">
+                              <img src={cheplafarm}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#clement">
+                              <img src={clement}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -2879,9 +8241,9 @@ this.setState({eme: false})
                           </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#detector">
@@ -2904,9 +8266,9 @@ this.setState({eme: false})
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
                 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#galderma">
@@ -2915,7 +8277,7 @@ this.setState({eme: false})
                           </div>
                           <div className="col-md-3 mb-3">
                             <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#gnoma">
-                              <img src={gnoma}  className="p-2 w-75 center" alt="..." />
+                              <img src={gnoma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -2929,18 +8291,43 @@ this.setState({eme: false})
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#grossman">
+                              <img src={GROSSMAN}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
                           <div className="col-md-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#grunenthal">
                               <img src={GRUNENTHAL}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
+                            <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#grupofarma">
+                              <img src={grupofarma}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
                             <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#gsk">
-                              <img src={gsk}  className="p-2 w-75 center" alt="..." />
+                              <img src={gsk}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#infarma">
+                              <img src={INFARMA}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#jpharma">
+                              <img src={jpharma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -2949,18 +8336,18 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#lafrancol">
-                              <img src={lafrancol}  className="p-2 w-100 center" alt="..." />
+                            <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#leo">
+                              <img src={leo}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#lilly">
-                              <img src={lilly}  className="p-2 w-75 center" alt="..." />
+                              <img src={lilly}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -2969,20 +8356,19 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#medice">
-                              <img src={MEDICE}  className="p-2 w-75 center" alt="..." />
+                            <div className={btn_class28} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#medix">
+                              <img src={medix}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class28} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#medix">
-                              <img src={medix}  className="p-2 w-75 center" alt="..." />
+                            <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#mepha">
+                              <img src={mepha}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#merck">
@@ -2990,8 +8376,8 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#microlife">
-                              <img src={MICROLIFE}  className="p-2 w-100 center" alt="..." />
+                            <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#mk">
+                              <img src={MK}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -3000,46 +8386,94 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
+                            <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#nestlecaribean">
+                              <img src={nestlecaribean}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#novartis">
                               <img src={novartis}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                        </div>
-                    </div>
-
-                    <div className="carousel-item"  data-interval="5000">
-                        <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#nutricia">
                               <img src={NUTRICIA}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pfizer">
-                              <img src={pfizer}  className="p-2 w-75 center" alt="..." />
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#om">
+                              <img src={om}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#pharma">
-                              <img src={PHARMACIA}  className="p-2 w-100 center" alt="..." />
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#organon">
+                              <img src={ORGANON}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#owen">
+                              <img src={owen}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#pg">
+                              <img src={PG}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#panalab">
+                              <img src={panalab}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#pasmo">
+                              <img src={pasmo}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div>
+
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pfizer">
+                              <img src={pfizer}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+
                           <div className="col-md-3 mb-3">
                             <div className={btn_class36} onClick={this.changeColor36.bind(this)} data-toggle="modal" data-target="#promeco">
                               <img src={PROMECO}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                        </div>
-                    </div>
-
-                    <div className="carousel-item"  data-interval="5000">
-                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#proder">
+                              <img src={proderfarma}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
                           <div className="col-md-3 mb-3">
                             <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#qc">
                               <img src={QC}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                        <div className="col-md-3 mb-3">
                             <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#roche">
                               <img src={roche}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -3050,18 +8484,28 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
+                            <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#rowe">
+                              <img src={rowe}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
                             <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#sandoz">
                               <img src={sandoz}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div>
 
-                    <div className="carousel-item"  data-interval="5000">
+                    <div className="carousel-item"  data-interval="5000"> */}
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class41} onClick={this.changeColor41.bind(this)} data-toggle="modal" data-target="#sanofis">
-                              <img src={sanofis}  className="p-2 w-75 center" alt="..." />
+                              <img src={sanofis}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class44} onClick={this.changeColor44.bind(this)} data-toggle="modal" data-target="#servier">
+                              <img src={servier}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -3070,28 +8514,45 @@ this.setState({eme: false})
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
-                            <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#stiefel">
-                              <img src={stiefel}  className="p-2 w-100 center" alt="..." />
+                            <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#steriscrub">
+                              <img src={steriscrub}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+
+                        </div>
+                    {/* </div>
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#superior">
+                              <img src={superior}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        <div className="col-md-3 mb-3">
                             <div className={btn_class44} onClick={this.changeColor44.bind(this)} data-toggle="modal" data-target="#swissfarm">
                               <img src={SWISSFARM}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                        </div>
-                    </div>
-
-                    <div className="carousel-item"  data-interval="5000">
-                        <div className="row">
-                        <div className="col-md-3 mb-3">
-                            <div className={btn_class45} onClick={this.changeColor45.bind(this)} data-toggle="modal" data-target="#talecris">
-                              <img src={talecris}  className="p-2 w-100 center" alt="..." />
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#tecnoquimicas">
+                              <img src={tecnoquimicas}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
                             <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#unipharm">
                               <img src={UNIPHARM}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#pharma">
+                              <img src={PHARMACIA}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                           <div className="col-md-3 mb-3">
@@ -3104,30 +8565,26 @@ this.setState({eme: false})
                               <img src={VITOTAL}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                        </div>
-                    </div>
-
-                    <div className="carousel-item"  data-interval="5000">
-                        <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class49} onClick={this.changeColor49.bind(this)} data-toggle="modal" data-target="#wyeth">
-                              <img src={WHYETH}  className="p-2 w-100 center" alt="..." />
+                              <img src={Wye}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
                         </div>
-                    </div>
+                    {/* </div> */}
 
-                </div>
-            </div>
 
-            <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                {/* </div>
+            </div> */}
+
+            {/* <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
               <i className="fas fa-angle-left text-primary fa-2x"></i>
               <span className="sr-only">Previous</span>
             </a>
             <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
               <i className="fas fa-angle-right text-primary fa-2x"></i>
               <span className="sr-only">Next</span>
-            </a>
+            </a> */}
         </div>
     </div>
 </div>
@@ -3150,6 +8607,8 @@ this.setState({eme: false})
     </div>
   </div>
 </div>
+
+
 
 {/* <!-- Modal 2--> */}
 <div className="modal fade" id="abott" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -3236,7 +8695,7 @@ this.setState({eme: false})
         </button>
        <div className="row">
            <div className="col-md-12">
-           <img src={logoAventis}  className="img-fluid" alt="..." />
+           <img src={logoBetafarm}  className="img-fluid" alt="..." />
            </div>
        </div>
       </div>
@@ -4043,7 +9502,7 @@ this.setState({eme: false})
         </button>
        <div className="row">
            <div className="col-md-12">
-           <img src={logoWyeth}  className="img-fluid" alt="..." />
+           <img src={logoFungiplus}  className="img-fluid" alt="..." />
            </div>
        </div>
       </div>
@@ -4051,6 +9510,885 @@ this.setState({eme: false})
   </div>
 </div>
 
+
+{/* <!-- Modal 50--> */}
+<div className="modal fade" id="ashonplafa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor50.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoAshonplafa}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 51--> */}
+<div className="modal fade" id="astamedica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor51.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoAstamedica}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 52--> */}
+<div className="modal fade" id="bayerhealth" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor52.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoBayerHealth}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 53--> */}
+<div className="modal fade" id="biokemical" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor53.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoBiokemical}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 54--> */}
+<div className="modal fade" id="biopas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor54.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoBiopas}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{/* <!-- Modal 55--> */}
+<div className="modal fade" id="bonima" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor55.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoBonima}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 56--> */}
+<div className="modal fade" id="cheplapharm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor56.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoCheplapharm}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 57--> */}
+<div className="modal fade" id="church" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor57.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoChurch}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 58--> */}
+<div className="modal fade" id="clement" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor58.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoClement}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 59--> */}
+<div className="modal fade" id="drifarma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor59.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoDrifarma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 60--> */}
+<div className="modal fade" id="farmitalia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor60.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logofarmitalia}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 61--> */}
+<div className="modal fade" id="grupofarma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor61.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logogrupofarma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 62--> */}
+<div className="modal fade" id="hoest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor62.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logohoest}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 63--> */}
+<div className="modal fade" id="jpharma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor63.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logojpharma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 64--> */}
+<div className="modal fade" id="lederle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor64.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logolederle}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 65--> */}
+<div className="modal fade" id="leo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor65.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoleo}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 66--> */}
+<div className="modal fade" id="lundbeck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor66.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logolundbeck}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 67--> */}
+<div className="modal fade" id="md" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor67.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logomd}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 68--> */}
+<div className="modal fade" id="mepha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor68.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logomepha}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 69--> */}
+<div className="modal fade" id="nestlecarribean" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor69.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logonestlecaribean}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 70--> */}
+<div className="modal fade" id="om" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor70.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoom}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 71--> */}
+<div className="modal fade" id="owen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor71.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoowen}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 72--> */}
+<div className="modal fade" id="panalab" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor72.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logopanalab}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 73--> */}
+<div className="modal fade" id="parkedavis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor73.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoparkedavis}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 74--> */}
+<div className="modal fade" id="pasmo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor74.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logopasmo}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 75--> */}
+<div className="modal fade" id="pharmanova" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor75.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logopharmanova}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 75--> */}
+<div className="modal fade" id="asopharma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor75.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoAsopharma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 76--> */}
+<div className="modal fade" id="procaps" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor76.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoprocaps}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 77--> */}
+<div className="modal fade" id="proderpharma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor77.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoproderfarma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 78--> */}
+<div className="modal fade" id="rhone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor78.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logorhone}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 79--> */}
+<div className="modal fade" id="roussel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor79.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoroussel}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 80--> */}
+<div className="modal fade" id="rowe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor80.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logorowe}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 81--> */}
+<div className="modal fade" id="searle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor81.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logosearle}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 82--> */}
+<div className="modal fade" id="servier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor82.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoservier}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 83--> */}
+<div className="modal fade" id="superior" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor83.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logosuperior}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 84--> */}
+<div className="modal fade" id="ucb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor84.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoucb}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 85--> */}
+<div className="modal fade" id="valeant" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor85.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logovaleant}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="steriscrub" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoSteriscrub}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="ashonplafa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoAshonplafa}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="boehringer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoBoeh}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="cheplafarm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoCheplapharm}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="grossman" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoGrossman}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="infarma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoInfarma}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="mk" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoMK}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="organon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoOrganon}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="pg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoPG}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="proder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoProdes}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 86--> */}
+<div className="modal fade" id="tecnoquimicas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor86.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTecnoquimicas}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 </section>

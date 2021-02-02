@@ -36,7 +36,7 @@ import nivea from '../../img/CONSUMO1/NIVEA.png';
 import NODOR from '../../img/CONSUMO1/NODOR.png';
 import ORBIT from '../../img/CONSUMO1/ORBIT.png';
 import PEDIGREE from '../../img/CONSUMO1/PEDIGREE.png';
-import charisma from '../../img/CONSUMO1/CHARISMA LOGO.png';
+import charisma from '../../img/CONSUMO1/CHARISMA LOGO color-01.png';
 import PRINGLES from '../../img/CONSUMO1/PRINGLES.png';
 import clorox from '../../img/CONSUMO1/Clorox Company.png';
 import SANGRE from '../../img/CONSUMO1/SANGRE DE TORO.png';
@@ -49,7 +49,7 @@ import STAYFREE from '../../img/CONSUMO1/STAYFREE.png';
 import SUMMER from '../../img/CONSUMO1/SUMMERS EVE.png';
 import coronas from '../../img/CONSUMO1/Coronas.png';
 import TWIX from '../../img/CONSUMO1/TWIX.png';
-import tylenol from '../../img/CONSUMO1/TYLENOL.png';
+import TYLENOL from '../../img/CONSUMO1/TYLENOL.png';
 import donmelchor from '../../img/CONSUMO1/Don Melchor.png';
 import VITACREME from '../../img/CONSUMO1/VITACREME.png';
 import WHISKAS from '../../img/CONSUMO1/WHISKAS.png';
@@ -69,7 +69,7 @@ import OGX from '../../img/CONSUMO1/OGX.png';
 import oxy from '../../img/CONSUMO1/Oxy.png';
 import redbull from '../../img/CONSUMO1/Red Bull.png';
 import robert from '../../img/CONSUMO1/Robert Mondavi.png';
-import roy from '../../img/CONSUMO1/Roy vigan blanco-01.png';
+import roy from '../../img/CONSUMO1/Roy vigan color-01.png';
 import sweetarts from '../../img/CONSUMO1/Sweetarts.png';
 import tabcin from '../../img/CONSUMO1/Tabcin.png';
 import toñac from '../../img/CONSUMO1/Tona Clásica.png';
@@ -79,9 +79,22 @@ import trojan from '../../img/CONSUMO1/Trojan.png';
 import vanish from '../../img/CONSUMO1/Vanish.png';
 import venadito from '../../img/CONSUMO1/Venadito.png';
 import victoria from '../../img/CONSUMO1/Victoria Frost.png';
-import Vigui from '../../img/CONSUMO1/Vigui.png';
-import winterfresh from '../../img/CONSUMO1/Winterfresh.png';
-import woodbridge from '../../img/CONSUMO1/WoodBridge.png';
+import vigui from '../../img/CONSUMO1/Vigui.png';
+import Winterfresh from '../../img/CONSUMO1/Winterfresh.png';
+import WoodBridge from '../../img/CONSUMO1/WoodBridge.png';
+import cleananclear from '../../img/CONSUMO1/CLEAN & CLEAR.png';
+import Ferro from '../../img/CONSUMO1/FERRERO ROCHER.png';
+import Hor from '../../img/CONSUMO1/HORMEL.png';
+import Mar from '../../img/CONSUMO1/MARUCHAN.png';
+import pon from '../../img/CONSUMO1/PONDS.png';
+import sed from '../../img/CONSUMO1/SEDAL.png';
+import tres from '../../img/CONSUMO1/TRESEMMÉ.png';
+import twix from '../../img/CONSUMO1/TWIX.png';
+import uni from '../../img/CONSUMO1/UNILEVER.png';
+import wrig from '../../img/CONSUMO1/WRIGLEY.png';
+import concha from '../../img/CONSUMO1/CONCHA Y TORO.png';
+import rex from '../../img/CONSUMO1/REXONA.png';
+
 
 // imagenes de los modals
 import logoAlka from '../../img/consumo/ALKA SELTZER.png';
@@ -164,10 +177,24 @@ import logoVictoria from '../../img/consumo/Victoria Frost.png';
 import logoVigui from '../../img/consumo/Vigui.png';
 import logoWinterfresh from '../../img/consumo/Winterfresh.png';
 import logoWoodbridge from '../../img/consumo/WoodBridge.png';
+import logocleananclear from '../../img/consumo/CLEAN & CLEAR.png';
+import logoDov from '../../img/consumo/dove.png';
+import logoCon from '../../img/consumo/CONCHA Y TORO.png';
+import logoFerro from '../../img/consumo/FERRERO ROCHER.png';
+import logoHor from '../../img/consumo/HORMEL.png';
+import logoMar from '../../img/consumo/MARUCHAN.png';
+import logoPon from '../../img/consumo/PONDS.png';
+import logoSed from '../../img/consumo/SEDAL.png';
+import logoTres from '../../img/consumo/TRESEMMÉ.png';
+import logoUni from '../../img/consumo/UNILEVER.png';
+import logoWrig from '../../img/consumo/WRIGLEY.png';
+import logoRex from '../../img/consumo/REXONA.png';
+
+
 
 
 class Consumo extends React.Component {
-  constructor(){
+constructor(){
          super();
 
          this.state = {
@@ -6874,558 +6901,708 @@ changeColor80(){
   this.setState({woodbridge:!this.state.woodbridge})
 } 
 
-
-
     render(){
-        let btn_class = this.state.alka ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class2 = this.state.carefree ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class3 = this.state.casillero ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class4 = this.state.clean ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class5 = this.state.colombina ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class6 = this.state.concha ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class7 = this.state.derma ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class8 = this.state.desitin ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class9 = this.state.dove ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class10 = this.state.dvant ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class11 = this.state.jimador ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class12 = this.state.evenflo ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class13 = this.state.ferrero ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class14 = this.state.glad ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class15 = this.state.herradura ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class16 = this.state.hershey ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class17 = this.state.hormel ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class18 = this.state.hyde ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class19 = this.state.john ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class20 = this.state.juisy ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class21 = this.state.kisses ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class22 = this.state.listerine ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class23 = this.state.lubriderm ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class24 = this.state.lysol ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class25 = this.state.mm ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class26 = this.state.madonna ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class27 = this.state.maruchan ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class28 = this.state.mcormick ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class29 = this.state.milky ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class30 = this.state.nestle ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class31 = this.state.nivea ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class32 = this.state.nodor ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class33 = this.state.orbit ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class34 = this.state.pedigree ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class35 = this.state.ponds ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class36 = this.state.pringles ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class37 = this.state.rexona ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class38 = this.state.sangre ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class39 = this.state.sedal ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class40 = this.state.skittles ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class41 = this.state.snickers ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class42 = this.state.splenda ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class43 = this.state.star ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class44 = this.state.stayfree ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class45 = this.state.summer ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class46 = this.state.treseme ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class47 = this.state.twix ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class48 = this.state.tylenol ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class49 = this.state.unilever ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class50 = this.state.vitacreme ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class51 = this.state.whiskas ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class52 = this.state.wrigley ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class53 = this.state.freegells ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class54 = this.state.french ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class55 = this.state.frontera ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class56 = this.state.harpic ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class57 = this.state.jalisco ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class58 = this.state.jellico ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class59 = this.state.chula ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class60 = this.state.lactacyd ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class61 = this.state.marques ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class62 = this.state.nerds ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class63 = this.state.niveamen ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class64 = this.state.ogx ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class65 = this.state.oxy ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class66 = this.state.redbull ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class67 = this.state.robert ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class68 = this.state.roy ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class69 = this.state.sweeta ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class70 = this.state.tabcin ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class71 = this.state.toñac ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class72 = this.state.toñal ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class73 = this.state.trio ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class74 = this.state.trojan ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class75 = this.state.vanish ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class76 = this.state.venadito ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class77 = this.state.victor ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class78 = this.state.vigui ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class79 = this.state.winterfresh ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
-        let btn_class80 = this.state.woodbridge ? "bg-danger card card3 pointer" : "bg-azul card card3 pointer";
+        let btn_class = this.state.alka ? "pointer" : "pointer";
+        let btn_class2 = this.state.carefree ? "pointer" : "pointer";
+        let btn_class3 = this.state.casillero ? "pointer" : "pointer";
+        let btn_class4 = this.state.clean ? "pointer" : "pointer";
+        let btn_class5 = this.state.colombina ? "pointer" : "pointer";
+        let btn_class6 = this.state.concha ? "pointer" : "pointer";
+        let btn_class7 = this.state.derma ? "pointer" : "pointer";
+        let btn_class8 = this.state.desitin ? "pointer" : "pointer";
+        let btn_class9 = this.state.dove ? "pointer" : "pointer";
+        let btn_class10 = this.state.dvant ? "pointer" : "pointer";
+        let btn_class11 = this.state.jimador ? "pointer" : "pointer";
+        let btn_class12 = this.state.evenflo ? "pointer" : "pointer";
+        let btn_class13 = this.state.ferrero ? "pointer" : "pointer";
+        let btn_class14 = this.state.glad ? "pointer" : "pointer";
+        let btn_class15 = this.state.herradura ? "pointer" : "pointer";
+        let btn_class16 = this.state.hershey ? "pointer" : "pointer";
+        let btn_class17 = this.state.hormel ? "pointer" : "pointer";
+        let btn_class18 = this.state.hyde ? "pointer" : "pointer";
+        let btn_class19 = this.state.john ? "pointer" : "pointer";
+        let btn_class20 = this.state.juisy ? "pointer" : "pointer";
+        let btn_class21 = this.state.kisses ? "pointer" : "pointer";
+        let btn_class22 = this.state.listerine ? "pointer" : "pointer";
+        let btn_class23 = this.state.lubriderm ? "pointer" : "pointer";
+        let btn_class24 = this.state.lysol ? "pointer" : "pointer";
+        let btn_class25 = this.state.mm ? "pointer" : "pointer";
+        let btn_class26 = this.state.madonna ? "pointer" : "pointer";
+        let btn_class27 = this.state.maruchan ? "pointer" : "pointer";
+        let btn_class28 = this.state.mcormick ? "pointer" : "pointer";
+        let btn_class29 = this.state.milky ? "pointer" : "pointer";
+        let btn_class30 = this.state.nestle ? "pointer" : "pointer";
+        let btn_class31 = this.state.nivea ? "pointer" : "pointer";
+        let btn_class32 = this.state.nodor ? "pointer" : "pointer";
+        let btn_class33 = this.state.orbit ? "pointer" : "pointer";
+        let btn_class34 = this.state.pedigree ? "pointer" : "pointer";
+        let btn_class35 = this.state.ponds ? "pointer" : "pointer";
+        let btn_class36 = this.state.pringles ? "pointer" : "pointer";
+        let btn_class37 = this.state.rexona ? "pointer" : "pointer";
+        let btn_class38 = this.state.sangre ? "pointer" : "pointer";
+        let btn_class39 = this.state.sedal ? "pointer" : "pointer";
+        let btn_class40 = this.state.skittles ? "pointer" : "pointer";
+        let btn_class41 = this.state.snickers ? "pointer" : "pointer";
+        let btn_class42 = this.state.splenda ? "pointer" : "pointer";
+        let btn_class43 = this.state.star ? "pointer" : "pointer";
+        let btn_class44 = this.state.stayfree ? "pointer" : "pointer";
+        let btn_class45 = this.state.summer ? "pointer" : "pointer";
+        let btn_class46 = this.state.treseme ? "pointer" : "pointer";
+        let btn_class47 = this.state.twix ? "pointer" : "pointer";
+        let btn_class48 = this.state.tylenol ? "pointer" : "pointer";
+        let btn_class49 = this.state.unilever ? "pointer" : "pointer";
+        let btn_class50 = this.state.vitacreme ? "pointer" : "pointer";
+        let btn_class51 = this.state.whiskas ? "pointer" : "pointer";
+        let btn_class52 = this.state.wrigley ? "pointer" : "pointer";
+        let btn_class53 = this.state.freegells ? "pointer" : "pointer";
+        let btn_class54 = this.state.french ? "pointer" : "pointer";
+        let btn_class55 = this.state.frontera ? "pointer" : "pointer";
+        let btn_class56 = this.state.harpic ? "pointer" : "pointer";
+        let btn_class57 = this.state.jalisco ? "pointer" : "pointer";
+        let btn_class58 = this.state.jellico ? "pointer" : "pointer";
+        let btn_class59 = this.state.chula ? "pointer" : "pointer";
+        let btn_class60 = this.state.lactacyd ? "pointer" : "pointer";
+        let btn_class61 = this.state.marques ? "pointer" : "pointer";
+        let btn_class62 = this.state.nerds ? "pointer" : "pointer";
+        let btn_class63 = this.state.niveamen ? "pointer" : "pointer";
+        let btn_class64 = this.state.ogx ? "pointer" : "pointer";
+        let btn_class65 = this.state.oxy ? "pointer" : "pointer";
+        let btn_class66 = this.state.redbull ? "pointer" : "pointer";
+        let btn_class67 = this.state.robert ? "pointer" : "pointer";
+        let btn_class68 = this.state.roy ? "pointer" : "pointer";
+        let btn_class69 = this.state.sweeta ? "pointer" : "pointer";
+        let btn_class70 = this.state.tabcin ? "pointer" : "pointer";
+        let btn_class71 = this.state.toñac ? "pointer" : "pointer";
+        let btn_class72 = this.state.toñal ? "pointer" : "pointer";
+        let btn_class73 = this.state.trio ? "pointer" : "pointer";
+        let btn_class74 = this.state.trojan ? "pointer" : "pointer";
+        let btn_class75 = this.state.vanish ? "pointer" : "pointer";
+        let btn_class76 = this.state.venadito ? "pointer" : "pointer";
+        let btn_class77 = this.state.victor ? "pointer" : "pointer";
+        let btn_class78 = this.state.vigui ? "pointer" : "pointer";
+        let btn_class79 = this.state.winterfresh ? "pointer" : "pointer";
+        let btn_class80 = this.state.woodbridge ? "pointer" : "pointer";
         
-        
-  return (
-    <div className="mt-5 container">
-      <div className= "row">
-        <h3 className="text-primary text-cursive mb-3">Catálogo de proveedores consumo</h3>
-      </div>
-      <div className="row mb-3">
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#airwick">
-            <img src={airwick}  className="p-2 w-100 center" alt="..." />
-          </div>
-        </div>  
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#aleve">
-            <img src={Aleve}  className="p-2 w-75 center" alt="..." />
-          </div>
+
+        return (
+<section className="pt-5 pb-5">
+  <div className="container">
+    <div className="row">
+        <div className="col-12 border-bottom">
+            <h3 className="mb-3 text-primary">Socios comerciales consumo </h3>
         </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#alka">
-            <img src={alka}  className="p-2 w-100 center" alt="..." />
-          </div>
-        </div>                    
-            <div className= "col-md-2">
-                <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#ferrero">
-                    <img src={BIC}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
+
+        <div className="col-12">
+            {/* <div id="carouselExampleIndicators3" className="carousel slide w-75 marginleft" data-ride="carousel">
+
+                <div className="carousel-inner"> */}
+                    {/* <div className="carousel-item active"  data-interval="5000"> */}
+                        <div className="row">
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#airwick">
+                                <img src={airwick}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#aleve">
+                                <img src={Aleve}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class3} onClick={this.changeColor3.bind(this)} data-toggle="modal" data-target="#alka">
+                                <img src={alka}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class4} onClick={this.changeColor4.bind(this)} data-toggle="modal" data-target="#ferrero">
+                                <img src={BIC}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#hormel">
+                                <img src={Bug}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#maruchan">
+                                <img src={Cardio}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#carefree">
+                                <img src={carefree}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#casillero">
+                                <img src={casillero}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                        </div>
+                    {/* </div>
+
+
+                    <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#ponds">
+                                <img src={charisma}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#cleananclear">
+                                <img src={cleananclear}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#rexona">
+                                <img src={clorox}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#sedal">
+                                <img src={clos}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                        </div>
+                    {/* </div> */}
+
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                        <div className="col-md-3 mb-3">
+                              <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#colombina">
+                                <img src={COLOMBINA}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#concha">
+                                <img src={concha}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                            <div className="col-md-3 mb-3">
+                            <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#treseme">
+                              <img src={coronas}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class14} onClick={this.changeColor14.bind(this)} data-toggle="modal" data-target="#derma">
+                                <img src={DERMANATURAL}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                            <div className="col-md-3 mb-3">
+                              <div className={btn_class15} onClick={this.changeColor15.bind(this)} data-toggle="modal" data-target="#desitin">
+                                <img src={desitin}  className="p-2 w-100 center" alt="..." />
+                              </div>
+                            </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class16} onClick={this.changeColor16.bind(this)} data-toggle="modal" data-target="#unilever">
+                              <img src={donmelchor}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                          <div className={btn_class17} onClick={this.changeColor17.bind(this)}  data-toggle="modal" data-target="#wrigley">
+                            <img src={doublemint}  className="p-2 w-100 center" alt="..." />
+                          </div>
+                        </div>
+                        <div className="col-md-3 mb-3">
+                          <div className={btn_class17} onClick={this.changeColor17.bind(this)}  data-toggle="modal" data-target="#dov">
+                            <img src={dove}  className="p-2 w-100 center" alt="..." />
+                          </div>
+                        </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                      <div className="row">
                         
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#hormel">
-                    <img src={Bug}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#maruchan">
-                    <img src={Cardio}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-      </div>    
+                        <div className="col-md-3 mb-3">
+                          <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#dvant">
+                            <img src={DVANT}  className="p-2 w-100 center" alt="..." />
+                          </div>
+                        </div>
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class19} onClick={this.changeColor19.bind(this)}  data-toggle="modal" data-target="#jimador">
+                              <img src={JIMADOR}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class20} onClick={this.changeColor20.bind(this)} data-toggle="modal" data-target="#evenflo">
+                              <img src={evenflo}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class20} onClick={this.changeColor20.bind(this)} data-toggle="modal" data-target="#ferro">
+                              <img src={Ferro}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                        </div>
+                      </div>
+                    {/* </div> */}
 
-{/* 2 */}
-  <div className="row mb-3">
-  <div className= "col-md-2 mt-1">
-          <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#carefree">
-            <img src={carefree}  className="p-2 w-100 center" alt="..." />
-          </div>
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                      <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#freegells">
+                              <img src={freegells}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#french">
+                              <img src={french}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#frontera">
+                              <img src={frontera}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class24} onClick={this.changeColor24.bind(this)}  data-toggle="modal" data-target="#glad">
+                              <img src={glad}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#harpic">
+                              <img src={harpic}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class26} onClick={this.changeColor26.bind(this)}  data-toggle="modal" data-target="#herradura">
+                              <img src={HERRADURA}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#hersheys">
+                              <img src={hersheys}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#hor">
+                              <img src={Hor}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#hyde">
+                              <img src={HYDE}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#jalisco">
+                              <img src={jalisco}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#jellico">
+                              <img src={jellico}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class31} onClick={this.changeColor31.bind(this)}  data-toggle="modal" data-target="#johnson">
+                              <img src={johnson}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#juicy">
+                              <img src={JUICY}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#kisses">
+                              <img src={KISSES}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class34} onClick={this.changeColor34.bind(this)}  data-toggle="modal" data-target="#chula">
+                              <img src={chula}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#lactacyd">
+                              <img src={lactacyd}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class36} onClick={this.changeColor36.bind(this)} data-toggle="modal" data-target="#listerine">
+                              <img src={listerine}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#lubriderm">
+                              <img src={lubriderm}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class38} onClick={this.changeColor38.bind(this)}  data-toggle="modal" data-target="#lysol">
+                              <img src={LYSOL}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class39} onClick={this.changeColor39.bind(this)}  data-toggle="modal" data-target="#mm">
+                              <img src={MM}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#madonna">
+                              <img src={MADONNA}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class41} onClick={this.changeColor41.bind(this)}  data-toggle="modal" data-target="#marques">
+                              <img src={marques}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class41} onClick={this.changeColor41.bind(this)}  data-toggle="modal" data-target="#mar">
+                              <img src={Mar}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class42} onClick={this.changeColor42.bind(this)} data-toggle="modal" data-target="#mcormick">
+                              <img src={MCCORMICK}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#milky">
+                              <img src={MILKY}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class44} onClick={this.changeColor44.bind(this)} data-toggle="modal" data-target="#nerds">
+                              <img src={nerds}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class45} onClick={this.changeColor45.bind(this)}  data-toggle="modal" data-target="#nestle">
+                              <img src={nestle}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#nivea">
+                              <img src={nivea}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class47} onClick={this.changeColor47.bind(this)} data-toggle="modal" data-target="#niveamen">
+                              <img src={niveamen}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class48} onClick={this.changeColor48.bind(this)} data-toggle="modal" data-target="#nodor">
+                              <img src={NODOR}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#ogx">
+                              <img src={OGX}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#orbit">
+                              <img src={ORBIT}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#oxy">
+                              <img src={oxy}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#pedigree">
+                              <img src={PEDIGREE}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#pon">
+                              <img src={pon}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#pringles">
+                              <img src={PRINGLES}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#redbull">
+                              <img src={redbull}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#rex">
+                              <img src={rex}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#robert">
+                              <img src={robert}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#roy">
+                              <img src={roy}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#sangre">
+                              <img src={SANGRE}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#sed">
+                              <img src={sed}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#skittles">
+                              <img src={skittles}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#snickers">
+                              <img src={SNICKERS}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#splenda">
+                              <img src={splenda}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#star">
+                              <img src={STARBURST}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#stayfree">
+                              <img src={STAYFREE}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#summer">
+                              <img src={SUMMER}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+
+
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#sweetarts">
+                              <img src={sweetarts}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#tabcin">
+                              <img src={tabcin}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#toñac">
+                              <img src={toñac}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#toñal">
+                              <img src={toñal}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                        <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#tres">
+                              <img src={tres}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#trio">
+                              <img src={trio}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#trojan">
+                              <img src={trojan}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#twix">
+                              <img src={TWIX}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+ {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                          
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#tylenol">
+                              <img src={TYLENOL}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#uni">
+                              <img src={uni}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#vanish">
+                              <img src={vanish}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#venadito">
+                              <img src={venadito}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                 {/*    </div>
+                 <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#victoria">
+                              <img src={victoria}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#vigui">
+                              <img src={vigui}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#vitacreme">
+                              <img src={VITACREME}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#whiskas">
+                              <img src={WHISKAS}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+                 {/* <div className="carousel-item"  data-interval="5000"> */}
+                        <div className="row">
+                    
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#winterfresh">
+                              <img src={Winterfresh}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#woodbridge">
+                              <img src={WoodBridge}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                          <div className="col-md-3 mb-3">
+                            <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#wrig">
+                              <img src={wrig}  className="p-2 w-100 center" alt="..." />
+                            </div>
+                          </div>
+                        </div>
+                    {/* </div> */}
+                
+
+                {/* </div>
+            </div> */}
+
+            
+
+            {/* <a className="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+              <i className="fas fa-angle-left text-primary fa-2x"></i>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+              <i className="fas fa-angle-right text-primary fa-2x"></i>
+              <span className="sr-only">Next</span>
+            </a> */}
         </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class3} onClick={this.changeColor3.bind(this)} data-toggle="modal" data-target="#casillero">
-            <img src={casillero}  className="p-2 w-75 center" alt="..." />
-          </div>
-        </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#ponds">
-            <img src={charisma}  className="p-2 w-100 center" alt="..." />
-          </div>
-        </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#rexona">
-            <img src={clorox}  className="p-2 w-100 w-50-xs-md center" alt="..." />
-          </div>
-        </div>            
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class39} onClick={this.changeColor39.bind(this)} data-toggle="modal" data-target="#sedal">
-            <img src={clos}  className="p-2 w-50 center" alt="..." />
-          </div>
-        </div>            
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#colombina">
-            <img src={COLOMBINA}  className="p-2 w-75 center" alt="..." />
-          </div>
-        </div>
-  </div>
-{/* 3 */}
-<div className="row mb-3">
-<div className= "col-md-2  mt-1">
-            <div className={btn_class46} onClick={this.changeColor46.bind(this)} data-toggle="modal" data-target="#treseme">
-              <img src={coronas}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#derma">
-            <img src={DERMANATURAL}  className="p-2 w-75 center" alt="..." />
-          </div>
-        </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#desitin">
-            <img src={desitin}  className="p-2 w-100 center" alt="..." />
-          </div>
-        </div>
-        <div className= "col-md-2 mt-1">
-          <div className={btn_class49} onClick={this.changeColor49.bind(this)} data-toggle="modal" data-target="#unilever">
-            <img src={donmelchor}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-          </div>
-        </div>
-        <div className= "col-md-2 mt-1">
-                <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#wrigley">
-                    <img src={doublemint}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#dvant">
-                    <img src={DVANT}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
+    </div>
 </div>
-      {/* 4 */}
-      <div className="row mb-3">
 
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#jimador">
-                    <img src={JIMADOR}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#evenflo">
-                    <img src={evenflo}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class53} onClick={this.changeColor53.bind(this)} data-toggle="modal" data-target="#freegells">
-                    <img src={freegells}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class54} onClick={this.changeColor54.bind(this)} data-toggle="modal" data-target="#french">
-                    <img src={french}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class55} onClick={this.changeColor55.bind(this)} data-toggle="modal" data-target="#frontera">
-                    <img src={frontera}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class14} onClick={this.changeColor14.bind(this)} data-toggle="modal" data-target="#glad">
-                <img src={glad}  className="p-2 w-75 center" alt="..." />
-              </div>
-            </div>
-      </div>
-
-{/* 5 */}
-<div className="row mb-3">
-<div className= "col-md-2 mt-1">
-                <div className={btn_class56} onClick={this.changeColor56.bind(this)} data-toggle="modal" data-target="#harpic">
-                    <img src={harpic}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class15} onClick={this.changeColor15.bind(this)} data-toggle="modal" data-target="#herradura">
-                    <img src={HERRADURA}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class16} onClick={this.changeColor16.bind(this)} data-toggle="modal" data-target="#hersheys">
-                <img src={hersheys}  className="p-2 w-75 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#hyde">
-                    <img src={HYDE}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class57} onClick={this.changeColor57.bind(this)} data-toggle="modal" data-target="#jalisco">
-                    <img src={jalisco}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class58} onClick={this.changeColor58.bind(this)} data-toggle="modal" data-target="#jellico">
-                    <img src={jellico}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-
-</div>
-
-        {/* 6 */}
-        <div className="row mb-3">
-
-            <div className= "col-md-2 mt-1">
-            <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#johnson">
-                    <img src={johnson}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class20} onClick={this.changeColor20.bind(this)} data-toggle="modal" data-target="#juicy">
-                    <img src={JUICY}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#kisses">
-                <img src={KISSES}  className="p-2 w-100 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class59} onClick={this.changeColor59.bind(this)} data-toggle="modal" data-target="#chula">
-                <img src={chula}  className="p-2 w-100 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class60} onClick={this.changeColor60.bind(this)} data-toggle="modal" data-target="#lactacyd">
-                <img src={lactacyd}  className="p-2 w-100 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#listerine">
-                    <img src={listerine}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-        </div>
-{/* 7 */}
-<div className="row mb-3">
-  <div className= "col-md-2 mt-1">
-    <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#lubriderm">
-      <img src={lubriderm}  className="p-2 w-100 center" alt="..." />
-    </div>
-  </div>
-  <div className= "col-md-2 mt-1">
-            <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#lysol">
-              <img src={LYSOL}  className=" p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#mm">
-                    <img src={MM}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class26} onClick={this.changeColor26.bind(this)} data-toggle="modal" data-target="#madonna">
-                    <img src={MADONNA}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class61} onClick={this.changeColor61.bind(this)} data-toggle="modal" data-target="#marques">
-                    <img src={marques}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#mcormick">
-                    <img src={MCCORMICK}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-</div>
-
-        {/* 8 */}
-        <div className="row mb-3">
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#milky">
-                    <img src={MILKY}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class62} onClick={this.changeColor62.bind(this)} data-toggle="modal" data-target="#nerds">
-                <img src={nerds}  className="p-2 w-100 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-              <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#nestle">
-                <img src={nestle}  className="p-2 w-100 center" alt="..." />
-              </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class31} onClick={this.changeColor31.bind(this)} data-toggle="modal" data-target="#nivea">
-                    <img src={nivea}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-                        
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class63} onClick={this.changeColor63.bind(this)} data-toggle="modal" data-target="#niveamen">
-                    <img src={niveamen}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#nodor">
-                    <img src={NODOR}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            
-        </div>
-        {/* 9*/}
-        <div className="row mb-3">
-
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class64} onClick={this.changeColor64.bind(this)} data-toggle="modal" data-target="#ogx">
-                    <img src={OGX}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#orbit">
-                    <img src={ORBIT}  className=" p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class65} onClick={this.changeColor65.bind(this)} data-toggle="modal" data-target="#oxy">
-                    <img src={oxy}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            
-            <div className= "col-md-2 mt-1">
-            <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pedigree">
-              <img src={PEDIGREE}  className=" p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-                <div className={btn_class36} onClick={this.changeColor36.bind(this)} data-toggle="modal" data-target="#pringles">
-                    <img src={PRINGLES}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-    <div className={btn_class66} onClick={this.changeColor66.bind(this)} data-toggle="modal" data-target="#redbull">
-      <img src={redbull}  className="p-2 w-100 center" alt="..." />
-    </div>
-  </div>
-        </div>
-        {/* 10 */}
-<div className= "row mb-3">
-  <div className= "col-md-2 mt-1">
-    <div className={btn_class67} onClick={this.changeColor67.bind(this)} data-toggle="modal" data-target="#robert">
-      <img src={robert}  className="p-2 w-100 center" alt="..." />
-    </div>
-  </div>
-  <div className= "col-md-2 mt-1">
-    <div className={btn_class68} onClick={this.changeColor68.bind(this)} data-toggle="modal" data-target="#roy">
-      <img src={roy}  className="p-2 w-100 center" alt="..." />
-    </div>
-  </div>
-  <div className= "col-md-2 mt-1">
-    <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#sangre">
-      <img src={SANGRE}  className=" p-2 w-75 center" alt="..." />
-    </div>
-  </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class40} onClick={this.changeColor40.bind(this)} data-toggle="modal" data-target="#skittles">
-                    <img src={skittles}  className="p-2 w-75 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class41} onClick={this.changeColor41.bind(this)} data-toggle="modal" data-target="#snickers">
-                    <img src={SNICKERS}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class42} onClick={this.changeColor42.bind(this)} data-toggle="modal" data-target="#splenda">
-                    <img src={splenda}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>            
-            
-            
-</div>
-        {/* 11*/}
-        <div className="row mb-3">
-
-                      <div className= "col-md-2 mt-1">
-            <div className={btn_class43} onClick={this.changeColor43.bind(this)} data-toggle="modal" data-target="#star">
-               <img src={STARBURST}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class44} onClick={this.changeColor44.bind(this)} data-toggle="modal" data-target="#stayfree">
-              <img src={STAYFREE}  className="p-2 w-100 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class45} onClick={this.changeColor45.bind(this)} data-toggle="modal" data-target="#summer">
-              <img src={SUMMER}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class69} onClick={this.changeColor69.bind(this)} data-toggle="modal" data-target="#sweetarts">
-              <img src={sweetarts}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class70} onClick={this.changeColor70.bind(this)} data-toggle="modal" data-target="#tabcin">
-              <img src={tabcin}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class71} onClick={this.changeColor71.bind(this)} data-toggle="modal" data-target="#toñac">
-              <img src={toñac}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-        </div>
-        
-        {/* 12 */}
-        <div className="row mb-3">
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class72} onClick={this.changeColor72.bind(this)} data-toggle="modal" data-target="#toñal">
-              <img src={toñal}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class73} onClick={this.changeColor73.bind(this)} data-toggle="modal" data-target="#trio">
-              <img src={trio}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class74} onClick={this.changeColor74.bind(this)} data-toggle="modal" data-target="#trojan">
-              <img src={trojan}  className="p-2 w-75 w-50-xs-md center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class47} onClick={this.changeColor47.bind(this)} data-toggle="modal" data-target="#twix">
-              <img src={TWIX}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class48} onClick={this.changeColor48.bind(this)} data-toggle="modal" data-target="#tylenol">
-              <img src={tylenol}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-        <div className= "col-md-2 mt-1">
-            <div className={btn_class75} onClick={this.changeColor75.bind(this)} data-toggle="modal" data-target="#vanish">
-              <img src={vanish}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>          
-        </div>
-        {/* 13 */}
-        <div className="row mb-3">
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class76} onClick={this.changeColor76.bind(this)} data-toggle="modal" data-target="#venadito">
-              <img src={venadito}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class77} onClick={this.changeColor77.bind(this)} data-toggle="modal" data-target="#victoria">
-              <img src={victoria}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class78} onClick={this.changeColor78.bind(this)} data-toggle="modal" data-target="#vigui">
-              <img src={Vigui}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          
-        <div className= "col-md-2 mt-1">
-                <div className={btn_class50} onClick={this.changeColor50.bind(this)} data-toggle="modal" data-target="#vitacreme">
-                    <img src={VITACREME}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
-            <div className= "col-md-2 mt-1">
-                <div className={btn_class51} onClick={this.changeColor51.bind(this)} data-toggle="modal" data-target="#whiskas">
-                    <img src={WHISKAS}  className="p-2 w-100 center" alt="..." />
-                </div>
-            </div>
- <div className= "col-md-2 mt-1">
-            <div className={btn_class79} onClick={this.changeColor79.bind(this)} data-toggle="modal" data-target="#winterfresh">
-              <img src={winterfresh}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>            
-        </div>
-          
-
-        {/* 14 */}
-        <div className="row mb-3">
-
-          <div className= "col-md-2 mt-1">
-            <div className={btn_class80} onClick={this.changeColor80.bind(this)} data-toggle="modal" data-target="#woodbridge">
-              <img src={woodbridge}  className="p-2 w-75 center" alt="..." />
-            </div>
-          </div>
-          
-
-            
- 
-        </div>
-        
+      
         {/* <!-- Modal 1--> */}
 <div className="modal fade" id="alka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered modal-lg">
@@ -8872,8 +9049,227 @@ changeColor80(){
   </div>
 </div>
 
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="cleananclear" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logocleananclear}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
     </div>
-    
-    )
-  }
-  }export default Consumo;
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="dov" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoDov}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="ferro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoFerro}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="hor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoHor}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="mar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoMar}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="pon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoPon}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="sed" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoSed}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="tres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoTres}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="concha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoCon}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="rex" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoRex}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="uni" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoUni}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <!-- Modal 5--> */}
+<div className="modal fade" id="wrig" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content2">
+      <div className="modal-body">
+      <button type="button" className="close2 border-0" onClick={this.changeColor5.bind(this)} data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i className="far fa-times-circle text-primary"></i></span>
+        </button>
+       <div className="row">
+           <div className="col-md-12">
+           <img src={logoWrig}  className="img-fluid" alt="..." />
+           </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</section>
+ )
+}
+}export default Consumo;
