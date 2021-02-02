@@ -19,10 +19,10 @@ const Carrusel = () => (
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active" data-interval="5000">
-      <img src={Farinter} className="d-block w-100 card-circle" alt="farinter" /> 
+      <img src={Farinter} className="d-block w-100" alt="farinter" /> 
     </div>
     <div className="carousel-item" data-interval="5000">
-      <img src={Lin} className="d-block w-100 card-circle" alt="lineamientos" />
+      <img src={Lin} className="d-block w-100" alt="lineamientos" />
     </div>
     {/* <div className="carousel-item" data-interval="5000">
       <img src={Somos} className="d-block w-100" alt="Somos" />
@@ -31,7 +31,7 @@ const Carrusel = () => (
       <img src={Valores} className="d-block w-100" alt="valores" />
     </div> */}
     <div className="carousel-item" data-interval="5000">
-      <img src={Bodegas} className="d-block w-100 card-circle" alt="bodegas" />
+      <img src={Bodegas} className="d-block w-100" alt="bodegas" />
     </div>
   </div>
   <a className="carousel-control-prev carrusel-izq" href="#carouselExampleFade" role="button" data-slide="prev">

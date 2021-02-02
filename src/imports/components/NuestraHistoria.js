@@ -7,7 +7,7 @@ import Historia from '../../img/Nuestra historia.jpg';
 
 const farinterhisto = () => (
   <div className="container">
-    <img src={Historia} className="d-block w-100 mt-4 card-circle"/>
+    <img src={Historia} className="d-block w-100 mt-4"/>
   </div>
   
 );
