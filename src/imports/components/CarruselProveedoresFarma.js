@@ -8578,11 +8578,11 @@ render(){
                 </div>
             </div>
 
-            <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <a className="carousel-control-prev carrusel-izq" href="#carouselExampleIndicators2" role="button" data-slide="prev">
               <i className="fas fa-angle-left text-primary fa-2x"></i>
               <span className="sr-only">Previous</span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <a className="carousel-control-next carrusel-der" href="#carouselExampleIndicators2" role="button" data-slide="next">
               <i className="fas fa-angle-right text-primary fa-2x"></i>
               <span className="sr-only">Next</span>
             </a>
