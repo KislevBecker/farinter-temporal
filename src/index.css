@@ -32,6 +32,9 @@ code {
   border-radius: 50% !important;
 }
 
+.w-80{
+  width: 80% !important;
+}
 
 /* para el chatbot:  */
 /* .flotante2 {
