@@ -8122,22 +8122,22 @@ render(){
                     <div className="carousel-item active"  data-interval="5000">
                         <div className="row">
 
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#exampleModal">
                                 <img src={treseme}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#abott">
                                 <img src={abott}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class3} onClick={this.changeColor3.bind(this)} data-toggle="modal" data-target="#alcon" >
                                 <img src={alcon}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class4} onClick={this.changeColor4.bind(this)} data-toggle="modal" data-target="#almiral">
                                 <img src={almirall}  className="p-2 w-100 center" alt="..." />
                               </div>
@@ -8147,22 +8147,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#ashonplafa">
                                 <img src={ashonplafa}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class6} onClick={this.changeColor6.bind(this)} data-toggle="modal" data-target="#asopharma">
                                 <img src={asopharma}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#aspen">
                                 <img src={aspen}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#astamedica">
                                 <img src={astamedica}  className="p-2 w-100 center" alt="..." />
                               </div>
@@ -8172,22 +8172,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#astra">
                                 <img src={astra}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class8} onClick={this.changeColor8.bind(this)} data-toggle="modal" data-target="#bago">
                                 <img src={bago}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#bayer">
                               <img src={bayer}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#bayerhealth">
                               <img src={bayerhealth}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8196,22 +8196,22 @@ render(){
                     </div>
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#bial">
                               <img src={BIAL}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#biokemical">
                               <img src={biokemical}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#biopas">
                               <img src={biopas}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#boehringer">
                               <img src={BOEHRINGER}  className="p-2 w-100 center" alt="..." />
                           </div>
@@ -8221,22 +8221,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#bussie">
                               <img src={bussie}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#cheplafarm">
                               <img src={cheplafarm}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#clement">
                               <img src={clement}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#covidien">
                               <img src={COVIDIEN}  className="p-2 w-100 center" alt="..." />
                           </div>
@@ -8246,22 +8246,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#detector">
                               <img src={DETECTOR}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class14} onClick={this.changeColor14.bind(this)} data-toggle="modal" data-target="#euromed">
                               <img src={EUROMED}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class15} onClick={this.changeColor15.bind(this)} data-toggle="modal" data-target="#eurotest">
                               <img src={EUROTEST}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class16} onClick={this.changeColor16.bind(this)} data-toggle="modal" data-target="#fleet">
                               <img src={FLEET}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8271,22 +8271,22 @@ render(){
                 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#galderma">
                               <img src={GALDERMA}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class18} onClick={this.changeColor18.bind(this)} data-toggle="modal" data-target="#gnoma">
                               <img src={gnoma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#genzyme">
                               <img src={GENZYME}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class20} onClick={this.changeColor20.bind(this)} data-toggle="modal" data-target="#grifols">
                               <img src={GRIFOLS}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8296,22 +8296,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#grossman">
                               <img src={GROSSMAN}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#grunenthal">
                               <img src={GRUNENTHAL}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class19} onClick={this.changeColor19.bind(this)} data-toggle="modal" data-target="#grupofarma">
                               <img src={grupofarma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#gsk">
                               <img src={gsk}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8321,22 +8321,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#infarma">
                               <img src={INFARMA}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class22} onClick={this.changeColor22.bind(this)} data-toggle="modal" data-target="#jpharma">
                               <img src={jpharma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class23} onClick={this.changeColor23.bind(this)} data-toggle="modal" data-target="#lasante">
                               <img src={lasante}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class24} onClick={this.changeColor24.bind(this)} data-toggle="modal" data-target="#leo">
                               <img src={leo}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8346,22 +8346,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#lilly">
                               <img src={lilly}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class26} onClick={this.changeColor26.bind(this)} data-toggle="modal" data-target="#mead">
                               <img src={MEAD}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class28} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#medix">
                               <img src={medix}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class27} onClick={this.changeColor27.bind(this)} data-toggle="modal" data-target="#mepha">
                               <img src={mepha}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8371,22 +8371,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#merck">
                               <img src={MERCK}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class30} onClick={this.changeColor30.bind(this)} data-toggle="modal" data-target="#mk">
                               <img src={MK}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class31} onClick={this.changeColor31.bind(this)} data-toggle="modal" data-target="#msd">
                               <img src={msd}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#nestlecaribean">
                               <img src={nestlecaribean}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8396,22 +8396,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#novartis">
                               <img src={novartis}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#nutricia">
                               <img src={NUTRICIA}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#om">
                               <img src={om}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#organon">
                               <img src={ORGANON}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8421,22 +8421,22 @@ render(){
 
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#owen">
                               <img src={owen}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#pg">
                               <img src={PG}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#panalab">
                               <img src={panalab}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class33} onClick={this.changeColor33.bind(this)} data-toggle="modal" data-target="#pasmo">
                               <img src={pasmo}  className="p-2 w-100 center" alt="..." />
                             </div>
@@ -8448,23 +8448,23 @@ render(){
                     <div className="carousel-item"  data-interval="5000">
                         <div className="row">
 
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class34} onClick={this.changeColor34.bind(this)} data-toggle="modal" data-target="#pfizer">
                               <img src={pfizer}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
 
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class36} onClick={this.changeColor36.bind(this)} data-toggle="modal" data-target="#promeco">
                               <img src={PROMECO}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#proder">
                               <img src={proderfarma}  className="p-2 w-100 center" alt="..." />
                             </div>
                           </div>
-                          <div className="col-md-3 mb-3">
+                          <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                             <div className={btn_class37} onClick={this.changeColor37.bind(this)} data-toggle="modal" data-target="#qc">
                               <img src={QC}  className="p-2 w-100 center" alt="..." />
                             </div>
