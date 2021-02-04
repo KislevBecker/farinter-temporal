@@ -1642,7 +1642,12 @@ button.close2 {
   margin-left: 6px;
   margin-top: 18px;
 }
-
+ .carrusel-izq {
+    left: -60px !important;
+} 
+.carrusel-der {
+    right: -60px !important;
+}
 
 }
 
@@ -1660,10 +1665,10 @@ button.close2 {
   width: 30%!important;
 }
  .carrusel-izq {
-    left: -77px !important;
+    left: -60px !important;
 } 
 .carrusel-der {
-    right: -72px !important;
+    right: -60px !important;
 }
 
 .col-xs-3 {
