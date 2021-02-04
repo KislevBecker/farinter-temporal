@@ -8116,7 +8116,7 @@ render(){
         </div>
 
         <div className="col-12">
-            <div id="carouselExampleIndicators2" className="carousel slide w-80" data-ride="carousel">
+            <div id="carouselExampleIndicators2" className="carousel slide w-100" data-ride="carousel">
 
                 <div className="carousel-inner">
                     <div className="carousel-item active"  data-interval="5000">
