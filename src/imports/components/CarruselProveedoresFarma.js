@@ -8110,7 +8110,7 @@ render(){
 <section className="pt-5 pb-5">
   <div className="container">
   <div className="d-block d-sm-block d-md-none">
-  <div className="row">
+  <div className="row no-gutters">
         <div className="col-12 border-bottom text-primary">
             <h3 className="mb-3 text-primary">Socios comerciales farma </h3>
         </div>
