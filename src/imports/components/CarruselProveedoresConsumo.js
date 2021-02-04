@@ -6998,22 +6998,22 @@ changeColor80(){
                 <div className="carousel-inner"> */}
                     {/* <div className="carousel-item active"  data-interval="5000"> */}
                         <div className="row">
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#airwick">
                                 <img src={airwick}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class2} onClick={this.changeColor2.bind(this)} data-toggle="modal" data-target="#aleve">
                                 <img src={Aleve}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class3} onClick={this.changeColor3.bind(this)} data-toggle="modal" data-target="#alka">
                                 <img src={alka}  className="p-2 w-100 center" alt="..." />
                               </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class4} onClick={this.changeColor4.bind(this)} data-toggle="modal" data-target="#ferrero">
                                 <img src={BIC}  className="p-2 w-100 center" alt="..." />
                               </div>

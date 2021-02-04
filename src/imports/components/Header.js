@@ -4,11 +4,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logoazul from '../../img/LOGO FARINTER BLANCO.png';
 import certificaciones from '../../img/LOGOS ISO.png'
-
+import ModalCertificados from './ModalCertificados';
 
 const Header = () => (
 
   <nav className="navbar  navbar-light bg-light">
+    <ModalCertificados />
   <div className="collapse navbar-collapse container" id="navbarTogglerDemo01">
     <Link className="navbar-brand" to="/"><img src={logoazul} className="img-fluid mb-3" alt="Responsive image" width='140px'/></Link>
     <form className="form-inline my-2 my-lg-0">
@@ -22,7 +23,7 @@ const Header = () => (
             </a>
           </div>
       </div> */}
-      <img src={certificaciones} className="img-fluid" alt="Responsive image" width='140px'/>
+      <img src={certificaciones} className="img-fluid pointer" alt="Responsive image" width='140px' data-toggle="modal" data-target="#certificacionesModal" />
     </form>
   </div>
 </nav>
