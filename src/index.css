@@ -1782,6 +1782,12 @@ button.close2 {
 
 }
 @media (min-width: 1200px) {
+   .carrusel-izq {
+    left: -60px !important;
+} 
+.carrusel-der {
+    right: -60px !important;
+}
   .col-lg-15 {
       width: 20%;
       float: left;
