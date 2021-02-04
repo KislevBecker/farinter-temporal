@@ -17,7 +17,7 @@ const Footer = () => (
     <div className="row">
     <div className="col-md-8">
       <h5 className="text-white text-uppercase font-weigth bold"> Oficinas principales</h5>
-    <div className= "row">
+    <div className= "row mb-3">
       <div className="col-md-5 border-right">
         <p className="text-white"><b>Tegucigalpa, Honduras</b><br />
             Edificio Farinter, atrás de la Toyota, <br/>
