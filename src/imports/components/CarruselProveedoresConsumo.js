@@ -6987,16 +6987,17 @@ changeColor80(){
         return (
 <section className="pt-5 pb-5">
   <div className="container">
-    <div className="row">
+  <div className="d-block d-sm-block d-md-none">
+  <div className="row">
         <div className="col-12 border-bottom">
             <h3 className="mb-3 text-primary">Socios comerciales consumo </h3>
         </div>
 
         <div className="col-12">
-            {/* <div id="carouselExampleIndicators3" className="carousel slide w-75 marginleft" data-ride="carousel">
+            <div id="carouselExampleIndicators3" className="carousel slide w-75 marginleft" data-ride="carousel">
 
-                <div className="carousel-inner"> */}
-                    {/* <div className="carousel-item active"  data-interval="5000"> */}
+                <div className="carousel-inner">
+                    <div className="carousel-item active"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 col-sm-3 col-xs-3 mb-3">
                               <div className={btn_class} onClick={this.changeColor.bind(this)} data-toggle="modal" data-target="#airwick">
@@ -7019,9 +7020,9 @@ changeColor80(){
                               </div>
                             </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#hormel">
@@ -7044,10 +7045,10 @@ changeColor80(){
                               </div>
                             </div>
                         </div>
-                    {/* </div>
+                    </div>
 
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class9} onClick={this.changeColor9.bind(this)} data-toggle="modal" data-target="#ponds">
@@ -7070,10 +7071,10 @@ changeColor80(){
                               </div>
                             </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                         <div className="col-md-3 mb-3">
                               <div className={btn_class12} onClick={this.changeColor12.bind(this)} data-toggle="modal" data-target="#colombina">
@@ -7096,9 +7097,9 @@ changeColor80(){
                               </div>
                             </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                             <div className="col-md-3 mb-3">
@@ -7122,9 +7123,9 @@ changeColor80(){
                           </div>
                         </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                       <div className="row">
                         
                         <div className="col-md-3 mb-3">
@@ -7148,9 +7149,9 @@ changeColor80(){
                             </div>
                         </div>
                       </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                       <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#freegells">
@@ -7173,10 +7174,10 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#harpic">
@@ -7199,9 +7200,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class28} onClick={this.changeColor28.bind(this)} data-toggle="modal" data-target="#hyde">
@@ -7224,10 +7225,10 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7251,9 +7252,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7277,9 +7278,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7303,9 +7304,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7329,9 +7330,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7355,10 +7356,10 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7382,9 +7383,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
 
                           <div className="col-md-3 mb-3">
@@ -7408,9 +7409,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class49} onClick={this.changeColor49.bind(this)}  data-toggle="modal" data-target="#sangre">
@@ -7433,9 +7434,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#splenda">
@@ -7458,10 +7459,10 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
 
                           <div className="col-md-3 mb-3">
@@ -7485,9 +7486,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                         <div className="col-md-3 mb-3">
                             <div className={btn_class52} onClick={this.changeColor52.bind(this)} data-toggle="modal" data-target="#tres">
@@ -7510,9 +7511,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
- {/* <div className="carousel-item"  data-interval="5000"> */}
+ <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           
                           <div className="col-md-3 mb-3">
@@ -7536,8 +7537,8 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                 {/*    </div>
-                 <div className="carousel-item"  data-interval="5000"> */}
+                    </div>
+                 <div className="carousel-item"  data-interval="5000">
                         <div className="row">
 
                           <div className="col-md-3 mb-3">
@@ -7561,9 +7562,9 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
-                 {/* <div className="carousel-item"  data-interval="5000"> */}
+                 <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                     
                           <div className="col-md-3 mb-3">
@@ -7582,25 +7583,27 @@ changeColor80(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
                 
 
-                {/* </div>
-            </div> */}
+                </div>
+            </div>
 
             
 
-            {/* <a className="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
               <i className="fas fa-angle-left text-primary fa-2x"></i>
               <span className="sr-only">Previous</span>
             </a>
             <a className="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
               <i className="fas fa-angle-right text-primary fa-2x"></i>
               <span className="sr-only">Next</span>
-            </a> */}
+            </a>
         </div>
     </div>
 </div>
+  </div>
+    
 
       
         {/* <!-- Modal 1--> */}

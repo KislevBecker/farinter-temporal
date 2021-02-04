@@ -8109,16 +8109,17 @@ render(){
 
 <section className="pt-5 pb-5">
   <div className="container">
-    <div className="row">
+  <div className="d-block d-sm-block d-md-none">
+  <div className="row">
         <div className="col-12 border-bottom text-primary">
             <h3 className="mb-3 text-primary">Socios comerciales farma </h3>
         </div>
 
         <div className="col-12">
-            {/* <div id="carouselExampleIndicators2" className="carousel slide w-75 marginleft" data-ride="carousel">
+            <div id="carouselExampleIndicators2" className="carousel slide w-75 marginleft" data-ride="carousel">
 
-                <div className="carousel-inner"> */}
-                    {/* <div className="carousel-item active"  data-interval="5000"> */}
+                <div className="carousel-inner">
+                    <div className="carousel-item active"  data-interval="5000">
                         <div className="row">
 
                             <div className="col-md-3 mb-3">
@@ -8142,9 +8143,9 @@ render(){
                               </div>
                             </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class5} onClick={this.changeColor5.bind(this)} data-toggle="modal" data-target="#ashonplafa">
@@ -8167,9 +8168,9 @@ render(){
                               </div>
                             </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                             <div className="col-md-3 mb-3">
                               <div className={btn_class7} onClick={this.changeColor7.bind(this)} data-toggle="modal" data-target="#astra">
@@ -8192,8 +8193,8 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    </div>
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class10} onClick={this.changeColor10.bind(this)} data-toggle="modal" data-target="#bial">
@@ -8216,9 +8217,9 @@ render(){
                           </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class11} onClick={this.changeColor11.bind(this)} data-toggle="modal" data-target="#bussie">
@@ -8241,9 +8242,9 @@ render(){
                           </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class13} onClick={this.changeColor13.bind(this)} data-toggle="modal" data-target="#detector">
@@ -8266,9 +8267,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
                 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#galderma">
@@ -8291,9 +8292,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class17} onClick={this.changeColor17.bind(this)} data-toggle="modal" data-target="#grossman">
@@ -8316,9 +8317,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class21} onClick={this.changeColor21.bind(this)} data-toggle="modal" data-target="#infarma">
@@ -8341,9 +8342,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class25} onClick={this.changeColor25.bind(this)} data-toggle="modal" data-target="#lilly">
@@ -8366,9 +8367,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class29} onClick={this.changeColor29.bind(this)} data-toggle="modal" data-target="#merck">
@@ -8391,9 +8392,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#novartis">
@@ -8416,9 +8417,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class32} onClick={this.changeColor32.bind(this)} data-toggle="modal" data-target="#owen">
@@ -8441,10 +8442,10 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
 
                           <div className="col-md-3 mb-3">
@@ -8469,9 +8470,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                         <div className="col-md-3 mb-3">
                             <div className={btn_class38} onClick={this.changeColor38.bind(this)} data-toggle="modal" data-target="#roche">
@@ -8494,9 +8495,9 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                           <div className="col-md-3 mb-3">
                             <div className={btn_class41} onClick={this.changeColor41.bind(this)} data-toggle="modal" data-target="#sanofis">
@@ -8520,9 +8521,9 @@ render(){
                           </div>
 
                         </div>
-                    {/* </div>
+                    </div>
 
-                    <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                         <div className="col-md-3 mb-3">
                             <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#superior">
@@ -8546,9 +8547,9 @@ render(){
                           </div>
 
                         </div>
-                    {/* </div> */}
+                    </div>
 
-                    {/* <div className="carousel-item"  data-interval="5000"> */}
+                    <div className="carousel-item"  data-interval="5000">
                         <div className="row">
                         <div className="col-md-3 mb-3">
                             <div className={btn_class35} onClick={this.changeColor35.bind(this)} data-toggle="modal" data-target="#pharma">
@@ -8571,23 +8572,25 @@ render(){
                             </div>
                           </div>
                         </div>
-                    {/* </div> */}
+                    </div>
 
 
-                {/* </div>
-            </div> */}
+                </div>
+            </div>
 
-            {/* <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
               <i className="fas fa-angle-left text-primary fa-2x"></i>
               <span className="sr-only">Previous</span>
             </a>
             <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
               <i className="fas fa-angle-right text-primary fa-2x"></i>
               <span className="sr-only">Next</span>
-            </a> */}
+            </a>
         </div>
     </div>
 </div>
+  </div>
+   
 
 
    {/* <!-- Modal 1--> */}

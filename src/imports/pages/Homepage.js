@@ -4,8 +4,8 @@ import Carrusel from '../components/Carrusel';
 import FarinterHistoria from '../components/NuestraHistoria';
 import CarruselProveedores from '../components/CarruselProveedoresFarma';
 import CarruselConsumo from '../components/CarruselProveedoresConsumo';
-// import Consumo from '../components/Consumo';
-// import Farma from '../components/Farma';
+import Consumo from '../components/Consumo';
+import Farma from '../components/Farma';
 // import CarruselOfertas from '../components/CarruselOfertas';
 import Ofertas from '../components/Ofertas';
 
@@ -16,8 +16,8 @@ export default () => (
         <FarinterHistoria />
         <CarruselProveedores />
         <CarruselConsumo />
-        {/* <Farma /> */}
-        {/* <Consumo /> */}
+        <Farma />
+        <Consumo />
         {/* <CarruselOfertas /> */}
         <Ofertas />
     </div>
