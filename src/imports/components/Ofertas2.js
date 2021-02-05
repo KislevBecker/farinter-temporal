@@ -48,7 +48,7 @@ const Ofertas2 = () => {
             </div>
           </div>
           <div className="gallery-lightboxes">
-            <div className="image-lightbox" id="lightbox-image-1">
+            <div className="image-lightbox" id={item.id}>
               <div className="image-lightbox-wrapper">
                 <a href="#" className="close"></a>
                 <a href="#lightbox-image-3" className="arrow-left"></a>
