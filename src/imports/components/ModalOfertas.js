@@ -14,7 +14,7 @@ import CarruselOfertas from './CarruselOfertas';
             <div className="row">            
               <div className="col-md-12">
                 <img src={`data:image/jpeg;base64,${props.selectedPic}`} className="center img-fluid w-100" alt="imagen ofertas" />
-                <CarruselOfertas />
+                {/* <CarruselOfertas /> */}
               </div>
             </div>
           </div>
