@@ -16,7 +16,7 @@ import { ready } from 'jquery';
       try {
           //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
           const res = await axios.post(`${process.env.REACT_APP_URL}/wsfarinter`);
-          //console.log(res);
+          console.log(res);
           setData (res.data);
       } catch (error) {
           console.log(error)

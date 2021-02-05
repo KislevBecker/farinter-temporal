@@ -7,7 +7,8 @@ import CarruselConsumo from '../components/CarruselProveedoresConsumo';
 import Consumo from '../components/Consumo';
 import Farma from '../components/Farma';
 // import CarruselOfertas from '../components/CarruselOfertas';
-import Ofertas from '../components/Ofertas';
+// import Ofertas from '../components/Ofertas';
+import Ofertas2 from '../components/Ofertas2';
 
 
 export default () => (
@@ -19,6 +20,7 @@ export default () => (
         <Farma />
         <Consumo />
         {/* <CarruselOfertas /> */}
-        <Ofertas />
+        {/* <Ofertas /> */}
+        <Ofertas2 />
     </div>
 );
