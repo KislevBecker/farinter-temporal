@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from 'react';
-
+import CarruselOfertas from './CarruselOfertas';
   const ModalOfertas = (props) => {
     
   return (
@@ -13,7 +13,8 @@ import React, { useEffect, useState } from 'react';
             </button>
             <div className="row">            
               <div className="col-md-12">
-                <img src={`data:image/jpeg;base64,${props.selectedPic}`} className="center img-fluid w-75" alt="imagen ofertas" />
+                <img src={`data:image/jpeg;base64,${props.selectedPic}`} className="center img-fluid w-100" alt="imagen ofertas" />
+                <CarruselOfertas />
               </div>
             </div>
           </div>
