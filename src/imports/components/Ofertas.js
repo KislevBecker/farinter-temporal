@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from 'react-grid-carousel';
-import ModalOfertas from '../components/ModalOfertas2';
+import ModalOfertas from '../components/ModalOfertas';
 import styled from 'styled-components';
 import { ready } from 'jquery';
 
