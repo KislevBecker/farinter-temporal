@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Carousel from 'react-grid-carousel';
-import ModalOfertas from '../components/ModalOfertas';
+import ModalOfertas from '../components/ModalOfertas2';
 import styled from 'styled-components';
 import { ready } from 'jquery';
 
@@ -59,7 +59,7 @@ import { ready } from 'jquery';
           <ModalOfertas selectedPic={selectedPic}/>
           <div className="row">
                 <div className="col-6">
-                    <h3 className="mb-3 text-primary">Ofertas del día </h3>
+                    <h3 className="mb-3 text-primary">Magazine Farinter </h3>
                 </div>
             </div>
           <Carousel   

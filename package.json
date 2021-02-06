@@ -16,6 +16,7 @@
     "react-grid-carousel": "^1.0.1",
     "react-grid-gallery": "^0.5.5",
     "react-image-gallery": "^1.0.8",
+    "react-images": "^1.1.7",
     "react-modal": "^3.12.1",
     "react-router-dom": "^5.2.0",
     "react-router-scroll-top": "^0.2.1",
