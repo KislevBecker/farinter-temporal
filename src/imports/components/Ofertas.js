@@ -4,6 +4,7 @@ import axios from 'axios';
 import Carousel from 'react-grid-carousel';
 import ModalOfertas from '../components/ModalOfertas';
 import styled from 'styled-components';
+import pdf from '../../PDF/REVISTA FARINTER 99 V4.pdf';
 import { ready } from 'jquery';
 
   const Ofertas = () => {
@@ -80,6 +81,15 @@ import { ready } from 'jquery';
                   </Carousel.Item>
                 ))} 
             </Carousel>
+            <div className="col-md-12 mt-2">
+              <a className="font-weight-bold text-primary" href={pdf} download="Revista Farinter suplemento de ofertas.pdf">
+                <div class="card">
+                  <div class="card-body text-center">
+                    Descarga aquí nuestro Suplemento de ofertas
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         )
       }

@@ -28,7 +28,7 @@ const Ofertas2 = () => {
       loadingOfertas ? (
          <div className="d-flex justify-content-center">
             <div className="spinner-border" role="status">
-              <span className="sr-only">Loading...</span>
+              <span className="sr-only">Cargando...</span>
             </div>
           </div>
       ):(
@@ -39,11 +39,8 @@ const Ofertas2 = () => {
         <div key ={i} >
           <div className="gallery-wrapper">
             <div className="image-wrapper">
-              <a href="#lightbox-image-1">
+              <a href={item.id}>
                 <img src={`data:image/jpeg;base64,${item.pic}`} id={item.id} alt="" />
-                {/* <div className="image-title">
-                  Cat staring at me
-                </div> */}
               </a>
             </div>
           </div>
@@ -51,10 +48,9 @@ const Ofertas2 = () => {
             <div className="image-lightbox" id={item.id}>
               <div className="image-lightbox-wrapper">
                 <a href="#" className="close"></a>
-                <a href="#lightbox-image-3" className="arrow-left"></a>
-                <a href="#lightbox-image-2" className="arrow-right"></a>
+                <a href={item.id} className="arrow-left"></a>
+                <a href={item.id} className="arrow-right"></a>
                 <img src={`data:image/jpeg;base64,${item.pic}`} id={item.id} alt="" />
-                {/* <div className="image-title">Cat staring at me</div> */}
               </div>
             </div>
           </div>
