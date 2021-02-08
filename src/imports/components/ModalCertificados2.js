@@ -1,13 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
-import pdf from '../../PDF/SCAN CERTIFICADO FARMACEUTICA INTERNACIONAL-2020-páginas-1.pdf';
+import pdf from '../../PDF/SCAN CERTIFICADO FARMACEUTICA INTERNACIONAL-2020-páginas-2.pdf';
 // import certificaciones1 from '../../img/pdf1.png';
 
 
-  const ModalCertificados = () => {
+  const ModalCertificados2 = () => {
     
   return (
-    <div className="modal fade" id="certificacionesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div className="modal fade" id="certificacionesModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content2">
           <div className="modal-body">
@@ -27,7 +27,7 @@ import pdf from '../../PDF/SCAN CERTIFICADO FARMACEUTICA INTERNACIONAL-2020-pág
     </div>
   );
 }
-export default ModalCertificados;
+export default ModalCertificados2;
 
 
 

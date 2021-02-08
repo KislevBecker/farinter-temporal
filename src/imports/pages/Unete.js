@@ -45,7 +45,7 @@ class Unete extends React.Component {
             <div className="card-body">
               <div className="row">
                 <div className="col-12 mb-2 text-primary font-weight-bold">
-                Compartenos tu hoja de vida a los correos:
+                Envía tu hoja de vida a:
                 </div>
               </div>
               <div className="row">

@@ -32,7 +32,7 @@ const Footer = () => (
                 <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50495002706">(+504) 9500-2706</ExternalLink> <br />
               </div>
             </div>
-            <div className="row mt-2">
+            <div className="row mt-3">
               <div className="col-md-4">
                 Televenta: <br />
               </div>
@@ -60,10 +60,18 @@ const Footer = () => (
               Whatsapp: <br />
             </div>
             <div className="col-md-8">
-            <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50496567501">(+504) 9656-7501</ExternalLink> <br />
+            <ExternalLink className="anchor" href="https://api.whatsapp.com/send?phone=50496567501">(+504) 9656-7501</ExternalLink> <br /><br />
             </div>
           </div>
-
+          <div className="row mt-3">
+              <div className="col-md-4">
+                Televenta: <br />
+              </div>
+              <div className="col-md-8">
+                <ExternalLink className="anchor" href="tel:+50425535600">(+504) 2553-5600</ExternalLink> <br />
+                <ExternalLink className="anchor" href="tel:+50425319400">(+504) 2531-9400</ExternalLink> <br />
+              </div>
+            </div>
         </p>
       </div>
     </div>

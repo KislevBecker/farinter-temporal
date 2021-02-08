@@ -23,7 +23,7 @@ const Header = () => (
             </a>
           </div>
       </div> */}
-      <img src={certificaciones} className="img-fluid pointer" alt="Responsive image" width='140px' data-toggle="modal" data-target="#certificacionesModal" />
+      <img src={certificaciones} className="img-fluid pointer" alt="Responsive image" width='140px' />
     </form>
   </div>
 </nav>

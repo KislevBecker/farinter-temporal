@@ -59,8 +59,8 @@ import { ready } from 'jquery';
           <div className="container mt-2 pt-5">
           <ModalOfertas selectedPic={selectedPic}/>
           <div className="row">
-                <div className="col-6">
-                    <h3 className="mb-3 text-primary">Magazine Farinter </h3>
+                <div className="col-12">
+                    <h3 className="mb-3 text-primary">Suplemento de ofertas: 1 de enero al 28 de febrero 2021 </h3>
                 </div>
             </div>
           <Carousel   
