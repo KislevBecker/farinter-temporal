@@ -8,16 +8,15 @@ import pdf from '../../PDF/REVISTA FARINTER 99 V4.pdf';
 import { ready } from 'jquery';
 
   const Ofertas = () => {
-
-  const [data, setData] = useState([]);
+    const[data, setData] = useState([])
   const [selectedPic, setSelectedPic] = useState("");
   const [loadingOfertas, setLoadingOfertas] = useState(true)
 
   useEffect(async () => {
       try {
-          //const res = await axios.get("http://localhost:56673/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
+          //const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
           const res = await axios.post(`${process.env.REACT_APP_URL}/wsfarinter`);
-          console.log(res);
+          console.log(res.data);
           setData (res.data);
       } catch (error) {
           console.log(error)
@@ -83,8 +82,8 @@ import { ready } from 'jquery';
             </Carousel>
             <div className="col-md-12 mt-2">
               <a className="font-weight-bold text-primary" href={pdf} download="Revista Farinter suplemento de ofertas.pdf">
-                <div class="card">
-                  <div class="card-body text-center">
+                <div className="card">
+                  <div className="card-body text-center">
                     Descarga aquí nuestro Suplemento de ofertas
                   </div>
                 </div>

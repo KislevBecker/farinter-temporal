@@ -15,7 +15,7 @@ const Ofertas2 = () => {
     thumbnail: url,
   })) 
   [{
-          src: setSelectedPic(item.pic),
+          src: `data:image/jpeg;base64,${item.pic}`,
           thumbnail: `data:image/jpeg;base64,${item.pic}`,
           thumbnailWidth: 320,
           thumbnailHeight: 174,

@@ -11,7 +11,7 @@ import ModalCertificados from './ModalCertificados';
 import ModalCertificados2 from './ModalCertificados2';
 
 const CertificadosIso = () => (
-  <div className="col-md-12 mt-2">
+  <div className="col-md-12 mt-2 mb-5">
     <ModalCertificados />
     <ModalCertificados2 />
     <div className="row">
@@ -26,7 +26,7 @@ const CertificadosIso = () => (
           <div className="card-body">
             <img src={certificaciones1} className="pointer" width="100%" height="500px" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal" />
           </div>
-          <div className="card-footer mt-2 border-primary  bg-primary">
+          <div className="card-footer mt-2 border-primary  bg-primary pointer">
               <p className="text-center text-white"><b>Certificado: </b><br />
               SC-CER294157
               </p>  
@@ -39,7 +39,7 @@ const CertificadosIso = () => (
           <div className="card-body">
             <img src={certificaciones2} className="pointer" width="100%" height="500px" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal2" />
           </div>
-          <div className="card-footer mt-2 border-primary bg-primary">
+          <div className="card-footer mt-2 border-primary bg-primary pointer">
               <p className="text-center text-white"><b>Certificado: </b><br />
               CO-SC-CER294157
               </p>  

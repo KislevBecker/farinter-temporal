@@ -9,7 +9,7 @@ import Farma from '../components/Farma';
 // import CarruselOfertas from '../components/CarruselOfertas';
 import Ofertas from '../components/Ofertas';
 import CertificadosIso from '../components/CertificadosIso';
-// import Gallery from '../components/Ofertas2';
+import ImagesGallery from '../components/CarruselOfertas';
 
 
 export default () => (
@@ -22,7 +22,7 @@ export default () => (
         <Consumo />
         < CertificadosIso/>
         {/* <CarruselOfertas /> */}
-        <Ofertas />
-        {/* <Gallery /> */}
+        {/* <Ofertas /> */}
+        <ImagesGallery />
     </div>
 );
