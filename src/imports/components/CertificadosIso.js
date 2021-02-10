@@ -21,10 +21,11 @@ const CertificadosIso = () => (
     </div>
     <div className="row">
       <div className="col-md-6 col-sm-6 col-xs-6">    
-        {/* <iframe src={pdf + '#toolbar=0&page=1'} width="100%" height="60px"/> */}
-        <div className="card border-primary" data-toggle="modal" data-target="#certificacionesModal">
+      <div className="col-md-6 offset-3">
+{/* <iframe src={pdf + '#toolbar=0&page=1'} width="100%" height="60px"/> */}
+<div className="card border-primary" data-toggle="modal" data-target="#certificacionesModal">
           <div className="card-body">
-            <img src={certificaciones1} className="pointer" width="100%" height="500px" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal" />
+            <img src={certificaciones1} className="pointer w-100" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal" />
           </div>
           <div className="card-footer mt-2 border-primary  bg-primary pointer">
               <p className="text-center text-white"><b>Certificado: </b><br />
@@ -33,11 +34,14 @@ const CertificadosIso = () => (
             </div>
         </div>
       </div>
-      <div className="col-md-6 col-sm-6 col-xs-6">    
+        
+      </div>
+      <div className="col-md-6 col-sm-6 col-xs-6">
+      <div className="col-md-6 offset-3">
         {/* <iframe src={pdf + '#toolbar=0&page=1'} width="100%" height="60px"/> */}
         <div className="card border-primary" data-toggle="modal" data-target="#certificacionesModal2">
           <div className="card-body">
-            <img src={certificaciones2} className="pointer" width="100%" height="500px" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal2" />
+            <img src={certificaciones2} className="pointer w-100" alt="Responsive image" data-toggle="modal" data-target="#certificacionesModal2" />
           </div>
           <div className="card-footer mt-2 border-primary bg-primary pointer">
               <p className="text-center text-white"><b>Certificado: </b><br />
@@ -46,6 +50,8 @@ const CertificadosIso = () => (
             </div>
         </div>
       </div>
+        </div>    
+        
     </div>
 
     {/* <object data={pdf} width="100%" height="680px" scrollbar="0" toolbar= "0"/> */}

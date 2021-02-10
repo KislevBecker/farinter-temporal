@@ -84,7 +84,7 @@ import { ready } from 'jquery';
               <a className="font-weight-bold text-primary" href={pdf} download="Revista Farinter suplemento de ofertas.pdf">
                 <div className="card">
                   <div className="card-body text-center">
-                    Descarga aquí nuestro Suplemento de ofertas
+                    Descargar Suplemento de ofertas
                   </div>
                 </div>
               </a>
