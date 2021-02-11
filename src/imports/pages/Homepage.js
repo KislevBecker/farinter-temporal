@@ -20,7 +20,7 @@ export default () => (
         <Farma />
         <Consumo />
         < CertificadosIso/>
-        {/* <Ofertas /> */}
-        <ImagesGallery />
+        <Ofertas />
+        {/* <ImagesGallery /> */}
     </div>
 );
