@@ -5,7 +5,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import certificaciones1 from '../../img/pdf1.png';
-import certificaciones2 from '../../img/pdf2.png';
+import certificaciones2 from '../../img/pdf-2.png';
 import pdf from '../../PDF/SCAN CERTIFICADO FARMACEUTICA INTERNACIONAL-2020.pdf';
 import ModalCertificados from './ModalCertificados';
 import ModalCertificados2 from './ModalCertificados2';

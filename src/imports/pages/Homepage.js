@@ -8,12 +8,12 @@ import Consumo from '../components/Consumo';
 import Farma from '../components/Farma';
 import Ofertas from '../components/Ofertas';
 import CertificadosIso from '../components/CertificadosIso';
-import ImagesGallery from '../components/CarruselOfertas';
+//import ImagesGallery from '../components/CarruselOfertas';
 
 
 export default () => (
     <div className="mb-5">
-        <Carrusel />
+        <Carrusel />s
         <FarinterHistoria />
         <CarruselProveedores />
         <CarruselConsumo />

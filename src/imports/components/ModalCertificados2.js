@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react';
 import pdf from '../../PDF/SCAN CERTIFICADO FARMACEUTICA INTERNACIONAL-2020-páginas-2.pdf';
-import certificaciones2 from '../../img/pdf2.png';
+import certificaciones2 from '../../img/pdf-2.png';
 import certificaciones3 from '../../img/pdf3.png';
 
 
