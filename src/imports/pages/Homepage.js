@@ -13,7 +13,7 @@ import CertificadosIso from '../components/CertificadosIso';
 
 export default () => (
     <div className="mb-5">
-        <Carrusel />s
+        <Carrusel />
         <FarinterHistoria />
         <CarruselProveedores />
         <CarruselConsumo />
