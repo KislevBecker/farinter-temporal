@@ -32,7 +32,7 @@ const ImagesGallery = () => {
     // };
     const res = await axios.get(
       "https://google-photos-album-demo2.glitch.me/4eXXxxG3rYwQVf948"
-       //`${process.env.REACT_APP_URL}/wsfarinter`
+      //  `${process.env.REACT_APP_URL}/wsfarinter`
       //"http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER"
     );
     if (!shouldCancel && res.data && res.data.length > 0) {

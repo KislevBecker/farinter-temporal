@@ -8107,7 +8107,7 @@ render(){
 
         return (
 
-<section className="pt-5 pb-5">
+<section className="pb-5">
   <div className="container">
          {/* // Fin Solo visible para smarphones */}
  {/* // Solo visible para pc */}
