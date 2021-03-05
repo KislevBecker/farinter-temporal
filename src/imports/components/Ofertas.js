@@ -15,8 +15,8 @@ import pdf from '../../PDF/REVISTA FARINTER 99 V4.pdf';
   useEffect(async () => {
       try {
           //const res = await axios.get("http://172.16.2.127:8201/api/TBL_IMAGENES_OFERTAS_WEBFARINTER")
-          // const res = await axios.post(`${process.env.REACT_APP_URL}/wsfarinter`);
-          const res = await axios.post(`${process.env.REACT_APP_URL}/api/TBL_IMAGENES_OFERTAS_WEBFARINTER`);
+          const res = await axios.post(`${process.env.REACT_APP_URL}/wsfarinter`);
+          //const res = await axios.post(`${process.env.REACT_APP_URL}/api/TBL_IMAGENES_OFERTAS_WEBFARINTER`);
           console.log(res.data);
           setData (res.data);
       } catch (error) {
