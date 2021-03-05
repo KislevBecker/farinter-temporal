@@ -44,7 +44,7 @@ const Navbar = props => {
          <NavLink onClick={handleNavCollapse} exact className="nav-link text-farinter-size font-weight-bold" to="/Codigo-de-etica" activeClassName="main-nav-active">Código de Conducta y Ética</NavLink>
        </li>
        <li className="nav-item">
-         <ExternalLink onClick={handleNavCollapse} exact className="nav-link text-farinter-size font-weight-bold" href="http://172.16.2.127:8093/" activeClassName="main-nav-active">Socios comerciales</ExternalLink>
+         <ExternalLink onClick={handleNavCollapse} exact className="nav-link text-farinter-size font-weight-bold" href="http://172.16.2.128:8667/" activeClassName="main-nav-active">Socios comerciales</ExternalLink>
        </li>
      </ul>
       </div>
